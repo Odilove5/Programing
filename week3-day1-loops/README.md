@@ -156,116 +156,30 @@ Normalize target
       `-- All checks passed ---------> accept
 ```
 
-## Guided questions and answers
+## Student questions and answers
 
-### 1. Basic loop iteration
+This section contains only questions asked by the student during the lesson.
+Instructor prompts used to guide exercises are intentionally excluded.
 
-**Question:** How many times does a loop over three targets execute, and what
-does the loop variable contain?
+### What is the difference between a list and a set, and when should each be used?
 
-**Answer:** It executes three times. The loop variable contains the first,
-second, and third target in sequence. After the loop, it retains the final
-value, `"test-app.local"`.
+A list is an ordered collection that permits duplicates and supports indexing.
+Use a list when processing order matters, repeated values must be retained, or
+items need to be retrieved by position. The classifier therefore uses lists
+for `accepted_targets` and `rejected_targets`.
 
-### 2. Numeric accumulator
-
-**Question:** Starting with `total = 0`, what values result from successively
-adding `80`, `443`, and `8443`?
-
-**Answer:** `0`, then `80`, then `523`, and finally `8966`. The current value
-must be added to the existing total rather than replacing it.
-
-### 3. Counter
-
-**Question:** Starting with `count = 0`, what is the count after processing
-three ports?
-
-**Answer:** The values are `1`, `2`, and `3`; the final count is `3`. Nothing
-increments the counter after the loop ends.
-
-### 4. Conditional counter
-
-**Question:** How many values in `[80, 443, 8443]` are greater than `1024`?
-
-**Answer:** One. The counter remains `0` for `80` and `443`, then becomes `1`
-for `8443`.
-
-**Question:** How many values in `[22, 80, 443, 3000, 8443]` are greater than
-`1024`?
-
-**Answer:** Two: `3000` and `8443`.
-
-### 5. Filtering with `append()`
-
-**Question:** What list results when ports greater than `1024` are appended to
-an initially empty list?
-
-**Answer:** `[3000, 8443]`.
-
-### 6. Filtering target strings
-
-**Question:** Which values pass `if target and " " not in target`?
-
-**Answer:** `"lab-server.local"` and `"training-api.local"`. The empty string
-is falsy, and `"training api.local"` contains an internal space.
-
-### 7. Normalization before filtering
-
-**Question:** What happens to `"TRAINING API.LOCAL"` after `strip().lower()`?
-
-**Answer:** It becomes `"training api.local"`. The internal space remains, so
-the target is rejected rather than changed to `"trainingapi.local"`.
-
-### 8. `continue`
-
-**Question:** Given `"lab-server.local"`, an empty string, and
-`"training-api.local"`, what prints when empty values execute `continue`?
-
-**Answer:** Both nonempty targets print. `continue` skips only the empty
-target's current iteration.
-
-### 9. `break`
-
-**Question:** What prints when a loop encounters `"STOP"` between
-`"lab-server.local"` and `"training-api.local"` and executes `break`?
-
-**Answer:** Only `"lab-server.local"`. `break` ends the entire loop.
-
-### 10. Combining `continue` and `break`
-
-**Question:** What prints for a list containing `"lab-server.local"`, an empty
-string, `"training-api.local"`, `"STOP"`, and `"backup-lab.local"`?
-
-**Answer:** `"lab-server.local"` and `"training-api.local"`. The empty value is
-skipped with `continue`; `"STOP"` ends the loop before the backup target.
-
-### 11. Lists versus sets
-
-**Question:** What is the difference, and which should this project use?
-
-**Answer:** A set is appropriate for `allowed_targets` because allowed values
-should be unique and are used for membership checks. Lists are appropriate for
-accepted and rejected records because order and duplicates should be retained.
-
-### 12. Predicting the final classifier counts
-
-**Question:** How many of the five example inputs are accepted and rejected?
-
-**Answer:** Two are accepted and three are rejected:
-
-- Accepted: `"lab-server.local"`, `"training-api.local"`
-- Rejected: empty input, internal-space input, out-of-allowlist input
-
-### 13. Reporting rejected records
-
-**Question:** How can the original rejected input and its reason be printed?
-
-**Answer:** Iterate over `results["rejected"]` and access each dictionary by
-key:
+A set stores unique, hashable values and is designed for membership tests. Use
+a set when uniqueness matters and the program frequently checks whether a value
+is present. The classifier therefore uses a set for `allowed_targets`.
 
 ```python
-for rejected_target in results["rejected"]:
-    print(f'- "{rejected_target["input"]}": {rejected_target["reason"]}')
+allowed_targets = {
+    "lab-server.local",
+    "training-api.local",
+}
+
+accepted_targets = []
+rejected_targets = []
 ```
 
 ## Final project
