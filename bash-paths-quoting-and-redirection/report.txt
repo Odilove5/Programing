@@ -1,0 +1,4 @@
+Current directory: /c/Users/Tester/security-study-coach/workspace
+Workspace: ./lab data
+Generated: 2026-08-07T12:13:51-04:00
+Status: complete

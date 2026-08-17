@@ -1,0 +1,7 @@
+reports/
+*.log
+__pycache__/
+*.pyc
+
+# Keep the instructor solution locally, but commit the student's work instead.
+reference_target_normalizer.py
