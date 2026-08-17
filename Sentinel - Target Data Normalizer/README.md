@@ -1,4 +1,4 @@
-# Week 1 Target-Data Normalizer
+# Sentinel: Target Data Normalizer
 
 A local-only training project that normalizes fictional target data, validates
 hostname and port input, enforces an explicit allowlist, and prints a structured

@@ -1,4 +1,4 @@
-# Scope-Aware Target Validator
+# ScopeGuard: Authorized Target Validator
 
 Week 2, Day 6 Python project. The program validates fictional local-lab target
 data only and performs no network activity.

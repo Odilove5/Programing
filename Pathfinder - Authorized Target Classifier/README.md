@@ -1,4 +1,4 @@
-# Authorized Target Classifier
+# Pathfinder: Authorized Target Classifier
 
 A Week 3, Day 1 Python project that normalizes and classifies multiple
 fictional lab targets. The program performs no network activity.
