@@ -4,4 +4,4 @@ from exercise import *
 
 
 def test_acceptance():
-    assert policy_decision("delete", {})["decision"] == "deny"; assert policy_decision("unknown", {})["decision"] == "deny"
+    assert bounded_attempts(3) == [1, 2, 3]; assert safe_countdown(0) == []; assert bounded_attempts(0) == []; assert safe_countdown(1) == [1]

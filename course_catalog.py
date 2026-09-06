@@ -52,6 +52,61 @@ MODULES = [
     ("Harden and Release MarketingOps AI", "Capstone", "Test abuse cases and failures, document trust boundaries, and package a reproducible release.", ["failure recovery", "security and privacy review", "observability", "release engineering", "Autonomous MarketingOps Capstone"]),
 ]
 
+# Student-facing names for the authored foundation lessons. Stable IDs remain
+# week-NN-day-NN; these slugs are presentation paths only.
+FOUNDATION_LESSONS = {
+    (1, 1): ("Values, Types, Input, and Output", "values-types-input-and-output"),
+    (1, 2): ("Paths, Quoting, and Redirection", "paths-quoting-and-redirection"),
+    (1, 3): ("Normalization and Validation", "normalization-and-validation"),
+    (1, 4): ("Git Repositories and Useful Commits", "git-repositories-and-commits"),
+    (1, 5): ("Authorization, Scope, and Evidence", "authorization-scope-and-evidence"),
+    (1, 6): ("Authorized Target Report", "authorized-target-report"),
+    (1, 7): ("Week 1 Review and Retrieval", "review"),
+    (2, 1): ("Conditionals and Decisions", "conditionals-and-decisions"),
+    (2, 2): ("Comparisons and Boolean Logic", "comparisons-and-boolean-logic"),
+    (2, 3): ("Validation with Conditional Branches", "validation-with-conditional-branches"),
+    (2, 4): ("Normalization and Validation Practice", "normalization-and-validation"),
+    (2, 5): ("Functions and Basic Tests", "functions-and-basic-tests"),
+    (2, 6): ("Scope Decision Tool", "scope-decision-tool"),
+    (2, 7): ("Week 2 Review and Retrieval", "review"),
+    (3, 1): ("Loops and Bounded range() Practice", "loops-and-range"),
+    (3, 2): ("Collections and Loops", "collections-and-loops"),
+    (3, 3): ("State Changes and Termination", "state-and-termination"),
+    (3, 4): ("Loop Boundary Tests", "loop-boundary-tests"),
+    (3, 5): ("Semantic Git Diff Review", "semantic-git-diff-review"),
+    (3, 6): ("Campaign Rules Checker", "campaign-rules-checker"),
+    (3, 7): ("Week 3 Review and Retrieval", "review"),
+}
+
+
+def lesson_presentation(week: int, day: int) -> dict[str, str]:
+    unit = unit_for_day(week, day)
+    title, folder_slug = FOUNDATION_LESSONS.get((week, day), (f"Day {day:02d}: {unit['topic']}", None))
+    if folder_slug is None:
+        import re
+        folder_slug = re.sub(r"[^a-z0-9]+", "-", unit["topic"].lower().replace("&", "and")).strip("-")
+    return {"title": title, "slug": folder_slug}
+
+
+def canonical_lessons() -> list[dict[str, object]]:
+    records = []
+    for week in range(1, 37):
+        module = module_for_week(week)
+        for day in range(1, 8):
+            presentation = lesson_presentation(week, day)
+            records.append({
+                "id": f"week-{week:02d}-day-{day:02d}", "week": week, "day": day,
+                "weekly_theme": module["title"], "title": presentation["title"],
+                "folder_slug": presentation["slug"], "required": day <= 6,
+                "track": module["track"], "phase": module["path"],
+                "prerequisites": module["prerequisites"],
+                "objectives": module["objectives"],
+                "project": module["capabilities"][-1],
+                "content_status": "Authored" if week <= 3 else "Draft",
+                "folder": f"course-lessons/week-{week:02d}/day-{day:02d}-{presentation['slug']}",
+            })
+    return records
+
 
 def path_for_week(week: int):
     return next(path for path in PATHS if path[2] <= week <= path[3])

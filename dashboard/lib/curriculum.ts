@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { actualLessonSections } from "./course-content";
+import { canonicalLessonManifest } from "./canonical-manifest";
 
 const resourceSchema = z.object({
   title: z.string().min(3),
@@ -1671,14 +1672,17 @@ export function createCurriculum(): Lesson[] {
       const safety =
         "Use local fixtures and mock connectors until a lesson explicitly introduces a controlled integration. Never put credentials or customer data in source, prompts, logs, fixtures, or commits.";
       const projectBrief = realisticProject(week, day, topic);
+      const lessonId = `week-${String(week).padStart(2, "0")}-day-${String(day).padStart(2, "0")}`;
+      const canonical = canonicalLessonManifest[lessonId as keyof typeof canonicalLessonManifest];
+      const displayTitle = canonical?.title ?? topic;
       const lesson = {
-        id: `week-${String(week).padStart(2, "0")}-day-${String(day).padStart(2, "0")}`,
+        id: lessonId,
         week,
         day,
         phase: phase.name,
         phaseNumber: phase.number,
         track: tracks[day - 1],
-        title: topic,
+        title: displayTitle,
         summary: required
           ? `Learn ${topic.toLowerCase()} through explanation, deliberate practice, and a safe project increment. This lesson connects week ${week}'s ${phase.theme.toLowerCase()} to evidence you can explain, test, and improve.`
           : `Pause new work, retrieve the six ideas from week ${week} without notes, correct weak explanations, and prepare a realistic catch-up plan.`,
@@ -1688,7 +1692,7 @@ export function createCurriculum(): Lesson[] {
             : week <= 24
               ? ("Intermediate" as const)
               : ("Advanced" as const),
-        estimatedMinutes: required ? 90 : 0,
+        estimatedMinutes: required ? (day === 6 ? 90 : day === 7 ? 30 : 60) : 30,
         required,
         prerequisiteLessonIds: previous,
         learningObjectives: [

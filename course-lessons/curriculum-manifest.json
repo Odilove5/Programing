@@ -1,0 +1,5798 @@
+[
+  {
+    "id": "week-01-day-01",
+    "week": 1,
+    "day": 1,
+    "weekly_theme": "Think Like a Programmer",
+    "title": "Values, Types, Input, and Output",
+    "folder_slug": "values-types-input-and-output",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "No prior experience required"
+    ],
+    "objectives": [
+      "Explain values and variables",
+      "Implement strings, integers, and booleans and input and conversion",
+      "Diagnose failures involving tracebacks and handled errors",
+      "Build an authorized-target report"
+    ],
+    "project": "an authorized-target report",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-01/day-01-values-types-input-and-output"
+  },
+  {
+    "id": "week-01-day-02",
+    "week": 1,
+    "day": 2,
+    "weekly_theme": "Think Like a Programmer",
+    "title": "Paths, Quoting, and Redirection",
+    "folder_slug": "paths-quoting-and-redirection",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "No prior experience required"
+    ],
+    "objectives": [
+      "Explain values and variables",
+      "Implement strings, integers, and booleans and input and conversion",
+      "Diagnose failures involving tracebacks and handled errors",
+      "Build an authorized-target report"
+    ],
+    "project": "an authorized-target report",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-01/day-02-paths-quoting-and-redirection"
+  },
+  {
+    "id": "week-01-day-03",
+    "week": 1,
+    "day": 3,
+    "weekly_theme": "Think Like a Programmer",
+    "title": "Normalization and Validation",
+    "folder_slug": "normalization-and-validation",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "No prior experience required"
+    ],
+    "objectives": [
+      "Explain values and variables",
+      "Implement strings, integers, and booleans and input and conversion",
+      "Diagnose failures involving tracebacks and handled errors",
+      "Build an authorized-target report"
+    ],
+    "project": "an authorized-target report",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-01/day-03-normalization-and-validation"
+  },
+  {
+    "id": "week-01-day-04",
+    "week": 1,
+    "day": 4,
+    "weekly_theme": "Think Like a Programmer",
+    "title": "Git Repositories and Useful Commits",
+    "folder_slug": "git-repositories-and-commits",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "No prior experience required"
+    ],
+    "objectives": [
+      "Explain values and variables",
+      "Implement strings, integers, and booleans and input and conversion",
+      "Diagnose failures involving tracebacks and handled errors",
+      "Build an authorized-target report"
+    ],
+    "project": "an authorized-target report",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-01/day-04-git-repositories-and-commits"
+  },
+  {
+    "id": "week-01-day-05",
+    "week": 1,
+    "day": 5,
+    "weekly_theme": "Think Like a Programmer",
+    "title": "Authorization, Scope, and Evidence",
+    "folder_slug": "authorization-scope-and-evidence",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "No prior experience required"
+    ],
+    "objectives": [
+      "Explain values and variables",
+      "Implement strings, integers, and booleans and input and conversion",
+      "Diagnose failures involving tracebacks and handled errors",
+      "Build an authorized-target report"
+    ],
+    "project": "an authorized-target report",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-01/day-05-authorization-scope-and-evidence"
+  },
+  {
+    "id": "week-01-day-06",
+    "week": 1,
+    "day": 6,
+    "weekly_theme": "Think Like a Programmer",
+    "title": "Authorized Target Report",
+    "folder_slug": "authorized-target-report",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "No prior experience required"
+    ],
+    "objectives": [
+      "Explain values and variables",
+      "Implement strings, integers, and booleans and input and conversion",
+      "Diagnose failures involving tracebacks and handled errors",
+      "Build an authorized-target report"
+    ],
+    "project": "an authorized-target report",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-01/day-06-authorized-target-report"
+  },
+  {
+    "id": "week-01-day-07",
+    "week": 1,
+    "day": 7,
+    "weekly_theme": "Think Like a Programmer",
+    "title": "Week 1 Review and Retrieval",
+    "folder_slug": "review",
+    "required": false,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "No prior experience required"
+    ],
+    "objectives": [
+      "Explain values and variables",
+      "Implement strings, integers, and booleans and input and conversion",
+      "Diagnose failures involving tracebacks and handled errors",
+      "Build an authorized-target report"
+    ],
+    "project": "an authorized-target report",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-01/day-07-review"
+  },
+  {
+    "id": "week-02-day-01",
+    "week": 2,
+    "day": 1,
+    "weekly_theme": "Make Decisions with Data",
+    "title": "Conditionals and Decisions",
+    "folder_slug": "conditionals-and-decisions",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "Complete module 1"
+    ],
+    "objectives": [
+      "Explain comparisons and Boolean logic",
+      "Implement conditional branches and normalization and validation",
+      "Diagnose failures involving functions and basic tests",
+      "Build a scope decision tool"
+    ],
+    "project": "a scope decision tool",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-02/day-01-conditionals-and-decisions"
+  },
+  {
+    "id": "week-02-day-02",
+    "week": 2,
+    "day": 2,
+    "weekly_theme": "Make Decisions with Data",
+    "title": "Comparisons and Boolean Logic",
+    "folder_slug": "comparisons-and-boolean-logic",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "Complete module 1"
+    ],
+    "objectives": [
+      "Explain comparisons and Boolean logic",
+      "Implement conditional branches and normalization and validation",
+      "Diagnose failures involving functions and basic tests",
+      "Build a scope decision tool"
+    ],
+    "project": "a scope decision tool",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-02/day-02-comparisons-and-boolean-logic"
+  },
+  {
+    "id": "week-02-day-03",
+    "week": 2,
+    "day": 3,
+    "weekly_theme": "Make Decisions with Data",
+    "title": "Validation with Conditional Branches",
+    "folder_slug": "validation-with-conditional-branches",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "Complete module 1"
+    ],
+    "objectives": [
+      "Explain comparisons and Boolean logic",
+      "Implement conditional branches and normalization and validation",
+      "Diagnose failures involving functions and basic tests",
+      "Build a scope decision tool"
+    ],
+    "project": "a scope decision tool",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-02/day-03-validation-with-conditional-branches"
+  },
+  {
+    "id": "week-02-day-04",
+    "week": 2,
+    "day": 4,
+    "weekly_theme": "Make Decisions with Data",
+    "title": "Normalization and Validation Practice",
+    "folder_slug": "normalization-and-validation",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "Complete module 1"
+    ],
+    "objectives": [
+      "Explain comparisons and Boolean logic",
+      "Implement conditional branches and normalization and validation",
+      "Diagnose failures involving functions and basic tests",
+      "Build a scope decision tool"
+    ],
+    "project": "a scope decision tool",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-02/day-04-normalization-and-validation"
+  },
+  {
+    "id": "week-02-day-05",
+    "week": 2,
+    "day": 5,
+    "weekly_theme": "Make Decisions with Data",
+    "title": "Functions and Basic Tests",
+    "folder_slug": "functions-and-basic-tests",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "Complete module 1"
+    ],
+    "objectives": [
+      "Explain comparisons and Boolean logic",
+      "Implement conditional branches and normalization and validation",
+      "Diagnose failures involving functions and basic tests",
+      "Build a scope decision tool"
+    ],
+    "project": "a scope decision tool",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-02/day-05-functions-and-basic-tests"
+  },
+  {
+    "id": "week-02-day-06",
+    "week": 2,
+    "day": 6,
+    "weekly_theme": "Make Decisions with Data",
+    "title": "Scope Decision Tool",
+    "folder_slug": "scope-decision-tool",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "Complete module 1"
+    ],
+    "objectives": [
+      "Explain comparisons and Boolean logic",
+      "Implement conditional branches and normalization and validation",
+      "Diagnose failures involving functions and basic tests",
+      "Build a scope decision tool"
+    ],
+    "project": "a scope decision tool",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-02/day-06-scope-decision-tool"
+  },
+  {
+    "id": "week-02-day-07",
+    "week": 2,
+    "day": 7,
+    "weekly_theme": "Make Decisions with Data",
+    "title": "Week 2 Review and Retrieval",
+    "folder_slug": "review",
+    "required": false,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "Complete module 1"
+    ],
+    "objectives": [
+      "Explain comparisons and Boolean logic",
+      "Implement conditional branches and normalization and validation",
+      "Diagnose failures involving functions and basic tests",
+      "Build a scope decision tool"
+    ],
+    "project": "a scope decision tool",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-02/day-07-review"
+  },
+  {
+    "id": "week-03-day-01",
+    "week": 3,
+    "day": 1,
+    "weekly_theme": "Finish Loops and Bridge to Marketing",
+    "title": "Loops and Bounded range() Practice",
+    "folder_slug": "loops-and-range",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "Complete module 2"
+    ],
+    "objectives": [
+      "Explain lists, sets, for loops, range, and while",
+      "Implement state changes and termination and loop boundary tests",
+      "Diagnose failures involving semantic Git diff review",
+      "Build a blank-file campaign rules checker"
+    ],
+    "project": "a blank-file campaign rules checker",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-03/day-01-loops-and-range"
+  },
+  {
+    "id": "week-03-day-02",
+    "week": 3,
+    "day": 2,
+    "weekly_theme": "Finish Loops and Bridge to Marketing",
+    "title": "Collections and Loops",
+    "folder_slug": "collections-and-loops",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "Complete module 2"
+    ],
+    "objectives": [
+      "Explain lists, sets, for loops, range, and while",
+      "Implement state changes and termination and loop boundary tests",
+      "Diagnose failures involving semantic Git diff review",
+      "Build a blank-file campaign rules checker"
+    ],
+    "project": "a blank-file campaign rules checker",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-03/day-02-collections-and-loops"
+  },
+  {
+    "id": "week-03-day-03",
+    "week": 3,
+    "day": 3,
+    "weekly_theme": "Finish Loops and Bridge to Marketing",
+    "title": "State Changes and Termination",
+    "folder_slug": "state-and-termination",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "Complete module 2"
+    ],
+    "objectives": [
+      "Explain lists, sets, for loops, range, and while",
+      "Implement state changes and termination and loop boundary tests",
+      "Diagnose failures involving semantic Git diff review",
+      "Build a blank-file campaign rules checker"
+    ],
+    "project": "a blank-file campaign rules checker",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-03/day-03-state-and-termination"
+  },
+  {
+    "id": "week-03-day-04",
+    "week": 3,
+    "day": 4,
+    "weekly_theme": "Finish Loops and Bridge to Marketing",
+    "title": "Loop Boundary Tests",
+    "folder_slug": "loop-boundary-tests",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "Complete module 2"
+    ],
+    "objectives": [
+      "Explain lists, sets, for loops, range, and while",
+      "Implement state changes and termination and loop boundary tests",
+      "Diagnose failures involving semantic Git diff review",
+      "Build a blank-file campaign rules checker"
+    ],
+    "project": "a blank-file campaign rules checker",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-03/day-04-loop-boundary-tests"
+  },
+  {
+    "id": "week-03-day-05",
+    "week": 3,
+    "day": 5,
+    "weekly_theme": "Finish Loops and Bridge to Marketing",
+    "title": "Semantic Git Diff Review",
+    "folder_slug": "semantic-git-diff-review",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "Complete module 2"
+    ],
+    "objectives": [
+      "Explain lists, sets, for loops, range, and while",
+      "Implement state changes and termination and loop boundary tests",
+      "Diagnose failures involving semantic Git diff review",
+      "Build a blank-file campaign rules checker"
+    ],
+    "project": "a blank-file campaign rules checker",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-03/day-05-semantic-git-diff-review"
+  },
+  {
+    "id": "week-03-day-06",
+    "week": 3,
+    "day": 6,
+    "weekly_theme": "Finish Loops and Bridge to Marketing",
+    "title": "Campaign Rules Checker",
+    "folder_slug": "campaign-rules-checker",
+    "required": true,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "Complete module 2"
+    ],
+    "objectives": [
+      "Explain lists, sets, for loops, range, and while",
+      "Implement state changes and termination and loop boundary tests",
+      "Diagnose failures involving semantic Git diff review",
+      "Build a blank-file campaign rules checker"
+    ],
+    "project": "a blank-file campaign rules checker",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-03/day-06-campaign-rules-checker"
+  },
+  {
+    "id": "week-03-day-07",
+    "week": 3,
+    "day": 7,
+    "weekly_theme": "Finish Loops and Bridge to Marketing",
+    "title": "Week 3 Review and Retrieval",
+    "folder_slug": "review",
+    "required": false,
+    "track": "Python",
+    "phase": "Existing Foundations / Bridge",
+    "prerequisites": [
+      "Complete module 2"
+    ],
+    "objectives": [
+      "Explain lists, sets, for loops, range, and while",
+      "Implement state changes and termination and loop boundary tests",
+      "Diagnose failures involving semantic Git diff review",
+      "Build a blank-file campaign rules checker"
+    ],
+    "project": "a blank-file campaign rules checker",
+    "content_status": "Authored",
+    "folder": "course-lessons/week-03/day-07-review"
+  },
+  {
+    "id": "week-04-day-01",
+    "week": 4,
+    "day": 1,
+    "weekly_theme": "Transform Campaign Records",
+    "title": "Day 01: Transform Campaign Records",
+    "folder_slug": "transform-campaign-records",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 3"
+    ],
+    "objectives": [
+      "Explain nested dictionaries",
+      "Implement list comprehensions and pure transformations",
+      "Diagnose failures involving malformed record evidence",
+      "Build a campaign record transformer"
+    ],
+    "project": "a campaign record transformer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-04/day-01-transform-campaign-records"
+  },
+  {
+    "id": "week-04-day-02",
+    "week": 4,
+    "day": 2,
+    "weekly_theme": "Transform Campaign Records",
+    "title": "Day 02: nested dictionaries",
+    "folder_slug": "nested-dictionaries",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 3"
+    ],
+    "objectives": [
+      "Explain nested dictionaries",
+      "Implement list comprehensions and pure transformations",
+      "Diagnose failures involving malformed record evidence",
+      "Build a campaign record transformer"
+    ],
+    "project": "a campaign record transformer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-04/day-02-nested-dictionaries"
+  },
+  {
+    "id": "week-04-day-03",
+    "week": 4,
+    "day": 3,
+    "weekly_theme": "Transform Campaign Records",
+    "title": "Day 03: list comprehensions",
+    "folder_slug": "list-comprehensions",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 3"
+    ],
+    "objectives": [
+      "Explain nested dictionaries",
+      "Implement list comprehensions and pure transformations",
+      "Diagnose failures involving malformed record evidence",
+      "Build a campaign record transformer"
+    ],
+    "project": "a campaign record transformer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-04/day-03-list-comprehensions"
+  },
+  {
+    "id": "week-04-day-04",
+    "week": 4,
+    "day": 4,
+    "weekly_theme": "Transform Campaign Records",
+    "title": "Day 04: pure transformations",
+    "folder_slug": "pure-transformations",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 3"
+    ],
+    "objectives": [
+      "Explain nested dictionaries",
+      "Implement list comprehensions and pure transformations",
+      "Diagnose failures involving malformed record evidence",
+      "Build a campaign record transformer"
+    ],
+    "project": "a campaign record transformer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-04/day-04-pure-transformations"
+  },
+  {
+    "id": "week-04-day-05",
+    "week": 4,
+    "day": 5,
+    "weekly_theme": "Transform Campaign Records",
+    "title": "Day 05: malformed record evidence",
+    "folder_slug": "malformed-record-evidence",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 3"
+    ],
+    "objectives": [
+      "Explain nested dictionaries",
+      "Implement list comprehensions and pure transformations",
+      "Diagnose failures involving malformed record evidence",
+      "Build a campaign record transformer"
+    ],
+    "project": "a campaign record transformer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-04/day-05-malformed-record-evidence"
+  },
+  {
+    "id": "week-04-day-06",
+    "week": 4,
+    "day": 6,
+    "weekly_theme": "Transform Campaign Records",
+    "title": "Day 06: a campaign record transformer",
+    "folder_slug": "a-campaign-record-transformer",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 3"
+    ],
+    "objectives": [
+      "Explain nested dictionaries",
+      "Implement list comprehensions and pure transformations",
+      "Diagnose failures involving malformed record evidence",
+      "Build a campaign record transformer"
+    ],
+    "project": "a campaign record transformer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-04/day-06-a-campaign-record-transformer"
+  },
+  {
+    "id": "week-04-day-07",
+    "week": 4,
+    "day": 7,
+    "weekly_theme": "Transform Campaign Records",
+    "title": "Day 07: Review: Transform Campaign Records",
+    "folder_slug": "review-transform-campaign-records",
+    "required": false,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 3"
+    ],
+    "objectives": [
+      "Explain nested dictionaries",
+      "Implement list comprehensions and pure transformations",
+      "Diagnose failures involving malformed record evidence",
+      "Build a campaign record transformer"
+    ],
+    "project": "a campaign record transformer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-04/day-07-review-transform-campaign-records"
+  },
+  {
+    "id": "week-05-day-01",
+    "week": 5,
+    "day": 1,
+    "weekly_theme": "Read Marketing Files",
+    "title": "Day 01: Read Marketing Files",
+    "folder_slug": "read-marketing-files",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 4"
+    ],
+    "objectives": [
+      "Explain CSV rows and JSON values",
+      "Implement pathlib and encodings and file exceptions",
+      "Diagnose failures involving input contracts",
+      "Build a dual-format campaign loader"
+    ],
+    "project": "a dual-format campaign loader",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-05/day-01-read-marketing-files"
+  },
+  {
+    "id": "week-05-day-02",
+    "week": 5,
+    "day": 2,
+    "weekly_theme": "Read Marketing Files",
+    "title": "Day 02: CSV rows and JSON values",
+    "folder_slug": "csv-rows-and-json-values",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 4"
+    ],
+    "objectives": [
+      "Explain CSV rows and JSON values",
+      "Implement pathlib and encodings and file exceptions",
+      "Diagnose failures involving input contracts",
+      "Build a dual-format campaign loader"
+    ],
+    "project": "a dual-format campaign loader",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-05/day-02-csv-rows-and-json-values"
+  },
+  {
+    "id": "week-05-day-03",
+    "week": 5,
+    "day": 3,
+    "weekly_theme": "Read Marketing Files",
+    "title": "Day 03: pathlib and encodings",
+    "folder_slug": "pathlib-and-encodings",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 4"
+    ],
+    "objectives": [
+      "Explain CSV rows and JSON values",
+      "Implement pathlib and encodings and file exceptions",
+      "Diagnose failures involving input contracts",
+      "Build a dual-format campaign loader"
+    ],
+    "project": "a dual-format campaign loader",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-05/day-03-pathlib-and-encodings"
+  },
+  {
+    "id": "week-05-day-04",
+    "week": 5,
+    "day": 4,
+    "weekly_theme": "Read Marketing Files",
+    "title": "Day 04: file exceptions",
+    "folder_slug": "file-exceptions",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 4"
+    ],
+    "objectives": [
+      "Explain CSV rows and JSON values",
+      "Implement pathlib and encodings and file exceptions",
+      "Diagnose failures involving input contracts",
+      "Build a dual-format campaign loader"
+    ],
+    "project": "a dual-format campaign loader",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-05/day-04-file-exceptions"
+  },
+  {
+    "id": "week-05-day-05",
+    "week": 5,
+    "day": 5,
+    "weekly_theme": "Read Marketing Files",
+    "title": "Day 05: input contracts",
+    "folder_slug": "input-contracts",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 4"
+    ],
+    "objectives": [
+      "Explain CSV rows and JSON values",
+      "Implement pathlib and encodings and file exceptions",
+      "Diagnose failures involving input contracts",
+      "Build a dual-format campaign loader"
+    ],
+    "project": "a dual-format campaign loader",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-05/day-05-input-contracts"
+  },
+  {
+    "id": "week-05-day-06",
+    "week": 5,
+    "day": 6,
+    "weekly_theme": "Read Marketing Files",
+    "title": "Day 06: a dual-format campaign loader",
+    "folder_slug": "a-dual-format-campaign-loader",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 4"
+    ],
+    "objectives": [
+      "Explain CSV rows and JSON values",
+      "Implement pathlib and encodings and file exceptions",
+      "Diagnose failures involving input contracts",
+      "Build a dual-format campaign loader"
+    ],
+    "project": "a dual-format campaign loader",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-05/day-06-a-dual-format-campaign-loader"
+  },
+  {
+    "id": "week-05-day-07",
+    "week": 5,
+    "day": 7,
+    "weekly_theme": "Read Marketing Files",
+    "title": "Day 07: Review: Read Marketing Files",
+    "folder_slug": "review-read-marketing-files",
+    "required": false,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 4"
+    ],
+    "objectives": [
+      "Explain CSV rows and JSON values",
+      "Implement pathlib and encodings and file exceptions",
+      "Diagnose failures involving input contracts",
+      "Build a dual-format campaign loader"
+    ],
+    "project": "a dual-format campaign loader",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-05/day-07-review-read-marketing-files"
+  },
+  {
+    "id": "week-06-day-01",
+    "week": 6,
+    "day": 1,
+    "weekly_theme": "Calculate Marketing KPIs",
+    "title": "Day 01: Calculate Marketing KPIs",
+    "folder_slug": "calculate-marketing-kpis",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 5"
+    ],
+    "objectives": [
+      "Explain ratio formulas",
+      "Implement zero denominators and numeric validation",
+      "Diagnose failures involving human-readable summaries",
+      "Build a deterministic KPI calculator"
+    ],
+    "project": "a deterministic KPI calculator",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-06/day-01-calculate-marketing-kpis"
+  },
+  {
+    "id": "week-06-day-02",
+    "week": 6,
+    "day": 2,
+    "weekly_theme": "Calculate Marketing KPIs",
+    "title": "Day 02: ratio formulas",
+    "folder_slug": "ratio-formulas",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 5"
+    ],
+    "objectives": [
+      "Explain ratio formulas",
+      "Implement zero denominators and numeric validation",
+      "Diagnose failures involving human-readable summaries",
+      "Build a deterministic KPI calculator"
+    ],
+    "project": "a deterministic KPI calculator",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-06/day-02-ratio-formulas"
+  },
+  {
+    "id": "week-06-day-03",
+    "week": 6,
+    "day": 3,
+    "weekly_theme": "Calculate Marketing KPIs",
+    "title": "Day 03: zero denominators",
+    "folder_slug": "zero-denominators",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 5"
+    ],
+    "objectives": [
+      "Explain ratio formulas",
+      "Implement zero denominators and numeric validation",
+      "Diagnose failures involving human-readable summaries",
+      "Build a deterministic KPI calculator"
+    ],
+    "project": "a deterministic KPI calculator",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-06/day-03-zero-denominators"
+  },
+  {
+    "id": "week-06-day-04",
+    "week": 6,
+    "day": 4,
+    "weekly_theme": "Calculate Marketing KPIs",
+    "title": "Day 04: numeric validation",
+    "folder_slug": "numeric-validation",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 5"
+    ],
+    "objectives": [
+      "Explain ratio formulas",
+      "Implement zero denominators and numeric validation",
+      "Diagnose failures involving human-readable summaries",
+      "Build a deterministic KPI calculator"
+    ],
+    "project": "a deterministic KPI calculator",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-06/day-04-numeric-validation"
+  },
+  {
+    "id": "week-06-day-05",
+    "week": 6,
+    "day": 5,
+    "weekly_theme": "Calculate Marketing KPIs",
+    "title": "Day 05: human-readable summaries",
+    "folder_slug": "human-readable-summaries",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 5"
+    ],
+    "objectives": [
+      "Explain ratio formulas",
+      "Implement zero denominators and numeric validation",
+      "Diagnose failures involving human-readable summaries",
+      "Build a deterministic KPI calculator"
+    ],
+    "project": "a deterministic KPI calculator",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-06/day-05-human-readable-summaries"
+  },
+  {
+    "id": "week-06-day-06",
+    "week": 6,
+    "day": 6,
+    "weekly_theme": "Calculate Marketing KPIs",
+    "title": "Day 06: a deterministic KPI calculator",
+    "folder_slug": "a-deterministic-kpi-calculator",
+    "required": true,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 5"
+    ],
+    "objectives": [
+      "Explain ratio formulas",
+      "Implement zero denominators and numeric validation",
+      "Diagnose failures involving human-readable summaries",
+      "Build a deterministic KPI calculator"
+    ],
+    "project": "a deterministic KPI calculator",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-06/day-06-a-deterministic-kpi-calculator"
+  },
+  {
+    "id": "week-06-day-07",
+    "week": 6,
+    "day": 7,
+    "weekly_theme": "Calculate Marketing KPIs",
+    "title": "Day 07: Review: Calculate Marketing KPIs",
+    "folder_slug": "review-calculate-marketing-kpis",
+    "required": false,
+    "track": "Python",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 5"
+    ],
+    "objectives": [
+      "Explain ratio formulas",
+      "Implement zero denominators and numeric validation",
+      "Diagnose failures involving human-readable summaries",
+      "Build a deterministic KPI calculator"
+    ],
+    "project": "a deterministic KPI calculator",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-06/day-07-review-calculate-marketing-kpis"
+  },
+  {
+    "id": "week-07-day-01",
+    "week": 7,
+    "day": 1,
+    "weekly_theme": "Release the Campaign Analyzer",
+    "title": "Day 01: Release the Campaign Analyzer",
+    "folder_slug": "release-the-campaign-analyzer",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 6"
+    ],
+    "objectives": [
+      "Explain module boundaries",
+      "Implement typed function signatures and regression tests",
+      "Diagnose failures involving focused Git packaging",
+      "Build Campaign Performance Analyzer"
+    ],
+    "project": "Campaign Performance Analyzer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-07/day-01-release-the-campaign-analyzer"
+  },
+  {
+    "id": "week-07-day-02",
+    "week": 7,
+    "day": 2,
+    "weekly_theme": "Release the Campaign Analyzer",
+    "title": "Day 02: module boundaries",
+    "folder_slug": "module-boundaries",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 6"
+    ],
+    "objectives": [
+      "Explain module boundaries",
+      "Implement typed function signatures and regression tests",
+      "Diagnose failures involving focused Git packaging",
+      "Build Campaign Performance Analyzer"
+    ],
+    "project": "Campaign Performance Analyzer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-07/day-02-module-boundaries"
+  },
+  {
+    "id": "week-07-day-03",
+    "week": 7,
+    "day": 3,
+    "weekly_theme": "Release the Campaign Analyzer",
+    "title": "Day 03: typed function signatures",
+    "folder_slug": "typed-function-signatures",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 6"
+    ],
+    "objectives": [
+      "Explain module boundaries",
+      "Implement typed function signatures and regression tests",
+      "Diagnose failures involving focused Git packaging",
+      "Build Campaign Performance Analyzer"
+    ],
+    "project": "Campaign Performance Analyzer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-07/day-03-typed-function-signatures"
+  },
+  {
+    "id": "week-07-day-04",
+    "week": 7,
+    "day": 4,
+    "weekly_theme": "Release the Campaign Analyzer",
+    "title": "Day 04: regression tests",
+    "folder_slug": "regression-tests",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 6"
+    ],
+    "objectives": [
+      "Explain module boundaries",
+      "Implement typed function signatures and regression tests",
+      "Diagnose failures involving focused Git packaging",
+      "Build Campaign Performance Analyzer"
+    ],
+    "project": "Campaign Performance Analyzer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-07/day-04-regression-tests"
+  },
+  {
+    "id": "week-07-day-05",
+    "week": 7,
+    "day": 5,
+    "weekly_theme": "Release the Campaign Analyzer",
+    "title": "Day 05: focused Git packaging",
+    "folder_slug": "focused-git-packaging",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 6"
+    ],
+    "objectives": [
+      "Explain module boundaries",
+      "Implement typed function signatures and regression tests",
+      "Diagnose failures involving focused Git packaging",
+      "Build Campaign Performance Analyzer"
+    ],
+    "project": "Campaign Performance Analyzer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-07/day-05-focused-git-packaging"
+  },
+  {
+    "id": "week-07-day-06",
+    "week": 7,
+    "day": 6,
+    "weekly_theme": "Release the Campaign Analyzer",
+    "title": "Day 06: Campaign Performance Analyzer",
+    "folder_slug": "campaign-performance-analyzer",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 6"
+    ],
+    "objectives": [
+      "Explain module boundaries",
+      "Implement typed function signatures and regression tests",
+      "Diagnose failures involving focused Git packaging",
+      "Build Campaign Performance Analyzer"
+    ],
+    "project": "Campaign Performance Analyzer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-07/day-06-campaign-performance-analyzer"
+  },
+  {
+    "id": "week-07-day-07",
+    "week": 7,
+    "day": 7,
+    "weekly_theme": "Release the Campaign Analyzer",
+    "title": "Day 07: Review: Release the Campaign Analyzer",
+    "folder_slug": "review-release-the-campaign-analyzer",
+    "required": false,
+    "track": "Integrated project",
+    "phase": "Python for Marketing Data",
+    "prerequisites": [
+      "Complete module 6"
+    ],
+    "objectives": [
+      "Explain module boundaries",
+      "Implement typed function signatures and regression tests",
+      "Diagnose failures involving focused Git packaging",
+      "Build Campaign Performance Analyzer"
+    ],
+    "project": "Campaign Performance Analyzer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-07/day-07-review-release-the-campaign-analyzer"
+  },
+  {
+    "id": "week-08-day-01",
+    "week": 8,
+    "day": 1,
+    "weekly_theme": "Model the Marketing Domain",
+    "title": "Day 01: Model the Marketing Domain",
+    "folder_slug": "model-the-marketing-domain",
+    "required": true,
+    "track": "Python",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 7"
+    ],
+    "objectives": [
+      "Explain dataclasses",
+      "Implement enums and type hints",
+      "Diagnose failures involving model invariants",
+      "Build Campaign and MetricSnapshot models"
+    ],
+    "project": "Campaign and MetricSnapshot models",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-08/day-01-model-the-marketing-domain"
+  },
+  {
+    "id": "week-08-day-02",
+    "week": 8,
+    "day": 2,
+    "weekly_theme": "Model the Marketing Domain",
+    "title": "Day 02: dataclasses",
+    "folder_slug": "dataclasses",
+    "required": true,
+    "track": "Python",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 7"
+    ],
+    "objectives": [
+      "Explain dataclasses",
+      "Implement enums and type hints",
+      "Diagnose failures involving model invariants",
+      "Build Campaign and MetricSnapshot models"
+    ],
+    "project": "Campaign and MetricSnapshot models",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-08/day-02-dataclasses"
+  },
+  {
+    "id": "week-08-day-03",
+    "week": 8,
+    "day": 3,
+    "weekly_theme": "Model the Marketing Domain",
+    "title": "Day 03: enums",
+    "folder_slug": "enums",
+    "required": true,
+    "track": "Python",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 7"
+    ],
+    "objectives": [
+      "Explain dataclasses",
+      "Implement enums and type hints",
+      "Diagnose failures involving model invariants",
+      "Build Campaign and MetricSnapshot models"
+    ],
+    "project": "Campaign and MetricSnapshot models",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-08/day-03-enums"
+  },
+  {
+    "id": "week-08-day-04",
+    "week": 8,
+    "day": 4,
+    "weekly_theme": "Model the Marketing Domain",
+    "title": "Day 04: type hints",
+    "folder_slug": "type-hints",
+    "required": true,
+    "track": "Python",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 7"
+    ],
+    "objectives": [
+      "Explain dataclasses",
+      "Implement enums and type hints",
+      "Diagnose failures involving model invariants",
+      "Build Campaign and MetricSnapshot models"
+    ],
+    "project": "Campaign and MetricSnapshot models",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-08/day-04-type-hints"
+  },
+  {
+    "id": "week-08-day-05",
+    "week": 8,
+    "day": 5,
+    "weekly_theme": "Model the Marketing Domain",
+    "title": "Day 05: model invariants",
+    "folder_slug": "model-invariants",
+    "required": true,
+    "track": "Python",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 7"
+    ],
+    "objectives": [
+      "Explain dataclasses",
+      "Implement enums and type hints",
+      "Diagnose failures involving model invariants",
+      "Build Campaign and MetricSnapshot models"
+    ],
+    "project": "Campaign and MetricSnapshot models",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-08/day-05-model-invariants"
+  },
+  {
+    "id": "week-08-day-06",
+    "week": 8,
+    "day": 6,
+    "weekly_theme": "Model the Marketing Domain",
+    "title": "Day 06: Campaign and MetricSnapshot models",
+    "folder_slug": "campaign-and-metricsnapshot-models",
+    "required": true,
+    "track": "Python",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 7"
+    ],
+    "objectives": [
+      "Explain dataclasses",
+      "Implement enums and type hints",
+      "Diagnose failures involving model invariants",
+      "Build Campaign and MetricSnapshot models"
+    ],
+    "project": "Campaign and MetricSnapshot models",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-08/day-06-campaign-and-metricsnapshot-models"
+  },
+  {
+    "id": "week-08-day-07",
+    "week": 8,
+    "day": 7,
+    "weekly_theme": "Model the Marketing Domain",
+    "title": "Day 07: Review: Model the Marketing Domain",
+    "folder_slug": "review-model-the-marketing-domain",
+    "required": false,
+    "track": "Python",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 7"
+    ],
+    "objectives": [
+      "Explain dataclasses",
+      "Implement enums and type hints",
+      "Diagnose failures involving model invariants",
+      "Build Campaign and MetricSnapshot models"
+    ],
+    "project": "Campaign and MetricSnapshot models",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-08/day-07-review-model-the-marketing-domain"
+  },
+  {
+    "id": "week-09-day-01",
+    "week": 9,
+    "day": 1,
+    "weekly_theme": "Design Pure Business Rules",
+    "title": "Day 01: Design Pure Business Rules",
+    "folder_slug": "design-pure-business-rules",
+    "required": true,
+    "track": "Python",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 8"
+    ],
+    "objectives": [
+      "Explain pure functions",
+      "Implement separation of concerns and normalization",
+      "Diagnose failures involving dependency ordering",
+      "Build goal-progress rules"
+    ],
+    "project": "goal-progress rules",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-09/day-01-design-pure-business-rules"
+  },
+  {
+    "id": "week-09-day-02",
+    "week": 9,
+    "day": 2,
+    "weekly_theme": "Design Pure Business Rules",
+    "title": "Day 02: pure functions",
+    "folder_slug": "pure-functions",
+    "required": true,
+    "track": "Python",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 8"
+    ],
+    "objectives": [
+      "Explain pure functions",
+      "Implement separation of concerns and normalization",
+      "Diagnose failures involving dependency ordering",
+      "Build goal-progress rules"
+    ],
+    "project": "goal-progress rules",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-09/day-02-pure-functions"
+  },
+  {
+    "id": "week-09-day-03",
+    "week": 9,
+    "day": 3,
+    "weekly_theme": "Design Pure Business Rules",
+    "title": "Day 03: separation of concerns",
+    "folder_slug": "separation-of-concerns",
+    "required": true,
+    "track": "Python",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 8"
+    ],
+    "objectives": [
+      "Explain pure functions",
+      "Implement separation of concerns and normalization",
+      "Diagnose failures involving dependency ordering",
+      "Build goal-progress rules"
+    ],
+    "project": "goal-progress rules",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-09/day-03-separation-of-concerns"
+  },
+  {
+    "id": "week-09-day-04",
+    "week": 9,
+    "day": 4,
+    "weekly_theme": "Design Pure Business Rules",
+    "title": "Day 04: normalization",
+    "folder_slug": "normalization",
+    "required": true,
+    "track": "Python",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 8"
+    ],
+    "objectives": [
+      "Explain pure functions",
+      "Implement separation of concerns and normalization",
+      "Diagnose failures involving dependency ordering",
+      "Build goal-progress rules"
+    ],
+    "project": "goal-progress rules",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-09/day-04-normalization"
+  },
+  {
+    "id": "week-09-day-05",
+    "week": 9,
+    "day": 5,
+    "weekly_theme": "Design Pure Business Rules",
+    "title": "Day 05: dependency ordering",
+    "folder_slug": "dependency-ordering",
+    "required": true,
+    "track": "Python",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 8"
+    ],
+    "objectives": [
+      "Explain pure functions",
+      "Implement separation of concerns and normalization",
+      "Diagnose failures involving dependency ordering",
+      "Build goal-progress rules"
+    ],
+    "project": "goal-progress rules",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-09/day-05-dependency-ordering"
+  },
+  {
+    "id": "week-09-day-06",
+    "week": 9,
+    "day": 6,
+    "weekly_theme": "Design Pure Business Rules",
+    "title": "Day 06: goal-progress rules",
+    "folder_slug": "goal-progress-rules",
+    "required": true,
+    "track": "Python",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 8"
+    ],
+    "objectives": [
+      "Explain pure functions",
+      "Implement separation of concerns and normalization",
+      "Diagnose failures involving dependency ordering",
+      "Build goal-progress rules"
+    ],
+    "project": "goal-progress rules",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-09/day-06-goal-progress-rules"
+  },
+  {
+    "id": "week-09-day-07",
+    "week": 9,
+    "day": 7,
+    "weekly_theme": "Design Pure Business Rules",
+    "title": "Day 07: Review: Design Pure Business Rules",
+    "folder_slug": "review-design-pure-business-rules",
+    "required": false,
+    "track": "Python",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 8"
+    ],
+    "objectives": [
+      "Explain pure functions",
+      "Implement separation of concerns and normalization",
+      "Diagnose failures involving dependency ordering",
+      "Build goal-progress rules"
+    ],
+    "project": "goal-progress rules",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-09/day-07-review-design-pure-business-rules"
+  },
+  {
+    "id": "week-10-day-01",
+    "week": 10,
+    "day": 1,
+    "weekly_theme": "Configure and Observe the Engine",
+    "title": "Day 01: Configure and Observe the Engine",
+    "folder_slug": "configure-and-observe-the-engine",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 9"
+    ],
+    "objectives": [
+      "Explain configuration precedence",
+      "Implement environment variables and log levels and context",
+      "Diagnose failures involving secret redaction",
+      "Build an observable metrics run"
+    ],
+    "project": "an observable metrics run",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-10/day-01-configure-and-observe-the-engine"
+  },
+  {
+    "id": "week-10-day-02",
+    "week": 10,
+    "day": 2,
+    "weekly_theme": "Configure and Observe the Engine",
+    "title": "Day 02: configuration precedence",
+    "folder_slug": "configuration-precedence",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 9"
+    ],
+    "objectives": [
+      "Explain configuration precedence",
+      "Implement environment variables and log levels and context",
+      "Diagnose failures involving secret redaction",
+      "Build an observable metrics run"
+    ],
+    "project": "an observable metrics run",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-10/day-02-configuration-precedence"
+  },
+  {
+    "id": "week-10-day-03",
+    "week": 10,
+    "day": 3,
+    "weekly_theme": "Configure and Observe the Engine",
+    "title": "Day 03: environment variables",
+    "folder_slug": "environment-variables",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 9"
+    ],
+    "objectives": [
+      "Explain configuration precedence",
+      "Implement environment variables and log levels and context",
+      "Diagnose failures involving secret redaction",
+      "Build an observable metrics run"
+    ],
+    "project": "an observable metrics run",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-10/day-03-environment-variables"
+  },
+  {
+    "id": "week-10-day-04",
+    "week": 10,
+    "day": 4,
+    "weekly_theme": "Configure and Observe the Engine",
+    "title": "Day 04: log levels and context",
+    "folder_slug": "log-levels-and-context",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 9"
+    ],
+    "objectives": [
+      "Explain configuration precedence",
+      "Implement environment variables and log levels and context",
+      "Diagnose failures involving secret redaction",
+      "Build an observable metrics run"
+    ],
+    "project": "an observable metrics run",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-10/day-04-log-levels-and-context"
+  },
+  {
+    "id": "week-10-day-05",
+    "week": 10,
+    "day": 5,
+    "weekly_theme": "Configure and Observe the Engine",
+    "title": "Day 05: secret redaction",
+    "folder_slug": "secret-redaction",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 9"
+    ],
+    "objectives": [
+      "Explain configuration precedence",
+      "Implement environment variables and log levels and context",
+      "Diagnose failures involving secret redaction",
+      "Build an observable metrics run"
+    ],
+    "project": "an observable metrics run",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-10/day-05-secret-redaction"
+  },
+  {
+    "id": "week-10-day-06",
+    "week": 10,
+    "day": 6,
+    "weekly_theme": "Configure and Observe the Engine",
+    "title": "Day 06: an observable metrics run",
+    "folder_slug": "an-observable-metrics-run",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 9"
+    ],
+    "objectives": [
+      "Explain configuration precedence",
+      "Implement environment variables and log levels and context",
+      "Diagnose failures involving secret redaction",
+      "Build an observable metrics run"
+    ],
+    "project": "an observable metrics run",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-10/day-06-an-observable-metrics-run"
+  },
+  {
+    "id": "week-10-day-07",
+    "week": 10,
+    "day": 7,
+    "weekly_theme": "Configure and Observe the Engine",
+    "title": "Day 07: Review: Configure and Observe the Engine",
+    "folder_slug": "review-configure-and-observe-the-engine",
+    "required": false,
+    "track": "Python automation",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 9"
+    ],
+    "objectives": [
+      "Explain configuration precedence",
+      "Implement environment variables and log levels and context",
+      "Diagnose failures involving secret redaction",
+      "Build an observable metrics run"
+    ],
+    "project": "an observable metrics run",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-10/day-07-review-configure-and-observe-the-engine"
+  },
+  {
+    "id": "week-11-day-01",
+    "week": 11,
+    "day": 1,
+    "weekly_theme": "Prove Business Logic",
+    "title": "Day 01: Prove Business Logic",
+    "folder_slug": "prove-business-logic",
+    "required": true,
+    "track": "Testing",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 10"
+    ],
+    "objectives": [
+      "Explain pytest structure",
+      "Implement fixtures and parametrization",
+      "Diagnose failures involving negative tests",
+      "Build Reliable KPI Engine"
+    ],
+    "project": "Reliable KPI Engine",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-11/day-01-prove-business-logic"
+  },
+  {
+    "id": "week-11-day-02",
+    "week": 11,
+    "day": 2,
+    "weekly_theme": "Prove Business Logic",
+    "title": "Day 02: pytest structure",
+    "folder_slug": "pytest-structure",
+    "required": true,
+    "track": "Testing",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 10"
+    ],
+    "objectives": [
+      "Explain pytest structure",
+      "Implement fixtures and parametrization",
+      "Diagnose failures involving negative tests",
+      "Build Reliable KPI Engine"
+    ],
+    "project": "Reliable KPI Engine",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-11/day-02-pytest-structure"
+  },
+  {
+    "id": "week-11-day-03",
+    "week": 11,
+    "day": 3,
+    "weekly_theme": "Prove Business Logic",
+    "title": "Day 03: fixtures",
+    "folder_slug": "fixtures",
+    "required": true,
+    "track": "Testing",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 10"
+    ],
+    "objectives": [
+      "Explain pytest structure",
+      "Implement fixtures and parametrization",
+      "Diagnose failures involving negative tests",
+      "Build Reliable KPI Engine"
+    ],
+    "project": "Reliable KPI Engine",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-11/day-03-fixtures"
+  },
+  {
+    "id": "week-11-day-04",
+    "week": 11,
+    "day": 4,
+    "weekly_theme": "Prove Business Logic",
+    "title": "Day 04: parametrization",
+    "folder_slug": "parametrization",
+    "required": true,
+    "track": "Testing",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 10"
+    ],
+    "objectives": [
+      "Explain pytest structure",
+      "Implement fixtures and parametrization",
+      "Diagnose failures involving negative tests",
+      "Build Reliable KPI Engine"
+    ],
+    "project": "Reliable KPI Engine",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-11/day-04-parametrization"
+  },
+  {
+    "id": "week-11-day-05",
+    "week": 11,
+    "day": 5,
+    "weekly_theme": "Prove Business Logic",
+    "title": "Day 05: negative tests",
+    "folder_slug": "negative-tests",
+    "required": true,
+    "track": "Testing",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 10"
+    ],
+    "objectives": [
+      "Explain pytest structure",
+      "Implement fixtures and parametrization",
+      "Diagnose failures involving negative tests",
+      "Build Reliable KPI Engine"
+    ],
+    "project": "Reliable KPI Engine",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-11/day-05-negative-tests"
+  },
+  {
+    "id": "week-11-day-06",
+    "week": 11,
+    "day": 6,
+    "weekly_theme": "Prove Business Logic",
+    "title": "Day 06: Reliable KPI Engine",
+    "folder_slug": "reliable-kpi-engine",
+    "required": true,
+    "track": "Testing",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 10"
+    ],
+    "objectives": [
+      "Explain pytest structure",
+      "Implement fixtures and parametrization",
+      "Diagnose failures involving negative tests",
+      "Build Reliable KPI Engine"
+    ],
+    "project": "Reliable KPI Engine",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-11/day-06-reliable-kpi-engine"
+  },
+  {
+    "id": "week-11-day-07",
+    "week": 11,
+    "day": 7,
+    "weekly_theme": "Prove Business Logic",
+    "title": "Day 07: Review: Prove Business Logic",
+    "folder_slug": "review-prove-business-logic",
+    "required": false,
+    "track": "Testing",
+    "phase": "Reliable Business Logic & Data Models",
+    "prerequisites": [
+      "Complete module 10"
+    ],
+    "objectives": [
+      "Explain pytest structure",
+      "Implement fixtures and parametrization",
+      "Diagnose failures involving negative tests",
+      "Build Reliable KPI Engine"
+    ],
+    "project": "Reliable KPI Engine",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-11/day-07-review-prove-business-logic"
+  },
+  {
+    "id": "week-12-day-01",
+    "week": 12,
+    "day": 1,
+    "weekly_theme": "Understand HTTP and REST",
+    "title": "Day 01: Understand HTTP and REST",
+    "folder_slug": "understand-http-and-rest",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 11"
+    ],
+    "objectives": [
+      "Explain HTTP methods and status",
+      "Implement headers and JSON and timeouts",
+      "Diagnose failures involving error categories",
+      "Build a mock analytics request"
+    ],
+    "project": "a mock analytics request",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-12/day-01-understand-http-and-rest"
+  },
+  {
+    "id": "week-12-day-02",
+    "week": 12,
+    "day": 2,
+    "weekly_theme": "Understand HTTP and REST",
+    "title": "Day 02: HTTP methods and status",
+    "folder_slug": "http-methods-and-status",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 11"
+    ],
+    "objectives": [
+      "Explain HTTP methods and status",
+      "Implement headers and JSON and timeouts",
+      "Diagnose failures involving error categories",
+      "Build a mock analytics request"
+    ],
+    "project": "a mock analytics request",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-12/day-02-http-methods-and-status"
+  },
+  {
+    "id": "week-12-day-03",
+    "week": 12,
+    "day": 3,
+    "weekly_theme": "Understand HTTP and REST",
+    "title": "Day 03: headers and JSON",
+    "folder_slug": "headers-and-json",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 11"
+    ],
+    "objectives": [
+      "Explain HTTP methods and status",
+      "Implement headers and JSON and timeouts",
+      "Diagnose failures involving error categories",
+      "Build a mock analytics request"
+    ],
+    "project": "a mock analytics request",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-12/day-03-headers-and-json"
+  },
+  {
+    "id": "week-12-day-04",
+    "week": 12,
+    "day": 4,
+    "weekly_theme": "Understand HTTP and REST",
+    "title": "Day 04: timeouts",
+    "folder_slug": "timeouts",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 11"
+    ],
+    "objectives": [
+      "Explain HTTP methods and status",
+      "Implement headers and JSON and timeouts",
+      "Diagnose failures involving error categories",
+      "Build a mock analytics request"
+    ],
+    "project": "a mock analytics request",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-12/day-04-timeouts"
+  },
+  {
+    "id": "week-12-day-05",
+    "week": 12,
+    "day": 5,
+    "weekly_theme": "Understand HTTP and REST",
+    "title": "Day 05: error categories",
+    "folder_slug": "error-categories",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 11"
+    ],
+    "objectives": [
+      "Explain HTTP methods and status",
+      "Implement headers and JSON and timeouts",
+      "Diagnose failures involving error categories",
+      "Build a mock analytics request"
+    ],
+    "project": "a mock analytics request",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-12/day-05-error-categories"
+  },
+  {
+    "id": "week-12-day-06",
+    "week": 12,
+    "day": 6,
+    "weekly_theme": "Understand HTTP and REST",
+    "title": "Day 06: a mock analytics request",
+    "folder_slug": "a-mock-analytics-request",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 11"
+    ],
+    "objectives": [
+      "Explain HTTP methods and status",
+      "Implement headers and JSON and timeouts",
+      "Diagnose failures involving error categories",
+      "Build a mock analytics request"
+    ],
+    "project": "a mock analytics request",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-12/day-06-a-mock-analytics-request"
+  },
+  {
+    "id": "week-12-day-07",
+    "week": 12,
+    "day": 7,
+    "weekly_theme": "Understand HTTP and REST",
+    "title": "Day 07: Review: Understand HTTP and REST",
+    "folder_slug": "review-understand-http-and-rest",
+    "required": false,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 11"
+    ],
+    "objectives": [
+      "Explain HTTP methods and status",
+      "Implement headers and JSON and timeouts",
+      "Diagnose failures involving error categories",
+      "Build a mock analytics request"
+    ],
+    "project": "a mock analytics request",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-12/day-07-review-understand-http-and-rest"
+  },
+  {
+    "id": "week-13-day-01",
+    "week": 13,
+    "day": 1,
+    "weekly_theme": "Build Bounded API Clients",
+    "title": "Day 01: Build Bounded API Clients",
+    "folder_slug": "build-bounded-api-clients",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 12"
+    ],
+    "objectives": [
+      "Explain pagination",
+      "Implement bounded retries and exponential backoff",
+      "Diagnose failures involving rate-limit behavior",
+      "Build a paginated metrics client"
+    ],
+    "project": "a paginated metrics client",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-13/day-01-build-bounded-api-clients"
+  },
+  {
+    "id": "week-13-day-02",
+    "week": 13,
+    "day": 2,
+    "weekly_theme": "Build Bounded API Clients",
+    "title": "Day 02: pagination",
+    "folder_slug": "pagination",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 12"
+    ],
+    "objectives": [
+      "Explain pagination",
+      "Implement bounded retries and exponential backoff",
+      "Diagnose failures involving rate-limit behavior",
+      "Build a paginated metrics client"
+    ],
+    "project": "a paginated metrics client",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-13/day-02-pagination"
+  },
+  {
+    "id": "week-13-day-03",
+    "week": 13,
+    "day": 3,
+    "weekly_theme": "Build Bounded API Clients",
+    "title": "Day 03: bounded retries",
+    "folder_slug": "bounded-retries",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 12"
+    ],
+    "objectives": [
+      "Explain pagination",
+      "Implement bounded retries and exponential backoff",
+      "Diagnose failures involving rate-limit behavior",
+      "Build a paginated metrics client"
+    ],
+    "project": "a paginated metrics client",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-13/day-03-bounded-retries"
+  },
+  {
+    "id": "week-13-day-04",
+    "week": 13,
+    "day": 4,
+    "weekly_theme": "Build Bounded API Clients",
+    "title": "Day 04: exponential backoff",
+    "folder_slug": "exponential-backoff",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 12"
+    ],
+    "objectives": [
+      "Explain pagination",
+      "Implement bounded retries and exponential backoff",
+      "Diagnose failures involving rate-limit behavior",
+      "Build a paginated metrics client"
+    ],
+    "project": "a paginated metrics client",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-13/day-04-exponential-backoff"
+  },
+  {
+    "id": "week-13-day-05",
+    "week": 13,
+    "day": 5,
+    "weekly_theme": "Build Bounded API Clients",
+    "title": "Day 05: rate-limit behavior",
+    "folder_slug": "rate-limit-behavior",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 12"
+    ],
+    "objectives": [
+      "Explain pagination",
+      "Implement bounded retries and exponential backoff",
+      "Diagnose failures involving rate-limit behavior",
+      "Build a paginated metrics client"
+    ],
+    "project": "a paginated metrics client",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-13/day-05-rate-limit-behavior"
+  },
+  {
+    "id": "week-13-day-06",
+    "week": 13,
+    "day": 6,
+    "weekly_theme": "Build Bounded API Clients",
+    "title": "Day 06: a paginated metrics client",
+    "folder_slug": "a-paginated-metrics-client",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 12"
+    ],
+    "objectives": [
+      "Explain pagination",
+      "Implement bounded retries and exponential backoff",
+      "Diagnose failures involving rate-limit behavior",
+      "Build a paginated metrics client"
+    ],
+    "project": "a paginated metrics client",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-13/day-06-a-paginated-metrics-client"
+  },
+  {
+    "id": "week-13-day-07",
+    "week": 13,
+    "day": 7,
+    "weekly_theme": "Build Bounded API Clients",
+    "title": "Day 07: Review: Build Bounded API Clients",
+    "folder_slug": "review-build-bounded-api-clients",
+    "required": false,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 12"
+    ],
+    "objectives": [
+      "Explain pagination",
+      "Implement bounded retries and exponential backoff",
+      "Diagnose failures involving rate-limit behavior",
+      "Build a paginated metrics client"
+    ],
+    "project": "a paginated metrics client",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-13/day-07-review-build-bounded-api-clients"
+  },
+  {
+    "id": "week-14-day-01",
+    "week": 14,
+    "day": 1,
+    "weekly_theme": "Protect Credentials and Validate Schemas",
+    "title": "Day 01: Protect Credentials and Validate Schemas",
+    "folder_slug": "protect-credentials-and-validate-schemas",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 13"
+    ],
+    "objectives": [
+      "Explain authentication concepts",
+      "Implement environment secrets and schema validation",
+      "Diagnose failures involving untrusted data",
+      "Build a validated CRM response"
+    ],
+    "project": "a validated CRM response",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-14/day-01-protect-credentials-and-validate-schemas"
+  },
+  {
+    "id": "week-14-day-02",
+    "week": 14,
+    "day": 2,
+    "weekly_theme": "Protect Credentials and Validate Schemas",
+    "title": "Day 02: authentication concepts",
+    "folder_slug": "authentication-concepts",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 13"
+    ],
+    "objectives": [
+      "Explain authentication concepts",
+      "Implement environment secrets and schema validation",
+      "Diagnose failures involving untrusted data",
+      "Build a validated CRM response"
+    ],
+    "project": "a validated CRM response",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-14/day-02-authentication-concepts"
+  },
+  {
+    "id": "week-14-day-03",
+    "week": 14,
+    "day": 3,
+    "weekly_theme": "Protect Credentials and Validate Schemas",
+    "title": "Day 03: environment secrets",
+    "folder_slug": "environment-secrets",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 13"
+    ],
+    "objectives": [
+      "Explain authentication concepts",
+      "Implement environment secrets and schema validation",
+      "Diagnose failures involving untrusted data",
+      "Build a validated CRM response"
+    ],
+    "project": "a validated CRM response",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-14/day-03-environment-secrets"
+  },
+  {
+    "id": "week-14-day-04",
+    "week": 14,
+    "day": 4,
+    "weekly_theme": "Protect Credentials and Validate Schemas",
+    "title": "Day 04: schema validation",
+    "folder_slug": "schema-validation",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 13"
+    ],
+    "objectives": [
+      "Explain authentication concepts",
+      "Implement environment secrets and schema validation",
+      "Diagnose failures involving untrusted data",
+      "Build a validated CRM response"
+    ],
+    "project": "a validated CRM response",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-14/day-04-schema-validation"
+  },
+  {
+    "id": "week-14-day-05",
+    "week": 14,
+    "day": 5,
+    "weekly_theme": "Protect Credentials and Validate Schemas",
+    "title": "Day 05: untrusted data",
+    "folder_slug": "untrusted-data",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 13"
+    ],
+    "objectives": [
+      "Explain authentication concepts",
+      "Implement environment secrets and schema validation",
+      "Diagnose failures involving untrusted data",
+      "Build a validated CRM response"
+    ],
+    "project": "a validated CRM response",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-14/day-05-untrusted-data"
+  },
+  {
+    "id": "week-14-day-06",
+    "week": 14,
+    "day": 6,
+    "weekly_theme": "Protect Credentials and Validate Schemas",
+    "title": "Day 06: a validated CRM response",
+    "folder_slug": "a-validated-crm-response",
+    "required": true,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 13"
+    ],
+    "objectives": [
+      "Explain authentication concepts",
+      "Implement environment secrets and schema validation",
+      "Diagnose failures involving untrusted data",
+      "Build a validated CRM response"
+    ],
+    "project": "a validated CRM response",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-14/day-06-a-validated-crm-response"
+  },
+  {
+    "id": "week-14-day-07",
+    "week": 14,
+    "day": 7,
+    "weekly_theme": "Protect Credentials and Validate Schemas",
+    "title": "Day 07: Review: Protect Credentials and Validate Schemas",
+    "folder_slug": "review-protect-credentials-and-validate-schemas",
+    "required": false,
+    "track": "Python automation",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 13"
+    ],
+    "objectives": [
+      "Explain authentication concepts",
+      "Implement environment secrets and schema validation",
+      "Diagnose failures involving untrusted data",
+      "Build a validated CRM response"
+    ],
+    "project": "a validated CRM response",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-14/day-07-review-protect-credentials-and-validate-schemas"
+  },
+  {
+    "id": "week-15-day-01",
+    "week": 15,
+    "day": 1,
+    "weekly_theme": "Design Mock-First Connectors",
+    "title": "Day 01: Design Mock-First Connectors",
+    "folder_slug": "design-mock-first-connectors",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 14"
+    ],
+    "objectives": [
+      "Explain protocols and interfaces",
+      "Implement dependency injection and mock clients",
+      "Diagnose failures involving contract tests",
+      "Build Marketing Data API Connector"
+    ],
+    "project": "Marketing Data API Connector",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-15/day-01-design-mock-first-connectors"
+  },
+  {
+    "id": "week-15-day-02",
+    "week": 15,
+    "day": 2,
+    "weekly_theme": "Design Mock-First Connectors",
+    "title": "Day 02: protocols and interfaces",
+    "folder_slug": "protocols-and-interfaces",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 14"
+    ],
+    "objectives": [
+      "Explain protocols and interfaces",
+      "Implement dependency injection and mock clients",
+      "Diagnose failures involving contract tests",
+      "Build Marketing Data API Connector"
+    ],
+    "project": "Marketing Data API Connector",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-15/day-02-protocols-and-interfaces"
+  },
+  {
+    "id": "week-15-day-03",
+    "week": 15,
+    "day": 3,
+    "weekly_theme": "Design Mock-First Connectors",
+    "title": "Day 03: dependency injection",
+    "folder_slug": "dependency-injection",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 14"
+    ],
+    "objectives": [
+      "Explain protocols and interfaces",
+      "Implement dependency injection and mock clients",
+      "Diagnose failures involving contract tests",
+      "Build Marketing Data API Connector"
+    ],
+    "project": "Marketing Data API Connector",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-15/day-03-dependency-injection"
+  },
+  {
+    "id": "week-15-day-04",
+    "week": 15,
+    "day": 4,
+    "weekly_theme": "Design Mock-First Connectors",
+    "title": "Day 04: mock clients",
+    "folder_slug": "mock-clients",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 14"
+    ],
+    "objectives": [
+      "Explain protocols and interfaces",
+      "Implement dependency injection and mock clients",
+      "Diagnose failures involving contract tests",
+      "Build Marketing Data API Connector"
+    ],
+    "project": "Marketing Data API Connector",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-15/day-04-mock-clients"
+  },
+  {
+    "id": "week-15-day-05",
+    "week": 15,
+    "day": 5,
+    "weekly_theme": "Design Mock-First Connectors",
+    "title": "Day 05: contract tests",
+    "folder_slug": "contract-tests",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 14"
+    ],
+    "objectives": [
+      "Explain protocols and interfaces",
+      "Implement dependency injection and mock clients",
+      "Diagnose failures involving contract tests",
+      "Build Marketing Data API Connector"
+    ],
+    "project": "Marketing Data API Connector",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-15/day-05-contract-tests"
+  },
+  {
+    "id": "week-15-day-06",
+    "week": 15,
+    "day": 6,
+    "weekly_theme": "Design Mock-First Connectors",
+    "title": "Day 06: Marketing Data API Connector",
+    "folder_slug": "marketing-data-api-connector",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 14"
+    ],
+    "objectives": [
+      "Explain protocols and interfaces",
+      "Implement dependency injection and mock clients",
+      "Diagnose failures involving contract tests",
+      "Build Marketing Data API Connector"
+    ],
+    "project": "Marketing Data API Connector",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-15/day-06-marketing-data-api-connector"
+  },
+  {
+    "id": "week-15-day-07",
+    "week": 15,
+    "day": 7,
+    "weekly_theme": "Design Mock-First Connectors",
+    "title": "Day 07: Review: Design Mock-First Connectors",
+    "folder_slug": "review-design-mock-first-connectors",
+    "required": false,
+    "track": "Integrated project",
+    "phase": "APIs & Business Data Integration",
+    "prerequisites": [
+      "Complete module 14"
+    ],
+    "objectives": [
+      "Explain protocols and interfaces",
+      "Implement dependency injection and mock clients",
+      "Diagnose failures involving contract tests",
+      "Build Marketing Data API Connector"
+    ],
+    "project": "Marketing Data API Connector",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-15/day-07-review-design-mock-first-connectors"
+  },
+  {
+    "id": "week-16-day-01",
+    "week": 16,
+    "day": 1,
+    "weekly_theme": "Design Services and Repositories",
+    "title": "Day 01: Design Services and Repositories",
+    "folder_slug": "design-services-and-repositories",
+    "required": true,
+    "track": "Python",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 15"
+    ],
+    "objectives": [
+      "Explain service responsibilities",
+      "Implement repository interfaces and composition",
+      "Diagnose failures involving error boundaries",
+      "Build campaign and goal services"
+    ],
+    "project": "campaign and goal services",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-16/day-01-design-services-and-repositories"
+  },
+  {
+    "id": "week-16-day-02",
+    "week": 16,
+    "day": 2,
+    "weekly_theme": "Design Services and Repositories",
+    "title": "Day 02: service responsibilities",
+    "folder_slug": "service-responsibilities",
+    "required": true,
+    "track": "Python",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 15"
+    ],
+    "objectives": [
+      "Explain service responsibilities",
+      "Implement repository interfaces and composition",
+      "Diagnose failures involving error boundaries",
+      "Build campaign and goal services"
+    ],
+    "project": "campaign and goal services",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-16/day-02-service-responsibilities"
+  },
+  {
+    "id": "week-16-day-03",
+    "week": 16,
+    "day": 3,
+    "weekly_theme": "Design Services and Repositories",
+    "title": "Day 03: repository interfaces",
+    "folder_slug": "repository-interfaces",
+    "required": true,
+    "track": "Python",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 15"
+    ],
+    "objectives": [
+      "Explain service responsibilities",
+      "Implement repository interfaces and composition",
+      "Diagnose failures involving error boundaries",
+      "Build campaign and goal services"
+    ],
+    "project": "campaign and goal services",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-16/day-03-repository-interfaces"
+  },
+  {
+    "id": "week-16-day-04",
+    "week": 16,
+    "day": 4,
+    "weekly_theme": "Design Services and Repositories",
+    "title": "Day 04: composition",
+    "folder_slug": "composition",
+    "required": true,
+    "track": "Python",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 15"
+    ],
+    "objectives": [
+      "Explain service responsibilities",
+      "Implement repository interfaces and composition",
+      "Diagnose failures involving error boundaries",
+      "Build campaign and goal services"
+    ],
+    "project": "campaign and goal services",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-16/day-04-composition"
+  },
+  {
+    "id": "week-16-day-05",
+    "week": 16,
+    "day": 5,
+    "weekly_theme": "Design Services and Repositories",
+    "title": "Day 05: error boundaries",
+    "folder_slug": "error-boundaries",
+    "required": true,
+    "track": "Python",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 15"
+    ],
+    "objectives": [
+      "Explain service responsibilities",
+      "Implement repository interfaces and composition",
+      "Diagnose failures involving error boundaries",
+      "Build campaign and goal services"
+    ],
+    "project": "campaign and goal services",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-16/day-05-error-boundaries"
+  },
+  {
+    "id": "week-16-day-06",
+    "week": 16,
+    "day": 6,
+    "weekly_theme": "Design Services and Repositories",
+    "title": "Day 06: campaign and goal services",
+    "folder_slug": "campaign-and-goal-services",
+    "required": true,
+    "track": "Python",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 15"
+    ],
+    "objectives": [
+      "Explain service responsibilities",
+      "Implement repository interfaces and composition",
+      "Diagnose failures involving error boundaries",
+      "Build campaign and goal services"
+    ],
+    "project": "campaign and goal services",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-16/day-06-campaign-and-goal-services"
+  },
+  {
+    "id": "week-16-day-07",
+    "week": 16,
+    "day": 7,
+    "weekly_theme": "Design Services and Repositories",
+    "title": "Day 07: Review: Design Services and Repositories",
+    "folder_slug": "review-design-services-and-repositories",
+    "required": false,
+    "track": "Python",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 15"
+    ],
+    "objectives": [
+      "Explain service responsibilities",
+      "Implement repository interfaces and composition",
+      "Diagnose failures involving error boundaries",
+      "Build campaign and goal services"
+    ],
+    "project": "campaign and goal services",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-16/day-07-review-design-services-and-repositories"
+  },
+  {
+    "id": "week-17-day-01",
+    "week": 17,
+    "day": 1,
+    "weekly_theme": "Persist Marketing Data",
+    "title": "Day 01: Persist Marketing Data",
+    "folder_slug": "persist-marketing-data",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 16"
+    ],
+    "objectives": [
+      "Explain tables and relationships",
+      "Implement CRUD and constraints",
+      "Diagnose failures involving transactions",
+      "Build a SQLite evidence repository"
+    ],
+    "project": "a SQLite evidence repository",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-17/day-01-persist-marketing-data"
+  },
+  {
+    "id": "week-17-day-02",
+    "week": 17,
+    "day": 2,
+    "weekly_theme": "Persist Marketing Data",
+    "title": "Day 02: tables and relationships",
+    "folder_slug": "tables-and-relationships",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 16"
+    ],
+    "objectives": [
+      "Explain tables and relationships",
+      "Implement CRUD and constraints",
+      "Diagnose failures involving transactions",
+      "Build a SQLite evidence repository"
+    ],
+    "project": "a SQLite evidence repository",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-17/day-02-tables-and-relationships"
+  },
+  {
+    "id": "week-17-day-03",
+    "week": 17,
+    "day": 3,
+    "weekly_theme": "Persist Marketing Data",
+    "title": "Day 03: CRUD",
+    "folder_slug": "crud",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 16"
+    ],
+    "objectives": [
+      "Explain tables and relationships",
+      "Implement CRUD and constraints",
+      "Diagnose failures involving transactions",
+      "Build a SQLite evidence repository"
+    ],
+    "project": "a SQLite evidence repository",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-17/day-03-crud"
+  },
+  {
+    "id": "week-17-day-04",
+    "week": 17,
+    "day": 4,
+    "weekly_theme": "Persist Marketing Data",
+    "title": "Day 04: constraints",
+    "folder_slug": "constraints",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 16"
+    ],
+    "objectives": [
+      "Explain tables and relationships",
+      "Implement CRUD and constraints",
+      "Diagnose failures involving transactions",
+      "Build a SQLite evidence repository"
+    ],
+    "project": "a SQLite evidence repository",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-17/day-04-constraints"
+  },
+  {
+    "id": "week-17-day-05",
+    "week": 17,
+    "day": 5,
+    "weekly_theme": "Persist Marketing Data",
+    "title": "Day 05: transactions",
+    "folder_slug": "transactions",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 16"
+    ],
+    "objectives": [
+      "Explain tables and relationships",
+      "Implement CRUD and constraints",
+      "Diagnose failures involving transactions",
+      "Build a SQLite evidence repository"
+    ],
+    "project": "a SQLite evidence repository",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-17/day-05-transactions"
+  },
+  {
+    "id": "week-17-day-06",
+    "week": 17,
+    "day": 6,
+    "weekly_theme": "Persist Marketing Data",
+    "title": "Day 06: a SQLite evidence repository",
+    "folder_slug": "a-sqlite-evidence-repository",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 16"
+    ],
+    "objectives": [
+      "Explain tables and relationships",
+      "Implement CRUD and constraints",
+      "Diagnose failures involving transactions",
+      "Build a SQLite evidence repository"
+    ],
+    "project": "a SQLite evidence repository",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-17/day-06-a-sqlite-evidence-repository"
+  },
+  {
+    "id": "week-17-day-07",
+    "week": 17,
+    "day": 7,
+    "weekly_theme": "Persist Marketing Data",
+    "title": "Day 07: Review: Persist Marketing Data",
+    "folder_slug": "review-persist-marketing-data",
+    "required": false,
+    "track": "Python automation",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 16"
+    ],
+    "objectives": [
+      "Explain tables and relationships",
+      "Implement CRUD and constraints",
+      "Diagnose failures involving transactions",
+      "Build a SQLite evidence repository"
+    ],
+    "project": "a SQLite evidence repository",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-17/day-07-review-persist-marketing-data"
+  },
+  {
+    "id": "week-18-day-01",
+    "week": 18,
+    "day": 1,
+    "weekly_theme": "Build a FastAPI Boundary",
+    "title": "Day 01: Build a FastAPI Boundary",
+    "folder_slug": "build-a-fastapi-boundary",
+    "required": true,
+    "track": "Backend",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 17"
+    ],
+    "objectives": [
+      "Explain FastAPI routes",
+      "Implement request schemas and response schemas",
+      "Diagnose failures involving HTTP error handling",
+      "Build MarketingOps API resources"
+    ],
+    "project": "MarketingOps API resources",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-18/day-01-build-a-fastapi-boundary"
+  },
+  {
+    "id": "week-18-day-02",
+    "week": 18,
+    "day": 2,
+    "weekly_theme": "Build a FastAPI Boundary",
+    "title": "Day 02: FastAPI routes",
+    "folder_slug": "fastapi-routes",
+    "required": true,
+    "track": "Backend",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 17"
+    ],
+    "objectives": [
+      "Explain FastAPI routes",
+      "Implement request schemas and response schemas",
+      "Diagnose failures involving HTTP error handling",
+      "Build MarketingOps API resources"
+    ],
+    "project": "MarketingOps API resources",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-18/day-02-fastapi-routes"
+  },
+  {
+    "id": "week-18-day-03",
+    "week": 18,
+    "day": 3,
+    "weekly_theme": "Build a FastAPI Boundary",
+    "title": "Day 03: request schemas",
+    "folder_slug": "request-schemas",
+    "required": true,
+    "track": "Backend",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 17"
+    ],
+    "objectives": [
+      "Explain FastAPI routes",
+      "Implement request schemas and response schemas",
+      "Diagnose failures involving HTTP error handling",
+      "Build MarketingOps API resources"
+    ],
+    "project": "MarketingOps API resources",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-18/day-03-request-schemas"
+  },
+  {
+    "id": "week-18-day-04",
+    "week": 18,
+    "day": 4,
+    "weekly_theme": "Build a FastAPI Boundary",
+    "title": "Day 04: response schemas",
+    "folder_slug": "response-schemas",
+    "required": true,
+    "track": "Backend",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 17"
+    ],
+    "objectives": [
+      "Explain FastAPI routes",
+      "Implement request schemas and response schemas",
+      "Diagnose failures involving HTTP error handling",
+      "Build MarketingOps API resources"
+    ],
+    "project": "MarketingOps API resources",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-18/day-04-response-schemas"
+  },
+  {
+    "id": "week-18-day-05",
+    "week": 18,
+    "day": 5,
+    "weekly_theme": "Build a FastAPI Boundary",
+    "title": "Day 05: HTTP error handling",
+    "folder_slug": "http-error-handling",
+    "required": true,
+    "track": "Backend",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 17"
+    ],
+    "objectives": [
+      "Explain FastAPI routes",
+      "Implement request schemas and response schemas",
+      "Diagnose failures involving HTTP error handling",
+      "Build MarketingOps API resources"
+    ],
+    "project": "MarketingOps API resources",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-18/day-05-http-error-handling"
+  },
+  {
+    "id": "week-18-day-06",
+    "week": 18,
+    "day": 6,
+    "weekly_theme": "Build a FastAPI Boundary",
+    "title": "Day 06: MarketingOps API resources",
+    "folder_slug": "marketingops-api-resources",
+    "required": true,
+    "track": "Backend",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 17"
+    ],
+    "objectives": [
+      "Explain FastAPI routes",
+      "Implement request schemas and response schemas",
+      "Diagnose failures involving HTTP error handling",
+      "Build MarketingOps API resources"
+    ],
+    "project": "MarketingOps API resources",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-18/day-06-marketingops-api-resources"
+  },
+  {
+    "id": "week-18-day-07",
+    "week": 18,
+    "day": 7,
+    "weekly_theme": "Build a FastAPI Boundary",
+    "title": "Day 07: Review: Build a FastAPI Boundary",
+    "folder_slug": "review-build-a-fastapi-boundary",
+    "required": false,
+    "track": "Backend",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 17"
+    ],
+    "objectives": [
+      "Explain FastAPI routes",
+      "Implement request schemas and response schemas",
+      "Diagnose failures involving HTTP error handling",
+      "Build MarketingOps API resources"
+    ],
+    "project": "MarketingOps API resources",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-18/day-07-review-build-a-fastapi-boundary"
+  },
+  {
+    "id": "week-19-day-01",
+    "week": 19,
+    "day": 1,
+    "weekly_theme": "Operate a Persistent Backend",
+    "title": "Day 01: Operate a Persistent Backend",
+    "folder_slug": "operate-a-persistent-backend",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 18"
+    ],
+    "objectives": [
+      "Explain correlation IDs",
+      "Implement structured logs and migration planning",
+      "Diagnose failures involving background-job concepts",
+      "Build Persistent MarketingOps Backend"
+    ],
+    "project": "Persistent MarketingOps Backend",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-19/day-01-operate-a-persistent-backend"
+  },
+  {
+    "id": "week-19-day-02",
+    "week": 19,
+    "day": 2,
+    "weekly_theme": "Operate a Persistent Backend",
+    "title": "Day 02: correlation IDs",
+    "folder_slug": "correlation-ids",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 18"
+    ],
+    "objectives": [
+      "Explain correlation IDs",
+      "Implement structured logs and migration planning",
+      "Diagnose failures involving background-job concepts",
+      "Build Persistent MarketingOps Backend"
+    ],
+    "project": "Persistent MarketingOps Backend",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-19/day-02-correlation-ids"
+  },
+  {
+    "id": "week-19-day-03",
+    "week": 19,
+    "day": 3,
+    "weekly_theme": "Operate a Persistent Backend",
+    "title": "Day 03: structured logs",
+    "folder_slug": "structured-logs",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 18"
+    ],
+    "objectives": [
+      "Explain correlation IDs",
+      "Implement structured logs and migration planning",
+      "Diagnose failures involving background-job concepts",
+      "Build Persistent MarketingOps Backend"
+    ],
+    "project": "Persistent MarketingOps Backend",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-19/day-03-structured-logs"
+  },
+  {
+    "id": "week-19-day-04",
+    "week": 19,
+    "day": 4,
+    "weekly_theme": "Operate a Persistent Backend",
+    "title": "Day 04: migration planning",
+    "folder_slug": "migration-planning",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 18"
+    ],
+    "objectives": [
+      "Explain correlation IDs",
+      "Implement structured logs and migration planning",
+      "Diagnose failures involving background-job concepts",
+      "Build Persistent MarketingOps Backend"
+    ],
+    "project": "Persistent MarketingOps Backend",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-19/day-04-migration-planning"
+  },
+  {
+    "id": "week-19-day-05",
+    "week": 19,
+    "day": 5,
+    "weekly_theme": "Operate a Persistent Backend",
+    "title": "Day 05: background-job concepts",
+    "folder_slug": "background-job-concepts",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 18"
+    ],
+    "objectives": [
+      "Explain correlation IDs",
+      "Implement structured logs and migration planning",
+      "Diagnose failures involving background-job concepts",
+      "Build Persistent MarketingOps Backend"
+    ],
+    "project": "Persistent MarketingOps Backend",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-19/day-05-background-job-concepts"
+  },
+  {
+    "id": "week-19-day-06",
+    "week": 19,
+    "day": 6,
+    "weekly_theme": "Operate a Persistent Backend",
+    "title": "Day 06: Persistent MarketingOps Backend",
+    "folder_slug": "persistent-marketingops-backend",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 18"
+    ],
+    "objectives": [
+      "Explain correlation IDs",
+      "Implement structured logs and migration planning",
+      "Diagnose failures involving background-job concepts",
+      "Build Persistent MarketingOps Backend"
+    ],
+    "project": "Persistent MarketingOps Backend",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-19/day-06-persistent-marketingops-backend"
+  },
+  {
+    "id": "week-19-day-07",
+    "week": 19,
+    "day": 7,
+    "weekly_theme": "Operate a Persistent Backend",
+    "title": "Day 07: Review: Operate a Persistent Backend",
+    "folder_slug": "review-operate-a-persistent-backend",
+    "required": false,
+    "track": "Integrated project",
+    "phase": "Backend & Persistence",
+    "prerequisites": [
+      "Complete module 18"
+    ],
+    "objectives": [
+      "Explain correlation IDs",
+      "Implement structured logs and migration planning",
+      "Diagnose failures involving background-job concepts",
+      "Build Persistent MarketingOps Backend"
+    ],
+    "project": "Persistent MarketingOps Backend",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-19/day-07-review-operate-a-persistent-backend"
+  },
+  {
+    "id": "week-20-day-01",
+    "week": 20,
+    "day": 1,
+    "weekly_theme": "Call a Model Safely",
+    "title": "Day 01: Call a Model Safely",
+    "folder_slug": "call-a-model-safely",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 19"
+    ],
+    "objectives": [
+      "Explain model client boundaries",
+      "Implement system and user instructions and timeouts and retries",
+      "Diagnose failures involving cost metadata",
+      "Build a mock-first model gateway"
+    ],
+    "project": "a mock-first model gateway",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-20/day-01-call-a-model-safely"
+  },
+  {
+    "id": "week-20-day-02",
+    "week": 20,
+    "day": 2,
+    "weekly_theme": "Call a Model Safely",
+    "title": "Day 02: model client boundaries",
+    "folder_slug": "model-client-boundaries",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 19"
+    ],
+    "objectives": [
+      "Explain model client boundaries",
+      "Implement system and user instructions and timeouts and retries",
+      "Diagnose failures involving cost metadata",
+      "Build a mock-first model gateway"
+    ],
+    "project": "a mock-first model gateway",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-20/day-02-model-client-boundaries"
+  },
+  {
+    "id": "week-20-day-03",
+    "week": 20,
+    "day": 3,
+    "weekly_theme": "Call a Model Safely",
+    "title": "Day 03: system and user instructions",
+    "folder_slug": "system-and-user-instructions",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 19"
+    ],
+    "objectives": [
+      "Explain model client boundaries",
+      "Implement system and user instructions and timeouts and retries",
+      "Diagnose failures involving cost metadata",
+      "Build a mock-first model gateway"
+    ],
+    "project": "a mock-first model gateway",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-20/day-03-system-and-user-instructions"
+  },
+  {
+    "id": "week-20-day-04",
+    "week": 20,
+    "day": 4,
+    "weekly_theme": "Call a Model Safely",
+    "title": "Day 04: timeouts and retries",
+    "folder_slug": "timeouts-and-retries",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 19"
+    ],
+    "objectives": [
+      "Explain model client boundaries",
+      "Implement system and user instructions and timeouts and retries",
+      "Diagnose failures involving cost metadata",
+      "Build a mock-first model gateway"
+    ],
+    "project": "a mock-first model gateway",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-20/day-04-timeouts-and-retries"
+  },
+  {
+    "id": "week-20-day-05",
+    "week": 20,
+    "day": 5,
+    "weekly_theme": "Call a Model Safely",
+    "title": "Day 05: cost metadata",
+    "folder_slug": "cost-metadata",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 19"
+    ],
+    "objectives": [
+      "Explain model client boundaries",
+      "Implement system and user instructions and timeouts and retries",
+      "Diagnose failures involving cost metadata",
+      "Build a mock-first model gateway"
+    ],
+    "project": "a mock-first model gateway",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-20/day-05-cost-metadata"
+  },
+  {
+    "id": "week-20-day-06",
+    "week": 20,
+    "day": 6,
+    "weekly_theme": "Call a Model Safely",
+    "title": "Day 06: a mock-first model gateway",
+    "folder_slug": "a-mock-first-model-gateway",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 19"
+    ],
+    "objectives": [
+      "Explain model client boundaries",
+      "Implement system and user instructions and timeouts and retries",
+      "Diagnose failures involving cost metadata",
+      "Build a mock-first model gateway"
+    ],
+    "project": "a mock-first model gateway",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-20/day-06-a-mock-first-model-gateway"
+  },
+  {
+    "id": "week-20-day-07",
+    "week": 20,
+    "day": 7,
+    "weekly_theme": "Call a Model Safely",
+    "title": "Day 07: Review: Call a Model Safely",
+    "folder_slug": "review-call-a-model-safely",
+    "required": false,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 19"
+    ],
+    "objectives": [
+      "Explain model client boundaries",
+      "Implement system and user instructions and timeouts and retries",
+      "Diagnose failures involving cost metadata",
+      "Build a mock-first model gateway"
+    ],
+    "project": "a mock-first model gateway",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-20/day-07-review-call-a-model-safely"
+  },
+  {
+    "id": "week-21-day-01",
+    "week": 21,
+    "day": 1,
+    "weekly_theme": "Construct Grounded Context",
+    "title": "Day 01: Construct Grounded Context",
+    "folder_slug": "construct-grounded-context",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 20"
+    ],
+    "objectives": [
+      "Explain context selection",
+      "Implement prompt construction and evidence references",
+      "Diagnose failures involving prompt injection boundaries",
+      "Build an analyst context builder"
+    ],
+    "project": "an analyst context builder",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-21/day-01-construct-grounded-context"
+  },
+  {
+    "id": "week-21-day-02",
+    "week": 21,
+    "day": 2,
+    "weekly_theme": "Construct Grounded Context",
+    "title": "Day 02: context selection",
+    "folder_slug": "context-selection",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 20"
+    ],
+    "objectives": [
+      "Explain context selection",
+      "Implement prompt construction and evidence references",
+      "Diagnose failures involving prompt injection boundaries",
+      "Build an analyst context builder"
+    ],
+    "project": "an analyst context builder",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-21/day-02-context-selection"
+  },
+  {
+    "id": "week-21-day-03",
+    "week": 21,
+    "day": 3,
+    "weekly_theme": "Construct Grounded Context",
+    "title": "Day 03: prompt construction",
+    "folder_slug": "prompt-construction",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 20"
+    ],
+    "objectives": [
+      "Explain context selection",
+      "Implement prompt construction and evidence references",
+      "Diagnose failures involving prompt injection boundaries",
+      "Build an analyst context builder"
+    ],
+    "project": "an analyst context builder",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-21/day-03-prompt-construction"
+  },
+  {
+    "id": "week-21-day-04",
+    "week": 21,
+    "day": 4,
+    "weekly_theme": "Construct Grounded Context",
+    "title": "Day 04: evidence references",
+    "folder_slug": "evidence-references",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 20"
+    ],
+    "objectives": [
+      "Explain context selection",
+      "Implement prompt construction and evidence references",
+      "Diagnose failures involving prompt injection boundaries",
+      "Build an analyst context builder"
+    ],
+    "project": "an analyst context builder",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-21/day-04-evidence-references"
+  },
+  {
+    "id": "week-21-day-05",
+    "week": 21,
+    "day": 5,
+    "weekly_theme": "Construct Grounded Context",
+    "title": "Day 05: prompt injection boundaries",
+    "folder_slug": "prompt-injection-boundaries",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 20"
+    ],
+    "objectives": [
+      "Explain context selection",
+      "Implement prompt construction and evidence references",
+      "Diagnose failures involving prompt injection boundaries",
+      "Build an analyst context builder"
+    ],
+    "project": "an analyst context builder",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-21/day-05-prompt-injection-boundaries"
+  },
+  {
+    "id": "week-21-day-06",
+    "week": 21,
+    "day": 6,
+    "weekly_theme": "Construct Grounded Context",
+    "title": "Day 06: an analyst context builder",
+    "folder_slug": "an-analyst-context-builder",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 20"
+    ],
+    "objectives": [
+      "Explain context selection",
+      "Implement prompt construction and evidence references",
+      "Diagnose failures involving prompt injection boundaries",
+      "Build an analyst context builder"
+    ],
+    "project": "an analyst context builder",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-21/day-06-an-analyst-context-builder"
+  },
+  {
+    "id": "week-21-day-07",
+    "week": 21,
+    "day": 7,
+    "weekly_theme": "Construct Grounded Context",
+    "title": "Day 07: Review: Construct Grounded Context",
+    "folder_slug": "review-construct-grounded-context",
+    "required": false,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 20"
+    ],
+    "objectives": [
+      "Explain context selection",
+      "Implement prompt construction and evidence references",
+      "Diagnose failures involving prompt injection boundaries",
+      "Build an analyst context builder"
+    ],
+    "project": "an analyst context builder",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-21/day-07-review-construct-grounded-context"
+  },
+  {
+    "id": "week-22-day-01",
+    "week": 22,
+    "day": 1,
+    "weekly_theme": "Validate Structured AI Output",
+    "title": "Day 01: Validate Structured AI Output",
+    "folder_slug": "validate-structured-ai-output",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 21"
+    ],
+    "objectives": [
+      "Explain structured output",
+      "Implement schema validation and hallucination boundaries",
+      "Diagnose failures involving fallback behavior",
+      "Build a validated Recommendation"
+    ],
+    "project": "a validated Recommendation",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-22/day-01-validate-structured-ai-output"
+  },
+  {
+    "id": "week-22-day-02",
+    "week": 22,
+    "day": 2,
+    "weekly_theme": "Validate Structured AI Output",
+    "title": "Day 02: structured output",
+    "folder_slug": "structured-output",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 21"
+    ],
+    "objectives": [
+      "Explain structured output",
+      "Implement schema validation and hallucination boundaries",
+      "Diagnose failures involving fallback behavior",
+      "Build a validated Recommendation"
+    ],
+    "project": "a validated Recommendation",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-22/day-02-structured-output"
+  },
+  {
+    "id": "week-22-day-03",
+    "week": 22,
+    "day": 3,
+    "weekly_theme": "Validate Structured AI Output",
+    "title": "Day 03: schema validation",
+    "folder_slug": "schema-validation",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 21"
+    ],
+    "objectives": [
+      "Explain structured output",
+      "Implement schema validation and hallucination boundaries",
+      "Diagnose failures involving fallback behavior",
+      "Build a validated Recommendation"
+    ],
+    "project": "a validated Recommendation",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-22/day-03-schema-validation"
+  },
+  {
+    "id": "week-22-day-04",
+    "week": 22,
+    "day": 4,
+    "weekly_theme": "Validate Structured AI Output",
+    "title": "Day 04: hallucination boundaries",
+    "folder_slug": "hallucination-boundaries",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 21"
+    ],
+    "objectives": [
+      "Explain structured output",
+      "Implement schema validation and hallucination boundaries",
+      "Diagnose failures involving fallback behavior",
+      "Build a validated Recommendation"
+    ],
+    "project": "a validated Recommendation",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-22/day-04-hallucination-boundaries"
+  },
+  {
+    "id": "week-22-day-05",
+    "week": 22,
+    "day": 5,
+    "weekly_theme": "Validate Structured AI Output",
+    "title": "Day 05: fallback behavior",
+    "folder_slug": "fallback-behavior",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 21"
+    ],
+    "objectives": [
+      "Explain structured output",
+      "Implement schema validation and hallucination boundaries",
+      "Diagnose failures involving fallback behavior",
+      "Build a validated Recommendation"
+    ],
+    "project": "a validated Recommendation",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-22/day-05-fallback-behavior"
+  },
+  {
+    "id": "week-22-day-06",
+    "week": 22,
+    "day": 6,
+    "weekly_theme": "Validate Structured AI Output",
+    "title": "Day 06: a validated Recommendation",
+    "folder_slug": "a-validated-recommendation",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 21"
+    ],
+    "objectives": [
+      "Explain structured output",
+      "Implement schema validation and hallucination boundaries",
+      "Diagnose failures involving fallback behavior",
+      "Build a validated Recommendation"
+    ],
+    "project": "a validated Recommendation",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-22/day-06-a-validated-recommendation"
+  },
+  {
+    "id": "week-22-day-07",
+    "week": 22,
+    "day": 7,
+    "weekly_theme": "Validate Structured AI Output",
+    "title": "Day 07: Review: Validate Structured AI Output",
+    "folder_slug": "review-validate-structured-ai-output",
+    "required": false,
+    "track": "AI engineering",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 21"
+    ],
+    "objectives": [
+      "Explain structured output",
+      "Implement schema validation and hallucination boundaries",
+      "Diagnose failures involving fallback behavior",
+      "Build a validated Recommendation"
+    ],
+    "project": "a validated Recommendation",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-22/day-07-review-validate-structured-ai-output"
+  },
+  {
+    "id": "week-23-day-01",
+    "week": 23,
+    "day": 1,
+    "weekly_theme": "Evaluate the AI Analyst",
+    "title": "Day 01: Evaluate the AI Analyst",
+    "folder_slug": "evaluate-the-ai-analyst",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 22"
+    ],
+    "objectives": [
+      "Explain deterministic eval cases",
+      "Implement grounding checks and uncertainty",
+      "Diagnose failures involving token and cost budgets",
+      "Build AI Performance Analyst"
+    ],
+    "project": "AI Performance Analyst",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-23/day-01-evaluate-the-ai-analyst"
+  },
+  {
+    "id": "week-23-day-02",
+    "week": 23,
+    "day": 2,
+    "weekly_theme": "Evaluate the AI Analyst",
+    "title": "Day 02: deterministic eval cases",
+    "folder_slug": "deterministic-eval-cases",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 22"
+    ],
+    "objectives": [
+      "Explain deterministic eval cases",
+      "Implement grounding checks and uncertainty",
+      "Diagnose failures involving token and cost budgets",
+      "Build AI Performance Analyst"
+    ],
+    "project": "AI Performance Analyst",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-23/day-02-deterministic-eval-cases"
+  },
+  {
+    "id": "week-23-day-03",
+    "week": 23,
+    "day": 3,
+    "weekly_theme": "Evaluate the AI Analyst",
+    "title": "Day 03: grounding checks",
+    "folder_slug": "grounding-checks",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 22"
+    ],
+    "objectives": [
+      "Explain deterministic eval cases",
+      "Implement grounding checks and uncertainty",
+      "Diagnose failures involving token and cost budgets",
+      "Build AI Performance Analyst"
+    ],
+    "project": "AI Performance Analyst",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-23/day-03-grounding-checks"
+  },
+  {
+    "id": "week-23-day-04",
+    "week": 23,
+    "day": 4,
+    "weekly_theme": "Evaluate the AI Analyst",
+    "title": "Day 04: uncertainty",
+    "folder_slug": "uncertainty",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 22"
+    ],
+    "objectives": [
+      "Explain deterministic eval cases",
+      "Implement grounding checks and uncertainty",
+      "Diagnose failures involving token and cost budgets",
+      "Build AI Performance Analyst"
+    ],
+    "project": "AI Performance Analyst",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-23/day-04-uncertainty"
+  },
+  {
+    "id": "week-23-day-05",
+    "week": 23,
+    "day": 5,
+    "weekly_theme": "Evaluate the AI Analyst",
+    "title": "Day 05: token and cost budgets",
+    "folder_slug": "token-and-cost-budgets",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 22"
+    ],
+    "objectives": [
+      "Explain deterministic eval cases",
+      "Implement grounding checks and uncertainty",
+      "Diagnose failures involving token and cost budgets",
+      "Build AI Performance Analyst"
+    ],
+    "project": "AI Performance Analyst",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-23/day-05-token-and-cost-budgets"
+  },
+  {
+    "id": "week-23-day-06",
+    "week": 23,
+    "day": 6,
+    "weekly_theme": "Evaluate the AI Analyst",
+    "title": "Day 06: AI Performance Analyst",
+    "folder_slug": "ai-performance-analyst",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 22"
+    ],
+    "objectives": [
+      "Explain deterministic eval cases",
+      "Implement grounding checks and uncertainty",
+      "Diagnose failures involving token and cost budgets",
+      "Build AI Performance Analyst"
+    ],
+    "project": "AI Performance Analyst",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-23/day-06-ai-performance-analyst"
+  },
+  {
+    "id": "week-23-day-07",
+    "week": 23,
+    "day": 7,
+    "weekly_theme": "Evaluate the AI Analyst",
+    "title": "Day 07: Review: Evaluate the AI Analyst",
+    "folder_slug": "review-evaluate-the-ai-analyst",
+    "required": false,
+    "track": "Integrated project",
+    "phase": "LLM Engineering",
+    "prerequisites": [
+      "Complete module 22"
+    ],
+    "objectives": [
+      "Explain deterministic eval cases",
+      "Implement grounding checks and uncertainty",
+      "Diagnose failures involving token and cost budgets",
+      "Build AI Performance Analyst"
+    ],
+    "project": "AI Performance Analyst",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-23/day-07-review-evaluate-the-ai-analyst"
+  },
+  {
+    "id": "week-24-day-01",
+    "week": 24,
+    "day": 1,
+    "weekly_theme": "Define Typed Tools",
+    "title": "Day 01: Define Typed Tools",
+    "folder_slug": "define-typed-tools",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 23"
+    ],
+    "objectives": [
+      "Explain tool contracts",
+      "Implement typed results and tool registry",
+      "Diagnose failures involving failure behavior",
+      "Build read-only marketing tools"
+    ],
+    "project": "read-only marketing tools",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-24/day-01-define-typed-tools"
+  },
+  {
+    "id": "week-24-day-02",
+    "week": 24,
+    "day": 2,
+    "weekly_theme": "Define Typed Tools",
+    "title": "Day 02: tool contracts",
+    "folder_slug": "tool-contracts",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 23"
+    ],
+    "objectives": [
+      "Explain tool contracts",
+      "Implement typed results and tool registry",
+      "Diagnose failures involving failure behavior",
+      "Build read-only marketing tools"
+    ],
+    "project": "read-only marketing tools",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-24/day-02-tool-contracts"
+  },
+  {
+    "id": "week-24-day-03",
+    "week": 24,
+    "day": 3,
+    "weekly_theme": "Define Typed Tools",
+    "title": "Day 03: typed results",
+    "folder_slug": "typed-results",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 23"
+    ],
+    "objectives": [
+      "Explain tool contracts",
+      "Implement typed results and tool registry",
+      "Diagnose failures involving failure behavior",
+      "Build read-only marketing tools"
+    ],
+    "project": "read-only marketing tools",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-24/day-03-typed-results"
+  },
+  {
+    "id": "week-24-day-04",
+    "week": 24,
+    "day": 4,
+    "weekly_theme": "Define Typed Tools",
+    "title": "Day 04: tool registry",
+    "folder_slug": "tool-registry",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 23"
+    ],
+    "objectives": [
+      "Explain tool contracts",
+      "Implement typed results and tool registry",
+      "Diagnose failures involving failure behavior",
+      "Build read-only marketing tools"
+    ],
+    "project": "read-only marketing tools",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-24/day-04-tool-registry"
+  },
+  {
+    "id": "week-24-day-05",
+    "week": 24,
+    "day": 5,
+    "weekly_theme": "Define Typed Tools",
+    "title": "Day 05: failure behavior",
+    "folder_slug": "failure-behavior",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 23"
+    ],
+    "objectives": [
+      "Explain tool contracts",
+      "Implement typed results and tool registry",
+      "Diagnose failures involving failure behavior",
+      "Build read-only marketing tools"
+    ],
+    "project": "read-only marketing tools",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-24/day-05-failure-behavior"
+  },
+  {
+    "id": "week-24-day-06",
+    "week": 24,
+    "day": 6,
+    "weekly_theme": "Define Typed Tools",
+    "title": "Day 06: read-only marketing tools",
+    "folder_slug": "read-only-marketing-tools",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 23"
+    ],
+    "objectives": [
+      "Explain tool contracts",
+      "Implement typed results and tool registry",
+      "Diagnose failures involving failure behavior",
+      "Build read-only marketing tools"
+    ],
+    "project": "read-only marketing tools",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-24/day-06-read-only-marketing-tools"
+  },
+  {
+    "id": "week-24-day-07",
+    "week": 24,
+    "day": 7,
+    "weekly_theme": "Define Typed Tools",
+    "title": "Day 07: Review: Define Typed Tools",
+    "folder_slug": "review-define-typed-tools",
+    "required": false,
+    "track": "AI engineering",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 23"
+    ],
+    "objectives": [
+      "Explain tool contracts",
+      "Implement typed results and tool registry",
+      "Diagnose failures involving failure behavior",
+      "Build read-only marketing tools"
+    ],
+    "project": "read-only marketing tools",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-24/day-07-review-define-typed-tools"
+  },
+  {
+    "id": "week-25-day-01",
+    "week": 25,
+    "day": 1,
+    "weekly_theme": "Separate Planner and Executor",
+    "title": "Day 01: Separate Planner and Executor",
+    "folder_slug": "separate-planner-and-executor",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 24"
+    ],
+    "objectives": [
+      "Explain task decomposition",
+      "Implement plan schemas and planner boundaries",
+      "Diagnose failures involving executor contracts",
+      "Build a campaign experiment plan"
+    ],
+    "project": "a campaign experiment plan",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-25/day-01-separate-planner-and-executor"
+  },
+  {
+    "id": "week-25-day-02",
+    "week": 25,
+    "day": 2,
+    "weekly_theme": "Separate Planner and Executor",
+    "title": "Day 02: task decomposition",
+    "folder_slug": "task-decomposition",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 24"
+    ],
+    "objectives": [
+      "Explain task decomposition",
+      "Implement plan schemas and planner boundaries",
+      "Diagnose failures involving executor contracts",
+      "Build a campaign experiment plan"
+    ],
+    "project": "a campaign experiment plan",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-25/day-02-task-decomposition"
+  },
+  {
+    "id": "week-25-day-03",
+    "week": 25,
+    "day": 3,
+    "weekly_theme": "Separate Planner and Executor",
+    "title": "Day 03: plan schemas",
+    "folder_slug": "plan-schemas",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 24"
+    ],
+    "objectives": [
+      "Explain task decomposition",
+      "Implement plan schemas and planner boundaries",
+      "Diagnose failures involving executor contracts",
+      "Build a campaign experiment plan"
+    ],
+    "project": "a campaign experiment plan",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-25/day-03-plan-schemas"
+  },
+  {
+    "id": "week-25-day-04",
+    "week": 25,
+    "day": 4,
+    "weekly_theme": "Separate Planner and Executor",
+    "title": "Day 04: planner boundaries",
+    "folder_slug": "planner-boundaries",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 24"
+    ],
+    "objectives": [
+      "Explain task decomposition",
+      "Implement plan schemas and planner boundaries",
+      "Diagnose failures involving executor contracts",
+      "Build a campaign experiment plan"
+    ],
+    "project": "a campaign experiment plan",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-25/day-04-planner-boundaries"
+  },
+  {
+    "id": "week-25-day-05",
+    "week": 25,
+    "day": 5,
+    "weekly_theme": "Separate Planner and Executor",
+    "title": "Day 05: executor contracts",
+    "folder_slug": "executor-contracts",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 24"
+    ],
+    "objectives": [
+      "Explain task decomposition",
+      "Implement plan schemas and planner boundaries",
+      "Diagnose failures involving executor contracts",
+      "Build a campaign experiment plan"
+    ],
+    "project": "a campaign experiment plan",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-25/day-05-executor-contracts"
+  },
+  {
+    "id": "week-25-day-06",
+    "week": 25,
+    "day": 6,
+    "weekly_theme": "Separate Planner and Executor",
+    "title": "Day 06: a campaign experiment plan",
+    "folder_slug": "a-campaign-experiment-plan",
+    "required": true,
+    "track": "AI engineering",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 24"
+    ],
+    "objectives": [
+      "Explain task decomposition",
+      "Implement plan schemas and planner boundaries",
+      "Diagnose failures involving executor contracts",
+      "Build a campaign experiment plan"
+    ],
+    "project": "a campaign experiment plan",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-25/day-06-a-campaign-experiment-plan"
+  },
+  {
+    "id": "week-25-day-07",
+    "week": 25,
+    "day": 7,
+    "weekly_theme": "Separate Planner and Executor",
+    "title": "Day 07: Review: Separate Planner and Executor",
+    "folder_slug": "review-separate-planner-and-executor",
+    "required": false,
+    "track": "AI engineering",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 24"
+    ],
+    "objectives": [
+      "Explain task decomposition",
+      "Implement plan schemas and planner boundaries",
+      "Diagnose failures involving executor contracts",
+      "Build a campaign experiment plan"
+    ],
+    "project": "a campaign experiment plan",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-25/day-07-review-separate-planner-and-executor"
+  },
+  {
+    "id": "week-26-day-01",
+    "week": 26,
+    "day": 1,
+    "weekly_theme": "Orchestrate Bounded State",
+    "title": "Day 01: Orchestrate Bounded State",
+    "folder_slug": "orchestrate-bounded-state",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 25"
+    ],
+    "objectives": [
+      "Explain state transitions",
+      "Implement persistent versus transient state and step limits",
+      "Diagnose failures involving idempotency",
+      "Build a resumable workflow"
+    ],
+    "project": "a resumable workflow",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-26/day-01-orchestrate-bounded-state"
+  },
+  {
+    "id": "week-26-day-02",
+    "week": 26,
+    "day": 2,
+    "weekly_theme": "Orchestrate Bounded State",
+    "title": "Day 02: state transitions",
+    "folder_slug": "state-transitions",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 25"
+    ],
+    "objectives": [
+      "Explain state transitions",
+      "Implement persistent versus transient state and step limits",
+      "Diagnose failures involving idempotency",
+      "Build a resumable workflow"
+    ],
+    "project": "a resumable workflow",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-26/day-02-state-transitions"
+  },
+  {
+    "id": "week-26-day-03",
+    "week": 26,
+    "day": 3,
+    "weekly_theme": "Orchestrate Bounded State",
+    "title": "Day 03: persistent versus transient state",
+    "folder_slug": "persistent-versus-transient-state",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 25"
+    ],
+    "objectives": [
+      "Explain state transitions",
+      "Implement persistent versus transient state and step limits",
+      "Diagnose failures involving idempotency",
+      "Build a resumable workflow"
+    ],
+    "project": "a resumable workflow",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-26/day-03-persistent-versus-transient-state"
+  },
+  {
+    "id": "week-26-day-04",
+    "week": 26,
+    "day": 4,
+    "weekly_theme": "Orchestrate Bounded State",
+    "title": "Day 04: step limits",
+    "folder_slug": "step-limits",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 25"
+    ],
+    "objectives": [
+      "Explain state transitions",
+      "Implement persistent versus transient state and step limits",
+      "Diagnose failures involving idempotency",
+      "Build a resumable workflow"
+    ],
+    "project": "a resumable workflow",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-26/day-04-step-limits"
+  },
+  {
+    "id": "week-26-day-05",
+    "week": 26,
+    "day": 5,
+    "weekly_theme": "Orchestrate Bounded State",
+    "title": "Day 05: idempotency",
+    "folder_slug": "idempotency",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 25"
+    ],
+    "objectives": [
+      "Explain state transitions",
+      "Implement persistent versus transient state and step limits",
+      "Diagnose failures involving idempotency",
+      "Build a resumable workflow"
+    ],
+    "project": "a resumable workflow",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-26/day-05-idempotency"
+  },
+  {
+    "id": "week-26-day-06",
+    "week": 26,
+    "day": 6,
+    "weekly_theme": "Orchestrate Bounded State",
+    "title": "Day 06: a resumable workflow",
+    "folder_slug": "a-resumable-workflow",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 25"
+    ],
+    "objectives": [
+      "Explain state transitions",
+      "Implement persistent versus transient state and step limits",
+      "Diagnose failures involving idempotency",
+      "Build a resumable workflow"
+    ],
+    "project": "a resumable workflow",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-26/day-06-a-resumable-workflow"
+  },
+  {
+    "id": "week-26-day-07",
+    "week": 26,
+    "day": 7,
+    "weekly_theme": "Orchestrate Bounded State",
+    "title": "Day 07: Review: Orchestrate Bounded State",
+    "folder_slug": "review-orchestrate-bounded-state",
+    "required": false,
+    "track": "Python automation",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 25"
+    ],
+    "objectives": [
+      "Explain state transitions",
+      "Implement persistent versus transient state and step limits",
+      "Diagnose failures involving idempotency",
+      "Build a resumable workflow"
+    ],
+    "project": "a resumable workflow",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-26/day-07-review-orchestrate-bounded-state"
+  },
+  {
+    "id": "week-27-day-01",
+    "week": 27,
+    "day": 1,
+    "weekly_theme": "Coordinate Specialized Agents",
+    "title": "Day 01: Coordinate Specialized Agents",
+    "folder_slug": "coordinate-specialized-agents",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 26"
+    ],
+    "objectives": [
+      "Explain Strategist and Analyst roles",
+      "Implement Research and Content roles and handoff schemas",
+      "Diagnose failures involving agent evaluation",
+      "Build Agent Workflow"
+    ],
+    "project": "Agent Workflow",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-27/day-01-coordinate-specialized-agents"
+  },
+  {
+    "id": "week-27-day-02",
+    "week": 27,
+    "day": 2,
+    "weekly_theme": "Coordinate Specialized Agents",
+    "title": "Day 02: Strategist and Analyst roles",
+    "folder_slug": "strategist-and-analyst-roles",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 26"
+    ],
+    "objectives": [
+      "Explain Strategist and Analyst roles",
+      "Implement Research and Content roles and handoff schemas",
+      "Diagnose failures involving agent evaluation",
+      "Build Agent Workflow"
+    ],
+    "project": "Agent Workflow",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-27/day-02-strategist-and-analyst-roles"
+  },
+  {
+    "id": "week-27-day-03",
+    "week": 27,
+    "day": 3,
+    "weekly_theme": "Coordinate Specialized Agents",
+    "title": "Day 03: Research and Content roles",
+    "folder_slug": "research-and-content-roles",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 26"
+    ],
+    "objectives": [
+      "Explain Strategist and Analyst roles",
+      "Implement Research and Content roles and handoff schemas",
+      "Diagnose failures involving agent evaluation",
+      "Build Agent Workflow"
+    ],
+    "project": "Agent Workflow",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-27/day-03-research-and-content-roles"
+  },
+  {
+    "id": "week-27-day-04",
+    "week": 27,
+    "day": 4,
+    "weekly_theme": "Coordinate Specialized Agents",
+    "title": "Day 04: handoff schemas",
+    "folder_slug": "handoff-schemas",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 26"
+    ],
+    "objectives": [
+      "Explain Strategist and Analyst roles",
+      "Implement Research and Content roles and handoff schemas",
+      "Diagnose failures involving agent evaluation",
+      "Build Agent Workflow"
+    ],
+    "project": "Agent Workflow",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-27/day-04-handoff-schemas"
+  },
+  {
+    "id": "week-27-day-05",
+    "week": 27,
+    "day": 5,
+    "weekly_theme": "Coordinate Specialized Agents",
+    "title": "Day 05: agent evaluation",
+    "folder_slug": "agent-evaluation",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 26"
+    ],
+    "objectives": [
+      "Explain Strategist and Analyst roles",
+      "Implement Research and Content roles and handoff schemas",
+      "Diagnose failures involving agent evaluation",
+      "Build Agent Workflow"
+    ],
+    "project": "Agent Workflow",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-27/day-05-agent-evaluation"
+  },
+  {
+    "id": "week-27-day-06",
+    "week": 27,
+    "day": 6,
+    "weekly_theme": "Coordinate Specialized Agents",
+    "title": "Day 06: Agent Workflow",
+    "folder_slug": "agent-workflow",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 26"
+    ],
+    "objectives": [
+      "Explain Strategist and Analyst roles",
+      "Implement Research and Content roles and handoff schemas",
+      "Diagnose failures involving agent evaluation",
+      "Build Agent Workflow"
+    ],
+    "project": "Agent Workflow",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-27/day-06-agent-workflow"
+  },
+  {
+    "id": "week-27-day-07",
+    "week": 27,
+    "day": 7,
+    "weekly_theme": "Coordinate Specialized Agents",
+    "title": "Day 07: Review: Coordinate Specialized Agents",
+    "folder_slug": "review-coordinate-specialized-agents",
+    "required": false,
+    "track": "Integrated project",
+    "phase": "Tools, Agents & Orchestration",
+    "prerequisites": [
+      "Complete module 26"
+    ],
+    "objectives": [
+      "Explain Strategist and Analyst roles",
+      "Implement Research and Content roles and handoff schemas",
+      "Diagnose failures involving agent evaluation",
+      "Build Agent Workflow"
+    ],
+    "project": "Agent Workflow",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-27/day-07-review-coordinate-specialized-agents"
+  },
+  {
+    "id": "week-28-day-01",
+    "week": 28,
+    "day": 1,
+    "weekly_theme": "Classify Actions with Policy",
+    "title": "Day 01: Classify Actions with Policy",
+    "folder_slug": "classify-actions-with-policy",
+    "required": true,
+    "track": "Python",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 27"
+    ],
+    "objectives": [
+      "Explain action classes",
+      "Implement policy rules and fail-closed defaults",
+      "Diagnose failures involving decision evidence",
+      "Build a policy evaluator"
+    ],
+    "project": "a policy evaluator",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-28/day-01-classify-actions-with-policy"
+  },
+  {
+    "id": "week-28-day-02",
+    "week": 28,
+    "day": 2,
+    "weekly_theme": "Classify Actions with Policy",
+    "title": "Day 02: action classes",
+    "folder_slug": "action-classes",
+    "required": true,
+    "track": "Python",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 27"
+    ],
+    "objectives": [
+      "Explain action classes",
+      "Implement policy rules and fail-closed defaults",
+      "Diagnose failures involving decision evidence",
+      "Build a policy evaluator"
+    ],
+    "project": "a policy evaluator",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-28/day-02-action-classes"
+  },
+  {
+    "id": "week-28-day-03",
+    "week": 28,
+    "day": 3,
+    "weekly_theme": "Classify Actions with Policy",
+    "title": "Day 03: policy rules",
+    "folder_slug": "policy-rules",
+    "required": true,
+    "track": "Python",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 27"
+    ],
+    "objectives": [
+      "Explain action classes",
+      "Implement policy rules and fail-closed defaults",
+      "Diagnose failures involving decision evidence",
+      "Build a policy evaluator"
+    ],
+    "project": "a policy evaluator",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-28/day-03-policy-rules"
+  },
+  {
+    "id": "week-28-day-04",
+    "week": 28,
+    "day": 4,
+    "weekly_theme": "Classify Actions with Policy",
+    "title": "Day 04: fail-closed defaults",
+    "folder_slug": "fail-closed-defaults",
+    "required": true,
+    "track": "Python",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 27"
+    ],
+    "objectives": [
+      "Explain action classes",
+      "Implement policy rules and fail-closed defaults",
+      "Diagnose failures involving decision evidence",
+      "Build a policy evaluator"
+    ],
+    "project": "a policy evaluator",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-28/day-04-fail-closed-defaults"
+  },
+  {
+    "id": "week-28-day-05",
+    "week": 28,
+    "day": 5,
+    "weekly_theme": "Classify Actions with Policy",
+    "title": "Day 05: decision evidence",
+    "folder_slug": "decision-evidence",
+    "required": true,
+    "track": "Python",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 27"
+    ],
+    "objectives": [
+      "Explain action classes",
+      "Implement policy rules and fail-closed defaults",
+      "Diagnose failures involving decision evidence",
+      "Build a policy evaluator"
+    ],
+    "project": "a policy evaluator",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-28/day-05-decision-evidence"
+  },
+  {
+    "id": "week-28-day-06",
+    "week": 28,
+    "day": 6,
+    "weekly_theme": "Classify Actions with Policy",
+    "title": "Day 06: a policy evaluator",
+    "folder_slug": "a-policy-evaluator",
+    "required": true,
+    "track": "Python",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 27"
+    ],
+    "objectives": [
+      "Explain action classes",
+      "Implement policy rules and fail-closed defaults",
+      "Diagnose failures involving decision evidence",
+      "Build a policy evaluator"
+    ],
+    "project": "a policy evaluator",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-28/day-06-a-policy-evaluator"
+  },
+  {
+    "id": "week-28-day-07",
+    "week": 28,
+    "day": 7,
+    "weekly_theme": "Classify Actions with Policy",
+    "title": "Day 07: Review: Classify Actions with Policy",
+    "folder_slug": "review-classify-actions-with-policy",
+    "required": false,
+    "track": "Python",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 27"
+    ],
+    "objectives": [
+      "Explain action classes",
+      "Implement policy rules and fail-closed defaults",
+      "Diagnose failures involving decision evidence",
+      "Build a policy evaluator"
+    ],
+    "project": "a policy evaluator",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-28/day-07-review-classify-actions-with-policy"
+  },
+  {
+    "id": "week-29-day-01",
+    "week": 29,
+    "day": 1,
+    "weekly_theme": "Bind Human Approval",
+    "title": "Day 01: Bind Human Approval",
+    "folder_slug": "bind-human-approval",
+    "required": true,
+    "track": "Backend",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 28"
+    ],
+    "objectives": [
+      "Explain approval requests",
+      "Implement parameter hashing and expiry",
+      "Diagnose failures involving separation of duties",
+      "Build an approval service"
+    ],
+    "project": "an approval service",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-29/day-01-bind-human-approval"
+  },
+  {
+    "id": "week-29-day-02",
+    "week": 29,
+    "day": 2,
+    "weekly_theme": "Bind Human Approval",
+    "title": "Day 02: approval requests",
+    "folder_slug": "approval-requests",
+    "required": true,
+    "track": "Backend",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 28"
+    ],
+    "objectives": [
+      "Explain approval requests",
+      "Implement parameter hashing and expiry",
+      "Diagnose failures involving separation of duties",
+      "Build an approval service"
+    ],
+    "project": "an approval service",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-29/day-02-approval-requests"
+  },
+  {
+    "id": "week-29-day-03",
+    "week": 29,
+    "day": 3,
+    "weekly_theme": "Bind Human Approval",
+    "title": "Day 03: parameter hashing",
+    "folder_slug": "parameter-hashing",
+    "required": true,
+    "track": "Backend",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 28"
+    ],
+    "objectives": [
+      "Explain approval requests",
+      "Implement parameter hashing and expiry",
+      "Diagnose failures involving separation of duties",
+      "Build an approval service"
+    ],
+    "project": "an approval service",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-29/day-03-parameter-hashing"
+  },
+  {
+    "id": "week-29-day-04",
+    "week": 29,
+    "day": 4,
+    "weekly_theme": "Bind Human Approval",
+    "title": "Day 04: expiry",
+    "folder_slug": "expiry",
+    "required": true,
+    "track": "Backend",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 28"
+    ],
+    "objectives": [
+      "Explain approval requests",
+      "Implement parameter hashing and expiry",
+      "Diagnose failures involving separation of duties",
+      "Build an approval service"
+    ],
+    "project": "an approval service",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-29/day-04-expiry"
+  },
+  {
+    "id": "week-29-day-05",
+    "week": 29,
+    "day": 5,
+    "weekly_theme": "Bind Human Approval",
+    "title": "Day 05: separation of duties",
+    "folder_slug": "separation-of-duties",
+    "required": true,
+    "track": "Backend",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 28"
+    ],
+    "objectives": [
+      "Explain approval requests",
+      "Implement parameter hashing and expiry",
+      "Diagnose failures involving separation of duties",
+      "Build an approval service"
+    ],
+    "project": "an approval service",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-29/day-05-separation-of-duties"
+  },
+  {
+    "id": "week-29-day-06",
+    "week": 29,
+    "day": 6,
+    "weekly_theme": "Bind Human Approval",
+    "title": "Day 06: an approval service",
+    "folder_slug": "an-approval-service",
+    "required": true,
+    "track": "Backend",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 28"
+    ],
+    "objectives": [
+      "Explain approval requests",
+      "Implement parameter hashing and expiry",
+      "Diagnose failures involving separation of duties",
+      "Build an approval service"
+    ],
+    "project": "an approval service",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-29/day-06-an-approval-service"
+  },
+  {
+    "id": "week-29-day-07",
+    "week": 29,
+    "day": 7,
+    "weekly_theme": "Bind Human Approval",
+    "title": "Day 07: Review: Bind Human Approval",
+    "folder_slug": "review-bind-human-approval",
+    "required": false,
+    "track": "Backend",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 28"
+    ],
+    "objectives": [
+      "Explain approval requests",
+      "Implement parameter hashing and expiry",
+      "Diagnose failures involving separation of duties",
+      "Build an approval service"
+    ],
+    "project": "an approval service",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-29/day-07-review-bind-human-approval"
+  },
+  {
+    "id": "week-30-day-01",
+    "week": 30,
+    "day": 1,
+    "weekly_theme": "Execute Through Controlled Adapters",
+    "title": "Day 01: Execute Through Controlled Adapters",
+    "folder_slug": "execute-through-controlled-adapters",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 29"
+    ],
+    "objectives": [
+      "Explain deterministic adapters",
+      "Implement dry-run and idempotency keys",
+      "Diagnose failures involving rollback concepts",
+      "Build controlled action execution"
+    ],
+    "project": "controlled action execution",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-30/day-01-execute-through-controlled-adapters"
+  },
+  {
+    "id": "week-30-day-02",
+    "week": 30,
+    "day": 2,
+    "weekly_theme": "Execute Through Controlled Adapters",
+    "title": "Day 02: deterministic adapters",
+    "folder_slug": "deterministic-adapters",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 29"
+    ],
+    "objectives": [
+      "Explain deterministic adapters",
+      "Implement dry-run and idempotency keys",
+      "Diagnose failures involving rollback concepts",
+      "Build controlled action execution"
+    ],
+    "project": "controlled action execution",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-30/day-02-deterministic-adapters"
+  },
+  {
+    "id": "week-30-day-03",
+    "week": 30,
+    "day": 3,
+    "weekly_theme": "Execute Through Controlled Adapters",
+    "title": "Day 03: dry-run",
+    "folder_slug": "dry-run",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 29"
+    ],
+    "objectives": [
+      "Explain deterministic adapters",
+      "Implement dry-run and idempotency keys",
+      "Diagnose failures involving rollback concepts",
+      "Build controlled action execution"
+    ],
+    "project": "controlled action execution",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-30/day-03-dry-run"
+  },
+  {
+    "id": "week-30-day-04",
+    "week": 30,
+    "day": 4,
+    "weekly_theme": "Execute Through Controlled Adapters",
+    "title": "Day 04: idempotency keys",
+    "folder_slug": "idempotency-keys",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 29"
+    ],
+    "objectives": [
+      "Explain deterministic adapters",
+      "Implement dry-run and idempotency keys",
+      "Diagnose failures involving rollback concepts",
+      "Build controlled action execution"
+    ],
+    "project": "controlled action execution",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-30/day-04-idempotency-keys"
+  },
+  {
+    "id": "week-30-day-05",
+    "week": 30,
+    "day": 5,
+    "weekly_theme": "Execute Through Controlled Adapters",
+    "title": "Day 05: rollback concepts",
+    "folder_slug": "rollback-concepts",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 29"
+    ],
+    "objectives": [
+      "Explain deterministic adapters",
+      "Implement dry-run and idempotency keys",
+      "Diagnose failures involving rollback concepts",
+      "Build controlled action execution"
+    ],
+    "project": "controlled action execution",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-30/day-05-rollback-concepts"
+  },
+  {
+    "id": "week-30-day-06",
+    "week": 30,
+    "day": 6,
+    "weekly_theme": "Execute Through Controlled Adapters",
+    "title": "Day 06: controlled action execution",
+    "folder_slug": "controlled-action-execution",
+    "required": true,
+    "track": "Python automation",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 29"
+    ],
+    "objectives": [
+      "Explain deterministic adapters",
+      "Implement dry-run and idempotency keys",
+      "Diagnose failures involving rollback concepts",
+      "Build controlled action execution"
+    ],
+    "project": "controlled action execution",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-30/day-06-controlled-action-execution"
+  },
+  {
+    "id": "week-30-day-07",
+    "week": 30,
+    "day": 7,
+    "weekly_theme": "Execute Through Controlled Adapters",
+    "title": "Day 07: Review: Execute Through Controlled Adapters",
+    "folder_slug": "review-execute-through-controlled-adapters",
+    "required": false,
+    "track": "Python automation",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 29"
+    ],
+    "objectives": [
+      "Explain deterministic adapters",
+      "Implement dry-run and idempotency keys",
+      "Diagnose failures involving rollback concepts",
+      "Build controlled action execution"
+    ],
+    "project": "controlled action execution",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-30/day-07-review-execute-through-controlled-adapters"
+  },
+  {
+    "id": "week-31-day-01",
+    "week": 31,
+    "day": 1,
+    "weekly_theme": "Operate Autonomy Levels Safely",
+    "title": "Day 01: Operate Autonomy Levels Safely",
+    "folder_slug": "operate-autonomy-levels-safely",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 30"
+    ],
+    "objectives": [
+      "Explain autonomy levels",
+      "Implement budget thresholds and audit logs",
+      "Diagnose failures involving monitoring",
+      "Build Policy-Controlled Execution"
+    ],
+    "project": "Policy-Controlled Execution",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-31/day-01-operate-autonomy-levels-safely"
+  },
+  {
+    "id": "week-31-day-02",
+    "week": 31,
+    "day": 2,
+    "weekly_theme": "Operate Autonomy Levels Safely",
+    "title": "Day 02: autonomy levels",
+    "folder_slug": "autonomy-levels",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 30"
+    ],
+    "objectives": [
+      "Explain autonomy levels",
+      "Implement budget thresholds and audit logs",
+      "Diagnose failures involving monitoring",
+      "Build Policy-Controlled Execution"
+    ],
+    "project": "Policy-Controlled Execution",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-31/day-02-autonomy-levels"
+  },
+  {
+    "id": "week-31-day-03",
+    "week": 31,
+    "day": 3,
+    "weekly_theme": "Operate Autonomy Levels Safely",
+    "title": "Day 03: budget thresholds",
+    "folder_slug": "budget-thresholds",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 30"
+    ],
+    "objectives": [
+      "Explain autonomy levels",
+      "Implement budget thresholds and audit logs",
+      "Diagnose failures involving monitoring",
+      "Build Policy-Controlled Execution"
+    ],
+    "project": "Policy-Controlled Execution",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-31/day-03-budget-thresholds"
+  },
+  {
+    "id": "week-31-day-04",
+    "week": 31,
+    "day": 4,
+    "weekly_theme": "Operate Autonomy Levels Safely",
+    "title": "Day 04: audit logs",
+    "folder_slug": "audit-logs",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 30"
+    ],
+    "objectives": [
+      "Explain autonomy levels",
+      "Implement budget thresholds and audit logs",
+      "Diagnose failures involving monitoring",
+      "Build Policy-Controlled Execution"
+    ],
+    "project": "Policy-Controlled Execution",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-31/day-04-audit-logs"
+  },
+  {
+    "id": "week-31-day-05",
+    "week": 31,
+    "day": 5,
+    "weekly_theme": "Operate Autonomy Levels Safely",
+    "title": "Day 05: monitoring",
+    "folder_slug": "monitoring",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 30"
+    ],
+    "objectives": [
+      "Explain autonomy levels",
+      "Implement budget thresholds and audit logs",
+      "Diagnose failures involving monitoring",
+      "Build Policy-Controlled Execution"
+    ],
+    "project": "Policy-Controlled Execution",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-31/day-05-monitoring"
+  },
+  {
+    "id": "week-31-day-06",
+    "week": 31,
+    "day": 6,
+    "weekly_theme": "Operate Autonomy Levels Safely",
+    "title": "Day 06: Policy-Controlled Execution",
+    "folder_slug": "policy-controlled-execution",
+    "required": true,
+    "track": "Integrated project",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 30"
+    ],
+    "objectives": [
+      "Explain autonomy levels",
+      "Implement budget thresholds and audit logs",
+      "Diagnose failures involving monitoring",
+      "Build Policy-Controlled Execution"
+    ],
+    "project": "Policy-Controlled Execution",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-31/day-06-policy-controlled-execution"
+  },
+  {
+    "id": "week-31-day-07",
+    "week": 31,
+    "day": 7,
+    "weekly_theme": "Operate Autonomy Levels Safely",
+    "title": "Day 07: Review: Operate Autonomy Levels Safely",
+    "folder_slug": "review-operate-autonomy-levels-safely",
+    "required": false,
+    "track": "Integrated project",
+    "phase": "Policy Engine & Human Oversight",
+    "prerequisites": [
+      "Complete module 30"
+    ],
+    "objectives": [
+      "Explain autonomy levels",
+      "Implement budget thresholds and audit logs",
+      "Diagnose failures involving monitoring",
+      "Build Policy-Controlled Execution"
+    ],
+    "project": "Policy-Controlled Execution",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-31/day-07-review-operate-autonomy-levels-safely"
+  },
+  {
+    "id": "week-32-day-01",
+    "week": 32,
+    "day": 1,
+    "weekly_theme": "Integrate Goal, Plan, and Metrics",
+    "title": "Day 01: Integrate Goal, Plan, and Metrics",
+    "folder_slug": "integrate-goal-plan-and-metrics",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 31"
+    ],
+    "objectives": [
+      "Explain goal contracts",
+      "Implement baselines and horizons and progress measurement",
+      "Diagnose failures involving plan revisions",
+      "Build the capstone control loop foundation"
+    ],
+    "project": "the capstone control loop foundation",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-32/day-01-integrate-goal-plan-and-metrics"
+  },
+  {
+    "id": "week-32-day-02",
+    "week": 32,
+    "day": 2,
+    "weekly_theme": "Integrate Goal, Plan, and Metrics",
+    "title": "Day 02: goal contracts",
+    "folder_slug": "goal-contracts",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 31"
+    ],
+    "objectives": [
+      "Explain goal contracts",
+      "Implement baselines and horizons and progress measurement",
+      "Diagnose failures involving plan revisions",
+      "Build the capstone control loop foundation"
+    ],
+    "project": "the capstone control loop foundation",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-32/day-02-goal-contracts"
+  },
+  {
+    "id": "week-32-day-03",
+    "week": 32,
+    "day": 3,
+    "weekly_theme": "Integrate Goal, Plan, and Metrics",
+    "title": "Day 03: baselines and horizons",
+    "folder_slug": "baselines-and-horizons",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 31"
+    ],
+    "objectives": [
+      "Explain goal contracts",
+      "Implement baselines and horizons and progress measurement",
+      "Diagnose failures involving plan revisions",
+      "Build the capstone control loop foundation"
+    ],
+    "project": "the capstone control loop foundation",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-32/day-03-baselines-and-horizons"
+  },
+  {
+    "id": "week-32-day-04",
+    "week": 32,
+    "day": 4,
+    "weekly_theme": "Integrate Goal, Plan, and Metrics",
+    "title": "Day 04: progress measurement",
+    "folder_slug": "progress-measurement",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 31"
+    ],
+    "objectives": [
+      "Explain goal contracts",
+      "Implement baselines and horizons and progress measurement",
+      "Diagnose failures involving plan revisions",
+      "Build the capstone control loop foundation"
+    ],
+    "project": "the capstone control loop foundation",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-32/day-04-progress-measurement"
+  },
+  {
+    "id": "week-32-day-05",
+    "week": 32,
+    "day": 5,
+    "weekly_theme": "Integrate Goal, Plan, and Metrics",
+    "title": "Day 05: plan revisions",
+    "folder_slug": "plan-revisions",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 31"
+    ],
+    "objectives": [
+      "Explain goal contracts",
+      "Implement baselines and horizons and progress measurement",
+      "Diagnose failures involving plan revisions",
+      "Build the capstone control loop foundation"
+    ],
+    "project": "the capstone control loop foundation",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-32/day-05-plan-revisions"
+  },
+  {
+    "id": "week-32-day-06",
+    "week": 32,
+    "day": 6,
+    "weekly_theme": "Integrate Goal, Plan, and Metrics",
+    "title": "Day 06: the capstone control loop foundation",
+    "folder_slug": "the-capstone-control-loop-foundation",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 31"
+    ],
+    "objectives": [
+      "Explain goal contracts",
+      "Implement baselines and horizons and progress measurement",
+      "Diagnose failures involving plan revisions",
+      "Build the capstone control loop foundation"
+    ],
+    "project": "the capstone control loop foundation",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-32/day-06-the-capstone-control-loop-foundation"
+  },
+  {
+    "id": "week-32-day-07",
+    "week": 32,
+    "day": 7,
+    "weekly_theme": "Integrate Goal, Plan, and Metrics",
+    "title": "Day 07: Review: Integrate Goal, Plan, and Metrics",
+    "folder_slug": "review-integrate-goal-plan-and-metrics",
+    "required": false,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 31"
+    ],
+    "objectives": [
+      "Explain goal contracts",
+      "Implement baselines and horizons and progress measurement",
+      "Diagnose failures involving plan revisions",
+      "Build the capstone control loop foundation"
+    ],
+    "project": "the capstone control loop foundation",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-32/day-07-review-integrate-goal-plan-and-metrics"
+  },
+  {
+    "id": "week-33-day-01",
+    "week": 33,
+    "day": 1,
+    "weekly_theme": "Integrate Recommendations and Research",
+    "title": "Day 01: Integrate Recommendations and Research",
+    "folder_slug": "integrate-recommendations-and-research",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 32"
+    ],
+    "objectives": [
+      "Explain research provenance",
+      "Implement analyst recommendations and content drafts",
+      "Diagnose failures involving uncertainty",
+      "Build the capstone reasoning layer"
+    ],
+    "project": "the capstone reasoning layer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-33/day-01-integrate-recommendations-and-research"
+  },
+  {
+    "id": "week-33-day-02",
+    "week": 33,
+    "day": 2,
+    "weekly_theme": "Integrate Recommendations and Research",
+    "title": "Day 02: research provenance",
+    "folder_slug": "research-provenance",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 32"
+    ],
+    "objectives": [
+      "Explain research provenance",
+      "Implement analyst recommendations and content drafts",
+      "Diagnose failures involving uncertainty",
+      "Build the capstone reasoning layer"
+    ],
+    "project": "the capstone reasoning layer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-33/day-02-research-provenance"
+  },
+  {
+    "id": "week-33-day-03",
+    "week": 33,
+    "day": 3,
+    "weekly_theme": "Integrate Recommendations and Research",
+    "title": "Day 03: analyst recommendations",
+    "folder_slug": "analyst-recommendations",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 32"
+    ],
+    "objectives": [
+      "Explain research provenance",
+      "Implement analyst recommendations and content drafts",
+      "Diagnose failures involving uncertainty",
+      "Build the capstone reasoning layer"
+    ],
+    "project": "the capstone reasoning layer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-33/day-03-analyst-recommendations"
+  },
+  {
+    "id": "week-33-day-04",
+    "week": 33,
+    "day": 4,
+    "weekly_theme": "Integrate Recommendations and Research",
+    "title": "Day 04: content drafts",
+    "folder_slug": "content-drafts",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 32"
+    ],
+    "objectives": [
+      "Explain research provenance",
+      "Implement analyst recommendations and content drafts",
+      "Diagnose failures involving uncertainty",
+      "Build the capstone reasoning layer"
+    ],
+    "project": "the capstone reasoning layer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-33/day-04-content-drafts"
+  },
+  {
+    "id": "week-33-day-05",
+    "week": 33,
+    "day": 5,
+    "weekly_theme": "Integrate Recommendations and Research",
+    "title": "Day 05: uncertainty",
+    "folder_slug": "uncertainty",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 32"
+    ],
+    "objectives": [
+      "Explain research provenance",
+      "Implement analyst recommendations and content drafts",
+      "Diagnose failures involving uncertainty",
+      "Build the capstone reasoning layer"
+    ],
+    "project": "the capstone reasoning layer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-33/day-05-uncertainty"
+  },
+  {
+    "id": "week-33-day-06",
+    "week": 33,
+    "day": 6,
+    "weekly_theme": "Integrate Recommendations and Research",
+    "title": "Day 06: the capstone reasoning layer",
+    "folder_slug": "the-capstone-reasoning-layer",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 32"
+    ],
+    "objectives": [
+      "Explain research provenance",
+      "Implement analyst recommendations and content drafts",
+      "Diagnose failures involving uncertainty",
+      "Build the capstone reasoning layer"
+    ],
+    "project": "the capstone reasoning layer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-33/day-06-the-capstone-reasoning-layer"
+  },
+  {
+    "id": "week-33-day-07",
+    "week": 33,
+    "day": 7,
+    "weekly_theme": "Integrate Recommendations and Research",
+    "title": "Day 07: Review: Integrate Recommendations and Research",
+    "folder_slug": "review-integrate-recommendations-and-research",
+    "required": false,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 32"
+    ],
+    "objectives": [
+      "Explain research provenance",
+      "Implement analyst recommendations and content drafts",
+      "Diagnose failures involving uncertainty",
+      "Build the capstone reasoning layer"
+    ],
+    "project": "the capstone reasoning layer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-33/day-07-review-integrate-recommendations-and-research"
+  },
+  {
+    "id": "week-34-day-01",
+    "week": 34,
+    "day": 1,
+    "weekly_theme": "Integrate Policy, Approval, and Execution",
+    "title": "Day 01: Integrate Policy, Approval, and Execution",
+    "folder_slug": "integrate-policy-approval-and-execution",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 33"
+    ],
+    "objectives": [
+      "Explain policy decisions",
+      "Implement approval binding and adapter receipts",
+      "Diagnose failures involving denial behavior",
+      "Build the capstone action layer"
+    ],
+    "project": "the capstone action layer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-34/day-01-integrate-policy-approval-and-execution"
+  },
+  {
+    "id": "week-34-day-02",
+    "week": 34,
+    "day": 2,
+    "weekly_theme": "Integrate Policy, Approval, and Execution",
+    "title": "Day 02: policy decisions",
+    "folder_slug": "policy-decisions",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 33"
+    ],
+    "objectives": [
+      "Explain policy decisions",
+      "Implement approval binding and adapter receipts",
+      "Diagnose failures involving denial behavior",
+      "Build the capstone action layer"
+    ],
+    "project": "the capstone action layer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-34/day-02-policy-decisions"
+  },
+  {
+    "id": "week-34-day-03",
+    "week": 34,
+    "day": 3,
+    "weekly_theme": "Integrate Policy, Approval, and Execution",
+    "title": "Day 03: approval binding",
+    "folder_slug": "approval-binding",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 33"
+    ],
+    "objectives": [
+      "Explain policy decisions",
+      "Implement approval binding and adapter receipts",
+      "Diagnose failures involving denial behavior",
+      "Build the capstone action layer"
+    ],
+    "project": "the capstone action layer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-34/day-03-approval-binding"
+  },
+  {
+    "id": "week-34-day-04",
+    "week": 34,
+    "day": 4,
+    "weekly_theme": "Integrate Policy, Approval, and Execution",
+    "title": "Day 04: adapter receipts",
+    "folder_slug": "adapter-receipts",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 33"
+    ],
+    "objectives": [
+      "Explain policy decisions",
+      "Implement approval binding and adapter receipts",
+      "Diagnose failures involving denial behavior",
+      "Build the capstone action layer"
+    ],
+    "project": "the capstone action layer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-34/day-04-adapter-receipts"
+  },
+  {
+    "id": "week-34-day-05",
+    "week": 34,
+    "day": 5,
+    "weekly_theme": "Integrate Policy, Approval, and Execution",
+    "title": "Day 05: denial behavior",
+    "folder_slug": "denial-behavior",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 33"
+    ],
+    "objectives": [
+      "Explain policy decisions",
+      "Implement approval binding and adapter receipts",
+      "Diagnose failures involving denial behavior",
+      "Build the capstone action layer"
+    ],
+    "project": "the capstone action layer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-34/day-05-denial-behavior"
+  },
+  {
+    "id": "week-34-day-06",
+    "week": 34,
+    "day": 6,
+    "weekly_theme": "Integrate Policy, Approval, and Execution",
+    "title": "Day 06: the capstone action layer",
+    "folder_slug": "the-capstone-action-layer",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 33"
+    ],
+    "objectives": [
+      "Explain policy decisions",
+      "Implement approval binding and adapter receipts",
+      "Diagnose failures involving denial behavior",
+      "Build the capstone action layer"
+    ],
+    "project": "the capstone action layer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-34/day-06-the-capstone-action-layer"
+  },
+  {
+    "id": "week-34-day-07",
+    "week": 34,
+    "day": 7,
+    "weekly_theme": "Integrate Policy, Approval, and Execution",
+    "title": "Day 07: Review: Integrate Policy, Approval, and Execution",
+    "folder_slug": "review-integrate-policy-approval-and-execution",
+    "required": false,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 33"
+    ],
+    "objectives": [
+      "Explain policy decisions",
+      "Implement approval binding and adapter receipts",
+      "Diagnose failures involving denial behavior",
+      "Build the capstone action layer"
+    ],
+    "project": "the capstone action layer",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-34/day-07-review-integrate-policy-approval-and-execution"
+  },
+  {
+    "id": "week-35-day-01",
+    "week": 35,
+    "day": 1,
+    "weekly_theme": "Measure Outcomes and Replan",
+    "title": "Day 01: Measure Outcomes and Replan",
+    "folder_slug": "measure-outcomes-and-replan",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 34"
+    ],
+    "objectives": [
+      "Explain outcome windows",
+      "Implement before/after evidence and scheduler state",
+      "Diagnose failures involving iteration budgets",
+      "Build the measured optimization loop"
+    ],
+    "project": "the measured optimization loop",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-35/day-01-measure-outcomes-and-replan"
+  },
+  {
+    "id": "week-35-day-02",
+    "week": 35,
+    "day": 2,
+    "weekly_theme": "Measure Outcomes and Replan",
+    "title": "Day 02: outcome windows",
+    "folder_slug": "outcome-windows",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 34"
+    ],
+    "objectives": [
+      "Explain outcome windows",
+      "Implement before/after evidence and scheduler state",
+      "Diagnose failures involving iteration budgets",
+      "Build the measured optimization loop"
+    ],
+    "project": "the measured optimization loop",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-35/day-02-outcome-windows"
+  },
+  {
+    "id": "week-35-day-03",
+    "week": 35,
+    "day": 3,
+    "weekly_theme": "Measure Outcomes and Replan",
+    "title": "Day 03: before/after evidence",
+    "folder_slug": "before-after-evidence",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 34"
+    ],
+    "objectives": [
+      "Explain outcome windows",
+      "Implement before/after evidence and scheduler state",
+      "Diagnose failures involving iteration budgets",
+      "Build the measured optimization loop"
+    ],
+    "project": "the measured optimization loop",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-35/day-03-before-after-evidence"
+  },
+  {
+    "id": "week-35-day-04",
+    "week": 35,
+    "day": 4,
+    "weekly_theme": "Measure Outcomes and Replan",
+    "title": "Day 04: scheduler state",
+    "folder_slug": "scheduler-state",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 34"
+    ],
+    "objectives": [
+      "Explain outcome windows",
+      "Implement before/after evidence and scheduler state",
+      "Diagnose failures involving iteration budgets",
+      "Build the measured optimization loop"
+    ],
+    "project": "the measured optimization loop",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-35/day-04-scheduler-state"
+  },
+  {
+    "id": "week-35-day-05",
+    "week": 35,
+    "day": 5,
+    "weekly_theme": "Measure Outcomes and Replan",
+    "title": "Day 05: iteration budgets",
+    "folder_slug": "iteration-budgets",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 34"
+    ],
+    "objectives": [
+      "Explain outcome windows",
+      "Implement before/after evidence and scheduler state",
+      "Diagnose failures involving iteration budgets",
+      "Build the measured optimization loop"
+    ],
+    "project": "the measured optimization loop",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-35/day-05-iteration-budgets"
+  },
+  {
+    "id": "week-35-day-06",
+    "week": 35,
+    "day": 6,
+    "weekly_theme": "Measure Outcomes and Replan",
+    "title": "Day 06: the measured optimization loop",
+    "folder_slug": "the-measured-optimization-loop",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 34"
+    ],
+    "objectives": [
+      "Explain outcome windows",
+      "Implement before/after evidence and scheduler state",
+      "Diagnose failures involving iteration budgets",
+      "Build the measured optimization loop"
+    ],
+    "project": "the measured optimization loop",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-35/day-06-the-measured-optimization-loop"
+  },
+  {
+    "id": "week-35-day-07",
+    "week": 35,
+    "day": 7,
+    "weekly_theme": "Measure Outcomes and Replan",
+    "title": "Day 07: Review: Measure Outcomes and Replan",
+    "folder_slug": "review-measure-outcomes-and-replan",
+    "required": false,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 34"
+    ],
+    "objectives": [
+      "Explain outcome windows",
+      "Implement before/after evidence and scheduler state",
+      "Diagnose failures involving iteration budgets",
+      "Build the measured optimization loop"
+    ],
+    "project": "the measured optimization loop",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-35/day-07-review-measure-outcomes-and-replan"
+  },
+  {
+    "id": "week-36-day-01",
+    "week": 36,
+    "day": 1,
+    "weekly_theme": "Harden and Release MarketingOps AI",
+    "title": "Day 01: Harden and Release MarketingOps AI",
+    "folder_slug": "harden-and-release-marketingops-ai",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 35"
+    ],
+    "objectives": [
+      "Explain failure recovery",
+      "Implement security and privacy review and observability",
+      "Diagnose failures involving release engineering",
+      "Build Autonomous MarketingOps Capstone"
+    ],
+    "project": "Autonomous MarketingOps Capstone",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-36/day-01-harden-and-release-marketingops-ai"
+  },
+  {
+    "id": "week-36-day-02",
+    "week": 36,
+    "day": 2,
+    "weekly_theme": "Harden and Release MarketingOps AI",
+    "title": "Day 02: failure recovery",
+    "folder_slug": "failure-recovery",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 35"
+    ],
+    "objectives": [
+      "Explain failure recovery",
+      "Implement security and privacy review and observability",
+      "Diagnose failures involving release engineering",
+      "Build Autonomous MarketingOps Capstone"
+    ],
+    "project": "Autonomous MarketingOps Capstone",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-36/day-02-failure-recovery"
+  },
+  {
+    "id": "week-36-day-03",
+    "week": 36,
+    "day": 3,
+    "weekly_theme": "Harden and Release MarketingOps AI",
+    "title": "Day 03: security and privacy review",
+    "folder_slug": "security-and-privacy-review",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 35"
+    ],
+    "objectives": [
+      "Explain failure recovery",
+      "Implement security and privacy review and observability",
+      "Diagnose failures involving release engineering",
+      "Build Autonomous MarketingOps Capstone"
+    ],
+    "project": "Autonomous MarketingOps Capstone",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-36/day-03-security-and-privacy-review"
+  },
+  {
+    "id": "week-36-day-04",
+    "week": 36,
+    "day": 4,
+    "weekly_theme": "Harden and Release MarketingOps AI",
+    "title": "Day 04: observability",
+    "folder_slug": "observability",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 35"
+    ],
+    "objectives": [
+      "Explain failure recovery",
+      "Implement security and privacy review and observability",
+      "Diagnose failures involving release engineering",
+      "Build Autonomous MarketingOps Capstone"
+    ],
+    "project": "Autonomous MarketingOps Capstone",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-36/day-04-observability"
+  },
+  {
+    "id": "week-36-day-05",
+    "week": 36,
+    "day": 5,
+    "weekly_theme": "Harden and Release MarketingOps AI",
+    "title": "Day 05: release engineering",
+    "folder_slug": "release-engineering",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 35"
+    ],
+    "objectives": [
+      "Explain failure recovery",
+      "Implement security and privacy review and observability",
+      "Diagnose failures involving release engineering",
+      "Build Autonomous MarketingOps Capstone"
+    ],
+    "project": "Autonomous MarketingOps Capstone",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-36/day-05-release-engineering"
+  },
+  {
+    "id": "week-36-day-06",
+    "week": 36,
+    "day": 6,
+    "weekly_theme": "Harden and Release MarketingOps AI",
+    "title": "Day 06: Autonomous MarketingOps Capstone",
+    "folder_slug": "autonomous-marketingops-capstone",
+    "required": true,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 35"
+    ],
+    "objectives": [
+      "Explain failure recovery",
+      "Implement security and privacy review and observability",
+      "Diagnose failures involving release engineering",
+      "Build Autonomous MarketingOps Capstone"
+    ],
+    "project": "Autonomous MarketingOps Capstone",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-36/day-06-autonomous-marketingops-capstone"
+  },
+  {
+    "id": "week-36-day-07",
+    "week": 36,
+    "day": 7,
+    "weekly_theme": "Harden and Release MarketingOps AI",
+    "title": "Day 07: Review: Harden and Release MarketingOps AI",
+    "folder_slug": "review-harden-and-release-marketingops-ai",
+    "required": false,
+    "track": "Capstone",
+    "phase": "Autonomous MarketingOps Capstone",
+    "prerequisites": [
+      "Complete module 35"
+    ],
+    "objectives": [
+      "Explain failure recovery",
+      "Implement security and privacy review and observability",
+      "Diagnose failures involving release engineering",
+      "Build Autonomous MarketingOps Capstone"
+    ],
+    "project": "Autonomous MarketingOps Capstone",
+    "content_status": "Draft",
+    "folder": "course-lessons/week-36/day-07-review-harden-and-release-marketingops-ai"
+  }
+]

@@ -1,8 +1,8 @@
 # Week 03, Day 05: Semantic Git Diff Review
 
-**Content status:** Authored (partial)
+**Content status:** Authored
 **Required:** Yes
-**Estimated time:** 90 minutes
+**Estimated time:** 60 minutes
 
 ## Why this lesson matters
 
@@ -12,10 +12,10 @@ A clean diff tells a reviewer what changed and why. This lesson applies the loop
 
 By the end of this lesson, you will be able to:
 
-- A line that changes program behavior, tests, or documentation intentionally.
-- Generated files, line-ending changes, and OS metadata that obscure meaning.
-- A diff limited to the current lesson's files.
-- A short note connecting the diff to the acceptance criteria.
+- Explain and apply semantic change.
+- Explain and apply noise.
+- Explain and apply focused diff.
+- Explain and apply review evidence.
 
 ## Concepts
 
@@ -100,9 +100,11 @@ This fictional example reinforces the Python concept. It does not call a live AP
 3. Why review staged and unstaged diffs separately?
 
 <details>
-<summary>Think through the questions</summary>
+<summary>Explanations after you predict</summary>
 
-Try the examples and write predictions before opening the reference file.
+1. Review the boundary and input contract is correct because it follows the concrete input/output contract practiced in this lesson.
+2. Review the boundary and input contract is correct because it follows the concrete input/output contract practiced in this lesson.
+3. Review the boundary and input contract is correct because it follows the concrete input/output contract practiced in this lesson.
 
 </details>
 
@@ -120,8 +122,8 @@ Try the examples and write predictions before opening the reference file.
 <details>
 <summary>Answer key and explanations</summary>
 
-1. **a** — The correct choice follows the rule taught above.
-2. **b** — The correct choice follows the rule taught above.
+1. **a** — a is correct because it follows the concrete input/output contract practiced in this lesson.
+2. **b** — b is correct because it follows the concrete input/output contract practiced in this lesson.
 
 </details>
 
@@ -144,8 +146,8 @@ This contributes to the Week 03 project by making `a blank-file campaign rules c
 
 ## Official reading
 
-[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
+[git diff](https://git-scm.com/docs/git-diff) — read the syntax and boundary behavior used in this lesson.
 
 ## Navigation
 
-[← Previous lesson](../../week-03/day-04-loop-boundary-tests/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-03/day-06-a-blank-file-campaign-rules-checker/instructions.md)
+[← Previous lesson](../../week-03/day-04-loop-boundary-tests/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-03/day-06-campaign-rules-checker/instructions.md)

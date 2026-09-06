@@ -1,0 +1,18 @@
+[build-system]
+requires = []
+build-backend = "_no_build_backend"
+
+[project]
+name = "marketingops-ai-course"
+version = "0.1.0"
+description = "A project-driven Python and AI Software Engineering course."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py"]
+testpaths = ["."]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+exclude = ["course-lessons/**", "workspace/**"]

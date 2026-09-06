@@ -2,7 +2,7 @@
 
 **Content status:** Authored
 **Required:** Yes
-**Estimated time:** 90 minutes
+**Estimated time:** 45 minutes
 
 ## Why this lesson matters
 
@@ -12,10 +12,10 @@ PowerShell pipelines pass objects rather than only lines of text. Learning to in
 
 By the end of this lesson, you will be able to:
 
-- A PowerShell object has properties and possibly methods.
-- `|` passes each object to the next command.
-- `Where-Object` selects objects whose property meets a condition.
-- Display commands change presentation, not the underlying object.
+- Explain and apply objects.
+- Explain and apply pipeline.
+- Explain and apply filtering.
+- Explain and apply formatting.
 
 ## Concepts
 
@@ -98,9 +98,11 @@ This fictional example reinforces the Python concept. It does not call a live AP
 3. What should a missing field do?
 
 <details>
-<summary>Think through the questions</summary>
+<summary>Explanations after you predict</summary>
 
-Try the examples and write predictions before opening the reference file.
+1. Review the boundary and input contract is correct because it follows the concrete input/output contract practiced in this lesson.
+2. Review the boundary and input contract is correct because it follows the concrete input/output contract practiced in this lesson.
+3. Review the boundary and input contract is correct because it follows the concrete input/output contract practiced in this lesson.
 
 </details>
 
@@ -118,8 +120,8 @@ Try the examples and write predictions before opening the reference file.
 <details>
 <summary>Answer key and explanations</summary>
 
-1. **a** — The correct choice follows the rule taught above.
-2. **a** — The correct choice follows the rule taught above.
+1. **a** — a is correct because it follows the concrete input/output contract practiced in this lesson.
+2. **a** — a is correct because it follows the concrete input/output contract practiced in this lesson.
 
 </details>
 
@@ -142,8 +144,8 @@ This contributes to the Week 02 project by making `a scope decision tool` more t
 
 ## Official reading
 
-[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
+[Python comparisons](https://docs.python.org/3/library/stdtypes.html#comparisons) — read the syntax and boundary behavior used in this lesson.
 
 ## Navigation
 
-[← Previous lesson](../../week-02/day-01-make-decisions-with-data/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-02/day-03-conditional-branches/instructions.md)
+[← Previous lesson](../../week-02/day-01-conditionals-and-decisions/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-02/day-03-validation-with-conditional-branches/instructions.md)

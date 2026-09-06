@@ -4,4 +4,4 @@ from exercise import *
 
 
 def test_acceptance():
-    assert above_threshold([{"bytes": 4}, {"bytes": 12}], 5) == [{"bytes": 12}]
+    assert above_threshold([{"bytes": 4}, {"bytes": 12}], 5) == [{"bytes": 12}]; assert above_threshold([], 10) == []

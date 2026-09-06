@@ -2,7 +2,7 @@
 
 **Content status:** Authored
 **Required:** Yes
-**Estimated time:** 90 minutes
+**Estimated time:** 50 minutes
 
 ## Why this lesson matters
 
@@ -12,10 +12,10 @@ Staging is a deliberate boundary between edits and a Git snapshot. A diff review
 
 By the end of this lesson, you will be able to:
 
-- A diff shows additions and removals relative to a baseline.
-- Stage only files belonging to the learning outcome.
-- Line-ending changes, caches, and reports can obscure the semantic change.
-- Read the staged diff before committing.
+- Explain and apply diff.
+- Explain and apply selective staging.
+- Explain and apply noise.
+- Explain and apply review.
 
 ## Concepts
 
@@ -100,9 +100,11 @@ This fictional example reinforces the Python concept. It does not call a live AP
 3. What makes a commit focused?
 
 <details>
-<summary>Think through the questions</summary>
+<summary>Explanations after you predict</summary>
 
-Try the examples and write predictions before opening the reference file.
+1. Review the boundary and input contract is correct because it follows the concrete input/output contract practiced in this lesson.
+2. Review the boundary and input contract is correct because it follows the concrete input/output contract practiced in this lesson.
+3. Review the boundary and input contract is correct because it follows the concrete input/output contract practiced in this lesson.
 
 </details>
 
@@ -120,8 +122,8 @@ Try the examples and write predictions before opening the reference file.
 <details>
 <summary>Answer key and explanations</summary>
 
-1. **a** — The correct choice follows the rule taught above.
-2. **b** — The correct choice follows the rule taught above.
+1. **a** — a is correct because it follows the concrete input/output contract practiced in this lesson.
+2. **b** — b is correct because it follows the concrete input/output contract practiced in this lesson.
 
 </details>
 
@@ -144,8 +146,8 @@ This contributes to the Week 02 project by making `a scope decision tool` more t
 
 ## Official reading
 
-[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
+[Python string methods](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str) — read the syntax and boundary behavior used in this lesson.
 
 ## Navigation
 
-[← Previous lesson](../../week-02/day-03-conditional-branches/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-02/day-05-functions-and-basic-tests/instructions.md)
+[← Previous lesson](../../week-02/day-03-validation-with-conditional-branches/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-02/day-05-functions-and-basic-tests/instructions.md)

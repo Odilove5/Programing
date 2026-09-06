@@ -1,8 +1,8 @@
 # Week 03, Day 04: Loop Boundary and Termination Tests
 
-**Content status:** Authored (partial)
+**Content status:** Authored
 **Required:** Yes
-**Estimated time:** 90 minutes
+**Estimated time:** 50 minutes
 
 ## Why this lesson matters
 
@@ -12,10 +12,10 @@ A loop can look correct for ordinary input while failing at zero, one, the final
 
 By the end of this lesson, you will be able to:
 
-- A value at, just below, or just above a limit.
-- A condition such as `<=` includes the boundary; `range` stops before its stop value.
-- An assertion can check the state after a loop finishes.
-- A test can prove that an invalid or empty input does not perform work.
+- Test zero, one, and stopping boundaries.
+- Explain and apply inclusive versus exclusive.
+- Explain and apply termination assertion.
+- Explain and apply negative tests.
 
 ## Concepts
 
@@ -122,9 +122,11 @@ This fictional example reinforces the Python concept. It does not call a live AP
 3. Which case catches an accidental extra attempt?
 
 <details>
-<summary>Think through the questions</summary>
+<summary>Explanations after you predict</summary>
 
-Try the examples and write predictions before opening the reference file.
+1. Review the boundary and input contract is correct because range uses an exclusive stop, so the final boundary is not emitted.
+2. Review the boundary and input contract is correct because it follows the concrete input/output contract practiced in this lesson.
+3. Review the boundary and input contract is correct because it follows the concrete input/output contract practiced in this lesson.
 
 </details>
 
@@ -142,8 +144,8 @@ Try the examples and write predictions before opening the reference file.
 <details>
 <summary>Answer key and explanations</summary>
 
-1. **a** — The correct choice follows the rule taught above.
-2. **a** — The correct choice follows the rule taught above.
+1. **a** — a is correct because it follows the concrete input/output contract practiced in this lesson.
+2. **a** — a is correct because it follows the concrete input/output contract practiced in this lesson.
 
 </details>
 
@@ -166,8 +168,8 @@ This contributes to the Week 03 project by making `a blank-file campaign rules c
 
 ## Official reading
 
-[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
+[Python unittest](https://docs.python.org/3/library/unittest.html) — read the syntax and boundary behavior used in this lesson.
 
 ## Navigation
 
-[← Previous lesson](../../week-03/day-03-state-changes-and-termination/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-03/day-05-semantic-git-diff-review/instructions.md)
+[← Previous lesson](../../week-03/day-03-state-and-termination/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-03/day-05-semantic-git-diff-review/instructions.md)

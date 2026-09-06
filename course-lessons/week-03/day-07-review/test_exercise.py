@@ -4,4 +4,4 @@ from exercise import *
 
 
 def test_acceptance():
-    assert policy_decision("delete", {})["decision"] == "deny"; assert policy_decision("unknown", {})["decision"] == "deny"
+    assert retrieval_report()["loops_rebuilt"] == [1, 2, 3]; assert retrieval_report()["loops_rebuilt"] == [1, 2, 3]

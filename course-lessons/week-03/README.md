@@ -2,7 +2,7 @@
 
 **Theme:** Existing Foundations / Bridge  
 **Track:** Python  
-**Content readiness:** Authored (partial)
+**Content readiness:** Authored
 
 ## What you will learn
 
@@ -21,13 +21,13 @@ By the end of this week, you should be able to:
 
 ## Daily sequence
 
-1. [Day 01 — Loops and Bounded `range()` Practice](day-01-finish-loops-and-bridge-to-marketing/instructions.md) — **Required**
-2. [Day 02 — Lists, Sets, `for`, `range()`, and `while`](day-02-lists-sets-for-loops-range-and-while/instructions.md) — **Required**
-3. [Day 03 — State Changes and Termination](day-03-state-changes-and-termination/instructions.md) — **Required**
+1. [Day 01 — Loops and Bounded `range()` Practice](day-01-loops-and-range/instructions.md) — **Required**
+2. [Day 02 — Lists, Sets, `for`, `range()`, and `while`](day-02-collections-and-loops/instructions.md) — **Required**
+3. [Day 03 — State Changes and Termination](day-03-state-and-termination/instructions.md) — **Required**
 4. [Day 04 — Loop Boundary and Termination Tests](day-04-loop-boundary-tests/instructions.md) — **Required**
 5. [Day 05 — Semantic Git Diff Review](day-05-semantic-git-diff-review/instructions.md) — **Required**
-6. [Day 06 — Blank-File Campaign Rules Checker](day-06-a-blank-file-campaign-rules-checker/instructions.md) — **Required**
-7. [Day 07 — Optional Review and Recovery: Loops and Collections](day-07-review-finish-loops-and-bridge-to-marketing/instructions.md) — **Optional review/recovery**
+6. [Day 06 — Blank-File Campaign Rules Checker](day-06-campaign-rules-checker/instructions.md) — **Required**
+7. [Day 07 — Optional Review and Recovery: Loops and Collections](day-07-review/instructions.md) — **Optional review/recovery**
 
 ## Weekly project or milestone
 

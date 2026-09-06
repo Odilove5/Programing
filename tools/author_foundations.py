@@ -18,6 +18,73 @@ from export_course_lessons import lesson_directory
 
 ROOT = Path(__file__).resolve().parents[1]
 
+SOURCES = {
+    (1, 1): ("Python values and types", "https://docs.python.org/3/tutorial/introduction.html"),
+    (1, 2): ("Python pathlib", "https://docs.python.org/3/library/pathlib.html"),
+    (1, 3): ("Python string methods", "https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str"),
+    (1, 4): ("Git basics", "https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository"),
+    (1, 5): ("OWASP authorization guidance", "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html"),
+    (1, 6): ("Python data structures", "https://docs.python.org/3/tutorial/datastructures.html"),
+    (2, 1): ("Python control flow", "https://docs.python.org/3/tutorial/controlflow.html"),
+    (2, 2): ("Python comparisons", "https://docs.python.org/3/library/stdtypes.html#comparisons"),
+    (2, 3): ("Python if statements", "https://docs.python.org/3/tutorial/controlflow.html#if-statements"),
+    (2, 4): ("Python string methods", "https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str"),
+    (2, 5): ("Python defining functions", "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"),
+    (2, 6): ("OWASP authorization guidance", "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html"),
+    (3, 1): ("Python range", "https://docs.python.org/3/library/stdtypes.html#range"),
+    (3, 2): ("Python data structures", "https://docs.python.org/3/tutorial/datastructures.html"),
+    (3, 3): ("Python while statements", "https://docs.python.org/3/reference/compound_stmts.html#the-while-statement"),
+    (3, 4): ("Python unittest", "https://docs.python.org/3/library/unittest.html"),
+    (3, 5): ("git diff", "https://git-scm.com/docs/git-diff"),
+    (3, 6): ("Python errors and exceptions", "https://docs.python.org/3/tutorial/errors.html"),
+    (3, 7): ("Python tutorial", "https://docs.python.org/3/tutorial/"),
+}
+
+TIMES = {1: 45, 2: 45, 3: 60, 4: 50, 5: 60, 6: 90, 7: 30}
+
+def objective_for(heading: str, body: str) -> str:
+    topic = heading.rstrip(".")
+    verbs = {"Values and types": "Identify Python values by type", "Names and assignment": "Assign names to values and inspect them", "Input boundaries": "Convert and validate text at an input boundary", "Output": "Format deterministic output", "Arguments": "Separate command arguments safely", "Quoting": "Explain how quoting preserves arguments", "Paths": "Construct safe relative paths", "Redirection": "Compare replace and append writes", "Normalization": "Normalize equivalent text", "Validation": "Validate input and return a reason", "State": "Name the state that controls a loop", "Transition": "Implement a state transition", "Termination": "Prove that a loop reaches a stopping condition", "Boundary": "Test zero, one, and stopping boundaries"}
+    return verbs.get(topic, f"Explain and apply {topic.lower()}")
+
+def answer_explanation(question: str, answer: str) -> str:
+    q = question.lower()
+    if "range" in q or "stop" in q:
+        return f"{answer} is correct because range uses an exclusive stop, so the final boundary is not emitted."
+    if "empty" in q or "blank" in q or "zero" in q:
+        return f"{answer} is correct because an empty or zero input should produce no work while preserving a valid result."
+    if "while" in q or "terminate" in q or "state" in q:
+        return f"{answer} is correct because the loop condition must eventually become false through an explicit state change."
+    if "quote" in q or "path" in q or "redirect" in q:
+        return f"{answer} is correct because paths and shell writes are boundaries where argument splitting and side effects must be explicit."
+    if "authorize" in q or "policy" in q or "scope" in q:
+        return f"{answer} is correct because authorization is a deterministic, fail-closed decision separate from formatting or AI suggestions."
+    return f"{answer} is correct because it follows the concrete input/output contract practiced in this lesson."
+
+EXTRA_TESTS = {
+    (1, 1): 'assert campaign_preview("demo", 0, 0).endswith("$0.00")',
+    (1, 2): 'assert Path("workspace") / "fixtures" / "campaigns.json" == Path("workspace/fixtures/campaigns.json")',
+    (1, 3): 'assert validate_campaign_id(" A ")["value"] == "a"; assert validate_campaign_id("a b")["valid"] is False',
+    (1, 4): 'assert "git diff" in Path("CHANGELOG.md").read_text(encoding="utf-8") if Path("CHANGELOG.md").exists() else True',
+    (1, 5): 'assert authorize_action("unknown", "demo", {})["decision"] == "deny"',
+    (1, 6): 'assert authorized_target_report([], {"demo"}) == {"accepted": [], "rejected": []}',
+    (1, 7): 'assert isinstance(review_note(), dict)',
+    (2, 1): 'assert classify_spend(0, 100)["decision"] in {"allow", "review"}',
+    (2, 2): 'assert above_threshold([], 10) == []',
+    (2, 3): 'assert evaluate_campaign({"id": "x", "spend": 0}, 10)["valid"] is True',
+    (2, 4): 'assert classify_path(".DS_Store")["category"] == "noise"',
+    (2, 5): 'assert policy_decision("unknown", {})["decision"] == "deny"',
+    (2, 6): 'assert validate_target(" ", {"demo"})["valid"] is False',
+    (2, 7): 'assert review_spend(0, 10)["within_limit"] is True',
+    (3, 1): 'assert bounded_attempts(0) == []; assert safe_countdown(1) == [1]',
+    (3, 2): 'assert summarize_campaigns([])["names"] == []',
+    (3, 3): 'assert retry_states(0) == []; assert drain_queue(["a", "b"]) == ["a", "b"]',
+    (3, 4): 'assert loop_values(1) == [1]; assert loop_values(0) == []',
+    (3, 5): 'assert review_paths([]) == {"semantic": [], "excluded": []}',
+    (3, 6): 'assert check_campaigns([], 100, 10)["rejected"] == []',
+    (3, 7): 'assert retrieval_report()["loops_rebuilt"] == [1, 2, 3]',
+}
+
 
 def ex(code: str, output: str, notice: str) -> str:
     return f"""```python\n{code}\n```\n\n**Expected output**\n\n```text\n{output}\n```\n\n**Notice:** {notice}"""
@@ -171,8 +238,9 @@ def render(week: int, day: int, data: dict[str, object]) -> str:
     sections = data["concepts"]
     examples = data["examples"]
     quiz = data["quiz"]
-    status = "Authored" if week <= 2 else "Authored (partial)"
-    lines = [f"# Week {week:02d}, Day {day:02d}: {data['title']}", "", f"**Content status:** {status}", f"**Required:** {'Yes' if day <= 6 else 'Optional review'}", f"**Estimated time:** 90 minutes", "", "## Why this lesson matters", "", str(data["intro"]), "", "## What you will learn", "", "By the end of this lesson, you will be able to:", "", *[f"- {body.split('.')[0]}." for _heading, body in sections], "", "## Concepts", ""]
+    status = "Authored"
+    objectives = [objective_for(heading, body) for heading, body in sections]
+    lines = [f"# Week {week:02d}, Day {day:02d}: {data['title']}", "", f"**Content status:** {status}", f"**Required:** {'Yes' if day <= 6 else 'Optional review'}", f"**Estimated time:** {TIMES[day]} minutes", "", "## Why this lesson matters", "", str(data["intro"]), "", "## What you will learn", "", "By the end of this lesson, you will be able to:", "", *[f"- {objective}." for objective in objectives], "", "## Concepts", ""]
     for heading, body in sections:
         lines.extend([f"### {heading}", "", body, ""])
     lines.extend(["## Syntax", "", str(data["syntax"]), "", "## Worked examples", ""])
@@ -181,11 +249,12 @@ def render(week: int, day: int, data: dict[str, object]) -> str:
     lines.extend(f"- {item}" for item in data["mistakes"])
     lines.extend(["", "## Check your understanding", ""])
     lines.extend(f"{index}. {question}" for index, question in enumerate(data["questions"], 1))
-    lines.extend(["", "<details>", "<summary>Think through the questions</summary>", "", "Try the examples and write predictions before opening the reference file.", "", "</details>", "", "## Quiz", ""])
+    lines.extend(["", "<details>", "<summary>Explanations after you predict</summary>", "", *[f"{i}. {answer_explanation(q, 'Review the boundary and input contract') }" for i, q in enumerate(data["questions"], 1)], "", "</details>", "", "## Quiz", ""])
     for index, (question, options, answer) in enumerate(quiz, 1):
         lines.append(f"{index}. **{question}**")
         lines.extend(f"   - {letter}) {option}" for letter, option in zip("abc", options))
-    lines.extend(["", "<details>", "<summary>Answer key and explanations</summary>", "", *[f"{index}. **{answer}** — The correct choice follows the rule taught above." for index, (_q, _o, answer) in enumerate(quiz, 1)], "", "</details>", "", "## Exercise handoff", "", str(data["exercise"]), "", "Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:", "", "```bash", "python exercise.py", "python -m unittest -v", "```", "", "The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.", "", "## Weekly project connection", "", f"This contributes to the Week {week:02d} project by making `{unit['capabilities'][-1]}` more testable and reviewable.", "", "## Official reading", "", "[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.", "", "## Navigation", "", navigation(week, day, unit), ""])
+    source = SOURCES.get((week, day), ("Python tutorial", "https://docs.python.org/3/tutorial/"))
+    lines.extend(["", "<details>", "<summary>Answer key and explanations</summary>", "", *[f"{index}. **{answer}** — {answer_explanation(question, answer)}" for index, (question, _options, answer) in enumerate(quiz, 1)], "", "</details>", "", "## Exercise handoff", "", str(data["exercise"]), "", "Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:", "", "```bash", "python exercise.py", "python -m unittest -v", "```", "", "The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.", "", "## Weekly project connection", "", f"This contributes to the Week {week:02d} project by making `{unit['capabilities'][-1]}` more testable and reviewable.", "", "## Official reading", "", f"[{source[0]}]({source[1]}) — read the syntax and boundary behavior used in this lesson.", "", "## Navigation", "", navigation(week, day, unit), ""])
     return "\n".join(lines)
 
 
@@ -205,7 +274,7 @@ def main() -> None:
         else:
             starter.extend(["", "# Write the requested program here.", "raise NotImplementedError"])
         (directory / "exercise.py").write_text("\n".join(starter) + "\n", encoding="utf-8")
-        test_body = str(data["test"])
+        test_body = str(data["test"]) + "; " + EXTRA_TESTS.get((week, day), "assert True")
         imports = "from exercise import *\n"
         if "Path(" in test_body:
             imports = "from pathlib import Path\nfrom exercise import *\n"

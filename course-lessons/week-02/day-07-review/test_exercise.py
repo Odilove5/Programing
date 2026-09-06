@@ -4,4 +4,4 @@ from exercise import *
 
 
 def test_acceptance():
-    assert policy_decision("delete", {})["decision"] == "deny"; assert policy_decision("unknown", {})["decision"] == "deny"
+    assert review_spend(50, 100) == "within"; assert review_spend(0, 10)["within_limit"] is True

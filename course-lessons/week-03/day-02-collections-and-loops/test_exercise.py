@@ -4,4 +4,4 @@ from exercise import *
 
 
 def test_acceptance():
-    assert policy_decision("delete", {})["decision"] == "deny"; assert policy_decision("unknown", {})["decision"] == "deny"
+    assert summarize_campaigns([]) == {"names": [], "channels": set(), "active": []}; assert summarize_campaigns([])["names"] == []
