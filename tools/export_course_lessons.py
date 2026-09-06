@@ -37,7 +37,7 @@ def week_module(week: int) -> dict[str, object]:
 
 def content_status(week: int) -> str:
     if week <= 2:
-        return "Validated"
+        return "Authored"
     if week == 3:
         return "Authored (partial)"
     return "Draft"
@@ -260,9 +260,14 @@ canonical progress records remain the source of truth.
             unit = unit_for_day(week, day)
             directory = lesson_directory(week, day, unit)
             directory.mkdir(parents=True, exist_ok=True)
-            (directory / "instructions.md").write_text(instructions(week, day, unit), encoding="utf-8")
-            (directory / "exercise.py").write_text(exercise(week, day, unit), encoding="utf-8")
-            (directory / "solution.py").write_text(solution(week, day, unit), encoding="utf-8")
+            # Foundation lessons are hand-authored and must not be replaced by
+            # the draft scaffold when the catalog index is regenerated.
+            if week > 3 or not (directory / "instructions.md").exists():
+                (directory / "instructions.md").write_text(instructions(week, day, unit), encoding="utf-8")
+            if week > 3 or not (directory / "exercise.py").exists():
+                (directory / "exercise.py").write_text(exercise(week, day, unit), encoding="utf-8")
+            if week > 3 or not (directory / "solution.py").exists():
+                (directory / "solution.py").write_text(solution(week, day, unit), encoding="utf-8")
         write_week_overview(week)
     write_curriculum_index()
     print(f"Exported 252 lessons to {OUTPUT}")

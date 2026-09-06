@@ -1,13 +1,17 @@
-"""Student exercise for Lesson 03.01: Finish Loops and Bridge to Marketing.
+"""Student exercise for Week 03, Day 01.
 
-This file is intentionally incomplete. Write the implementation yourself.
+Read instructions.md first. Write the implementation; do not copy solution.py.
 """
 
-# Requirements:
-# 1. Implement: lists, sets, for loops, range, and while.
-# 2. Demonstrate: state changes and termination and loop boundary tests.
-# 3. Handle this failure boundary explicitly: semantic Git diff review.
-# 4. Produce the lesson deliverable: a blank-file campaign rules checker.
-# 5. Add a normal, boundary, and malformed/denied test case.
+# Requirements
+# Write `bounded_attempts(max_attempts)` using `range()` and `safe_countdown(start)` using `while`. Test zero, one, and three boundaries and assert that both loops terminate with the expected values.
 
-# Your implementation goes here.
+# Add normal, boundary, and failure assertions for the cases in the lesson.
+
+def bounded_attempts(max_attempts):
+    """TODO: implement the lesson contract."""
+    raise NotImplementedError
+
+def safe_countdown(start):
+    """TODO: implement the lesson contract."""
+    raise NotImplementedError

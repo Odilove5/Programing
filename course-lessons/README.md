@@ -12,8 +12,8 @@ A reusable, 36-week Python + AI Software Engineering course. Days 01–06 are re
 
 | Week | Weekly theme | Daily topics (Days 01–06) | Project or milestone | Content status |
 |---:|---|---|---|---|
-| 1 | [Think Like a Programmer](week-01/README.md) | Think Like a Programmer; values and variables; strings, integers, and booleans; input and conversion; tracebacks and handled errors; an authorized-target report | an authorized-target report | Validated |
-| 2 | [Make Decisions with Data](week-02/README.md) | Make Decisions with Data; comparisons and Boolean logic; conditional branches; normalization and validation; functions and basic tests; a scope decision tool | a scope decision tool | Validated |
+| 1 | [Think Like a Programmer](week-01/README.md) | Think Like a Programmer; values and variables; strings, integers, and booleans; input and conversion; tracebacks and handled errors; an authorized-target report | an authorized-target report | Authored |
+| 2 | [Make Decisions with Data](week-02/README.md) | Make Decisions with Data; comparisons and Boolean logic; conditional branches; normalization and validation; functions and basic tests; a scope decision tool | a scope decision tool | Authored |
 | 3 | [Finish Loops and Bridge to Marketing](week-03/README.md) | Finish Loops and Bridge to Marketing; lists, sets, for loops, range, and while; state changes and termination; loop boundary tests; semantic Git diff review; a blank-file campaign rules checker | a blank-file campaign rules checker | Authored (partial) |
 | 4 | [Transform Campaign Records](week-04/README.md) | Transform Campaign Records; nested dictionaries; list comprehensions; pure transformations; malformed record evidence; a campaign record transformer | a campaign record transformer | Draft |
 | 5 | [Read Marketing Files](week-05/README.md) | Read Marketing Files; CSV rows and JSON values; pathlib and encodings; file exceptions; input contracts; a dual-format campaign loader | a dual-format campaign loader | Draft |

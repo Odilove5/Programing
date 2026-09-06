@@ -1,76 +1,154 @@
-# Lesson 01.06: an authorized-target report
+# Week 01, Day 06: Build an Authorized-Target Report
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Think Like a Programmer  
-**Track:** Python  
-**Format:** Project  
-**Status:** required
+**Content status:** Authored
+**Required:** Yes
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Preserve the completed foundation in values, types, input, output, errors, and small scripts.
+This integration lesson combines values, paths, validation, Git hygiene, and authorization into a small report. The report is deliberately local and fictional: it demonstrates how a dependable tool explains both accepted and rejected records before any later system could use them.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- A pipeline moves data through ordered stages: read, normalize, validate, decide, and report.
+- Dictionaries and lists preserve fields that a later test or API can inspect.
+- Rejected, empty, and out-of-scope records are part of the expected result.
+- A fixture, command, and focused commit make the result reviewable.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### Pipeline
 
-## Student exercise
+A pipeline moves data through ordered stages: read, normalize, validate, decide, and report.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Structured result
 
-- values and variables
-- strings, integers, and booleans
-- input and conversion
-- tracebacks and handled errors
-- an authorized-target report
+Dictionaries and lists preserve fields that a later test or API can inspect.
 
-Run the exercise with:
+### Negative cases
+
+Rejected, empty, and out-of-scope records are part of the expected result.
+
+### Reproducibility
+
+A fixture, command, and focused commit make the result reviewable.
+
+## Syntax
+
+`for record in records:`
+
+`result = {"accepted": [], "rejected": []}`
+
+## Worked examples
+
+```python
+records = [" demo-a ", "outside"]
+allowed = {"demo-a"}
+print([r.strip().lower() in allowed for r in records])
+```
+
+**Expected output**
+
+```text
+[True, False]
+```
+
+**Notice:** A boolean preview is useful before producing a structured report.
+```python
+report = {"accepted": [{"id": "demo-a"}], "rejected": [{"id": "outside", "reason": "out of scope"}]}
+print(report)
+```
+
+**Expected output**
+
+```text
+{'accepted': [{'id': 'demo-a'}], 'rejected': [{'id': 'outside', 'reason': 'out of scope'}]}
+```
+
+**Notice:** The report preserves both the result and the reason.
+
+## MarketingOps example
+
+```python
+campaigns = [" Spring-Search ", "production"]
+allowed = {"spring-search"}
+for raw in campaigns:
+    name = raw.strip().lower()
+    print({"campaign": name, "allowed": name in allowed})
+```
+
+**Expected output**
+
+```text
+{'campaign': 'spring-search', 'allowed': True}
+{'campaign': 'production', 'allowed': False}
+```
+
+**Notice:** No live platform is contacted; the report is a local decision artifact.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Dropping rejected records instead of preserving reasons.
+- Mixing authorization with formatting so the order is unclear.
+- Running against live targets instead of fictional fixtures.
+
+## Check your understanding
+
+1. Which stage should normalize text?
+2. What fields make a rejection explainable?
+3. Why should the report be deterministic?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **Which result shape supports accepted and rejected records?**
+   - a) A single boolean
+   - b) A dictionary containing lists
+   - c) An unstructured sentence
+2. **What does this project avoid?**
+   - a) Fictional fixtures
+   - b) Live external actions
+   - c) Tests
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **b** — The correct choice follows the rule taught above.
+2. **b** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Build `authorized_target_report(records, allowed)` that returns ordered accepted and rejected dictionaries. Include original input, normalized value when available, and a reason for every rejection. Add tests for empty, duplicate, and out-of-scope records.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 01 project by making `an authorized-target report` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[← Previous lesson](../../week-01/day-05-tracebacks-and-handled-errors/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-01/day-07-review-think-like-a-programmer/instructions.md)

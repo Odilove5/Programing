@@ -1,13 +1,13 @@
-"""Student exercise for Lesson 03.05: semantic Git diff review.
+"""Student exercise for Week 03, Day 05.
 
-This file is intentionally incomplete. Write the implementation yourself.
+Read instructions.md first. Write the implementation; do not copy solution.py.
 """
 
-# Requirements:
-# 1. Implement: lists, sets, for loops, range, and while.
-# 2. Demonstrate: state changes and termination and loop boundary tests.
-# 3. Handle this failure boundary explicitly: semantic Git diff review.
-# 4. Produce the lesson deliverable: a blank-file campaign rules checker.
-# 5. Add a normal, boundary, and malformed/denied test case.
+# Requirements
+# Create a review report from a supplied list of changed files. Classify semantic source/test files versus generated/noise files and write the exact Git commands a learner should run before committing.
 
-# Your implementation goes here.
+# Add normal, boundary, and failure assertions for the cases in the lesson.
+
+def review_paths(paths):
+    """TODO: implement the lesson contract."""
+    raise NotImplementedError

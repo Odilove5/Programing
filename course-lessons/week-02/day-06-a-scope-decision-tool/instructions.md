@@ -1,76 +1,155 @@
-# Lesson 02.06: a scope decision tool
+# Week 02, Day 06: Build a Scope-Aware Target Validator
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Make Decisions with Data  
-**Track:** Python  
-**Format:** Project  
-**Status:** required
+**Content status:** Authored
+**Required:** Yes
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Preserve the completed foundation in Boolean logic, conditions, validation, functions, tests, and Git.
+This project combines normalization, Boolean decisions, functions, tests, Git review, and safe defaults. It models a target validator using fictional names so you can practise the complete flow before touching any external system.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- Document inputs, outputs, and rejection reasons.
+- A set of explicitly permitted normalized values.
+- Reject invalid cases early so the success path stays readable.
+- Assertions make the intended boundary executable.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### Function contract
 
-## Student exercise
+Document inputs, outputs, and rejection reasons.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Allowlist
 
-- comparisons and Boolean logic
-- conditional branches
-- normalization and validation
-- functions and basic tests
-- a scope decision tool
+A set of explicitly permitted normalized values.
 
-Run the exercise with:
+### Guard clauses
+
+Reject invalid cases early so the success path stays readable.
+
+### Tests as policy
+
+Assertions make the intended boundary executable.
+
+## Syntax
+
+`def validate_target(raw, allowed):`
+
+`return {"accepted": ..., "reason": ...}`
+
+## Worked examples
+
+```python
+def validate(raw, allowed):
+    value = raw.strip().lower()
+    return {"accepted": value in allowed, "value": value}
+
+print(validate(" Demo ", {"demo"}))
+```
+
+**Expected output**
+
+```text
+{'accepted': True, 'value': 'demo'}
+```
+
+**Notice:** The normalized value is the one checked against scope.
+```python
+for raw in ["demo", "unknown"]:
+    print(validate(raw, {"demo"}))
+```
+
+**Expected output**
+
+```text
+{'accepted': True, 'value': 'demo'}
+{'accepted': False, 'value': 'unknown'}
+```
+
+**Notice:** Each input receives an independent, explainable result.
+
+## MarketingOps example
+
+```python
+records = [" Spring-Search ", "Production"]
+for record in records:
+    print(validate(record, {"spring-search"}))
+```
+
+**Expected output**
+
+```text
+{'accepted': True, 'value': 'spring-search'}
+{'accepted': False, 'value': 'production'}
+```
+
+**Notice:** The project is a local scope check, not a network scanner.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Accepting before normalization.
+- Returning no reason for rejected input.
+- Testing only an allowed case.
+
+## Check your understanding
+
+1. What should an empty target return?
+2. Why use a set for allowed values?
+3. Which negative case proves the boundary?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **What does the allowlist contain?**
+   - a) Permitted normalized values
+   - b) Every value seen
+   - c) Passwords
+2. **What should tests include?**
+   - a) Only success
+   - b) Success and rejection
+   - c) No assertions
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **a** — The correct choice follows the rule taught above.
+2. **b** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Implement `validate_target(raw, allowed)` with accepted and rejected result dictionaries. Add tests for whitespace, empty input, internal spaces, duplicate input, and out-of-scope values.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 02 project by making `a scope decision tool` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[← Previous lesson](../../week-02/day-05-functions-and-basic-tests/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-02/day-07-review-make-decisions-with-data/instructions.md)

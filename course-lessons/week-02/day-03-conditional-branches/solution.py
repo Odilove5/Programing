@@ -1,20 +1,7 @@
-"""Reference pattern for Lesson 02.03: conditional branches.
-
-This is deliberately a small reference model, not a replacement for the
-student exercise or a future capstone implementation. Compare the boundaries,
-naming, and failure handling after attempting exercise.py.
-"""
-
-REFERENCE = {
-    "lesson": "02.03",
-    "topic": 'conditional branches',
-    "input_contract": "explicit local fixture or fictional record",
-    "success_contract": "deterministic structured result",
-    "failure_contract": "specific, safe, inspectable failure",
-    "capstone_capability": 'a scope decision tool',
-}
-
-
-if __name__ == "__main__":
-    for key, value in REFERENCE.items():
-        print(f"{key}: {value}")
+def evaluate_campaign(record, limit):
+    spend = record.get("spend")
+    if not isinstance(spend, (int, float)):
+        return {"decision": "deny", "reason": "invalid spend"}
+    if spend < 0:
+        return {"decision": "deny", "reason": "negative spend"}
+    return {"decision": "deny" if spend > limit else "allow", "reason": "over limit" if spend > limit else "within limit"}

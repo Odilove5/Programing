@@ -1,76 +1,130 @@
-# Lesson 01.07: Review: Think Like a Programmer
+# Week 01, Day 07: Optional Review: Values and Safe Decisions
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Think Like a Programmer  
-**Track:** Python  
-**Format:** Review  
-**Status:** optional retrieval / recovery
+**Content status:** Authored
+**Required:** Optional review
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Preserve the completed foundation in values, types, input, output, errors, and small scripts.
+Use this optional day to retrieve Week 1 without opening a reference solution. Rebuild one small value-to-decision program, inspect its boundary, and write a recovery note if a concept is still uncertain.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- Recall the syntax before looking it up.
+- Test empty, malformed, and out-of-scope values.
+- Record what you ran and observed.
+- Choose one concrete next attempt.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### Retrieval
 
-## Student exercise
+Recall the syntax before looking it up.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Boundary review
 
-- values and variables
-- strings, integers, and booleans
-- input and conversion
-- tracebacks and handled errors
-- an authorized-target report
+Test empty, malformed, and out-of-scope values.
 
-Run the exercise with:
+### Evidence
+
+Record what you ran and observed.
+
+### Recovery
+
+Choose one concrete next attempt.
+
+## Syntax
+
+`assert actual == expected`
+
+## Worked examples
+
+```python
+value = "demo"
+assert value.strip() == "demo"
+print("reviewed")
+```
+
+**Expected output**
+
+```text
+reviewed
+```
+
+**Notice:** A small assertion can verify recalled behavior.
+
+## MarketingOps example
+
+```python
+print({"topic": "input validation", "next_attempt": "test blank campaign id"})
+```
+
+**Expected output**
+
+```text
+{'topic': 'input validation', 'next_attempt': 'test blank campaign id'}
+```
+
+**Notice:** The note connects foundation recall to a later course capability.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Calling a concept mastered because the example looked familiar.
+- Writing no observable evidence.
+- Adding new scope instead of reviewing one weak boundary.
+
+## Check your understanding
+
+1. Which Week 1 concept can you rebuild?
+2. Which boundary will you test?
+3. What is your next attempt?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **What is review day for?**
+   - a) Retrieval
+   - b) Skipping tests
+   - c) New credentials
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **a** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Create a three-line retrieval example and a short text report naming one concept, one observed result, and one next attempt.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 01 project by making `an authorized-target report` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[← Previous lesson](../../week-01/day-06-an-authorized-target-report/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-02/day-01-make-decisions-with-data/instructions.md)

@@ -1,20 +1,6 @@
-"""Reference pattern for Lesson 03.07: Review: Finish Loops and Bridge to Marketing.
+def retrieval_report():
+    attempts = list(range(1, 4))
+    channels = {"paid", "organic"}
+    return {"loops_rebuilt": attempts, "unique_channels": sorted(channels), "next_attempt": "test zero conversions"}
 
-This is deliberately a small reference model, not a replacement for the
-student exercise or a future capstone implementation. Compare the boundaries,
-naming, and failure handling after attempting exercise.py.
-"""
-
-REFERENCE = {
-    "lesson": "03.07",
-    "topic": 'Review: Finish Loops and Bridge to Marketing',
-    "input_contract": "explicit local fixture or fictional record",
-    "success_contract": "deterministic structured result",
-    "failure_contract": "specific, safe, inspectable failure",
-    "capstone_capability": 'a blank-file campaign rules checker',
-}
-
-
-if __name__ == "__main__":
-    for key, value in REFERENCE.items():
-        print(f"{key}: {value}")
+print(retrieval_report())

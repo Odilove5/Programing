@@ -1,20 +1,9 @@
-"""Reference pattern for Lesson 02.06: a scope decision tool.
-
-This is deliberately a small reference model, not a replacement for the
-student exercise or a future capstone implementation. Compare the boundaries,
-naming, and failure handling after attempting exercise.py.
-"""
-
-REFERENCE = {
-    "lesson": "02.06",
-    "topic": 'a scope decision tool',
-    "input_contract": "explicit local fixture or fictional record",
-    "success_contract": "deterministic structured result",
-    "failure_contract": "specific, safe, inspectable failure",
-    "capstone_capability": 'a scope decision tool',
-}
-
-
-if __name__ == "__main__":
-    for key, value in REFERENCE.items():
-        print(f"{key}: {value}")
+def validate_target(raw, allowed):
+    value = raw.strip().lower()
+    if not value:
+        return {"accepted": False, "input": raw, "reason": "empty"}
+    if " " in value:
+        return {"accepted": False, "input": raw, "normalized": value, "reason": "contains spaces"}
+    if value not in allowed:
+        return {"accepted": False, "input": raw, "normalized": value, "reason": "out of scope"}
+    return {"accepted": True, "input": raw, "normalized": value}

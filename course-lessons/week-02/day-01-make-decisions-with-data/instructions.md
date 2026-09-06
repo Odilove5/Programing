@@ -1,76 +1,156 @@
-# Lesson 02.01: Make Decisions with Data
+# Week 02, Day 01: Conditionals, Boolean Logic, and Imports
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Make Decisions with Data  
-**Track:** Python  
-**Format:** Learn  
-**Status:** required
+**Content status:** Authored
+**Required:** Yes
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Preserve the completed foundation in Boolean logic, conditions, validation, functions, tests, and Git.
+Programs need to choose a path based on facts. Boolean expressions produce True or False, conditionals select a branch, and imports reuse trusted library behavior. This follows input validation and gives campaign rules an explicit decision structure.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- Operators compare values.
+- `and`, `or`, and `not` combine decisions.
+- `if`/`elif`/`else` choose one path.
+- An import makes a module's names available without copying its source.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### Comparisons
 
-## Student exercise
+Operators compare values.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Boolean logic
 
-- comparisons and Boolean logic
-- conditional branches
-- normalization and validation
-- functions and basic tests
-- a scope decision tool
+`and`, `or`, and `not` combine decisions.
 
-Run the exercise with:
+### Branches
+
+`if`/`elif`/`else` choose one path.
+
+### Imports
+
+An import makes a module's names available without copying its source.
+
+## Syntax
+
+`if condition:
+    ...
+elif other:
+    ...
+else:
+    ...`
+
+## Worked examples
+
+```python
+spend = 80
+if spend > 100:
+    print("over")
+else:
+    print("within")
+```
+
+**Expected output**
+
+```text
+within
+```
+
+**Notice:** Only the matching branch runs.
+```python
+from pathlib import Path
+print(Path("fixtures").name)
+```
+
+**Expected output**
+
+```text
+fixtures
+```
+
+**Notice:** Imports provide focused standard-library tools.
+
+## MarketingOps example
+
+```python
+leads = 0
+if leads == 0:
+    print("investigate missing conversion data")
+```
+
+**Expected output**
+
+```text
+investigate missing conversion data
+```
+
+**Notice:** A branch should expose a data-quality state, not invent a KPI.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Using `=` instead of `==` in a comparison.
+- Writing overlapping branches in the wrong order.
+- Assuming a false condition means data is safe.
+
+## Check your understanding
+
+1. Which branch runs when `spend` is 80?
+2. What does `and` require?
+3. Why import a library instead of reimplementing it?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **Which operator tests equality?**
+   - a) =
+   - b) ==
+   - c) =>
+2. **What does `else` represent?**
+   - a) The fallback branch
+   - b) A loop
+   - c) An import
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **b** — The correct choice follows the rule taught above.
+2. **a** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Implement `classify_spend(spend, limit)` returning `within`, `over`, or `invalid`, and import a standard-library type used in a small validation check.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 02 project by making `a scope decision tool` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[← Previous lesson](../../week-01/day-07-review-think-like-a-programmer/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-02/day-02-comparisons-and-boolean-logic/instructions.md)

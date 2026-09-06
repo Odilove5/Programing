@@ -1,76 +1,151 @@
-# Lesson 03.05: semantic Git diff review
+# Week 03, Day 05: Semantic Git Diff Review
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Finish Loops and Bridge to Marketing  
-**Track:** Python  
-**Format:** Practice  
-**Status:** required
+**Content status:** Authored (partial)
+**Required:** Yes
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Complete the active loop lesson, then prove foundational fluency with campaign records from a blank file.
+A clean diff tells a reviewer what changed and why. This lesson applies the loop-boundary mindset to Git: inspect the meaningful lines, separate noise, and verify that tests changed with the behavior. It prepares you to package course projects without hiding accidental edits.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- A line that changes program behavior, tests, or documentation intentionally.
+- Generated files, line-ending changes, and OS metadata that obscure meaning.
+- A diff limited to the current lesson's files.
+- A short note connecting the diff to the acceptance criteria.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### Semantic change
 
-## Student exercise
+A line that changes program behavior, tests, or documentation intentionally.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Noise
 
-- lists, sets, for loops, range, and while
-- state changes and termination
-- loop boundary tests
-- semantic Git diff review
-- a blank-file campaign rules checker
+Generated files, line-ending changes, and OS metadata that obscure meaning.
 
-Run the exercise with:
+### Focused diff
+
+A diff limited to the current lesson's files.
+
+### Review evidence
+
+A short note connecting the diff to the acceptance criteria.
+
+## Syntax
+
+`git diff --stat`
+
+`git diff --check`
+
+`git diff --cached -- path`
+
+## Worked examples
+
+```python
+diff = ["+attempt += 1", "+print(secret)"]
+print([line for line in diff if "secret" not in line])
+```
+
+**Expected output**
+
+```text
+['+attempt += 1']
+```
+
+**Notice:** Review can identify unsafe output before a commit.
+```python
+files = ["exercise.py", "test_exercise.py", ".DS_Store"]
+print([f for f in files if f.endswith(".py")])
+```
+
+**Expected output**
+
+```text
+['exercise.py', 'test_exercise.py']
+```
+
+**Notice:** The expected artifact set is explicit.
+
+## MarketingOps example
+
+```python
+changed = ["campaign_rules.py", "campaign_rules_test.py", "report.json"]
+print({"semantic": changed[:2], "noise_or_output": changed[2:]})
+```
+
+**Expected output**
+
+```text
+{'semantic': ['campaign_rules.py', 'campaign_rules_test.py'], 'noise_or_output': ['report.json']}
+```
+
+**Notice:** Generated reports can be preserved locally without becoming source.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Calling all changed lines noise without reading them.
+- Committing a report instead of the code and test that produced it.
+- Ignoring whitespace errors detected by `git diff --check`.
+
+## Check your understanding
+
+1. Which files belong to the lesson?
+2. What makes a change semantic?
+3. Why review staged and unstaged diffs separately?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **What does `git diff --check` find?**
+   - a) Whitespace errors
+   - b) Python types
+   - c) API results
+2. **Which artifact is usually generated?**
+   - a) A source module
+   - b) A report JSON
+   - c) A test assertion
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **a** — The correct choice follows the rule taught above.
+2. **b** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Create a review report from a supplied list of changed files. Classify semantic source/test files versus generated/noise files and write the exact Git commands a learner should run before committing.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 03 project by making `a blank-file campaign rules checker` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[← Previous lesson](../../week-03/day-04-loop-boundary-tests/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-03/day-06-a-blank-file-campaign-rules-checker/instructions.md)

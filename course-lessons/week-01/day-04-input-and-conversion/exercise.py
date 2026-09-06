@@ -1,13 +1,12 @@
-"""Student exercise for Lesson 01.04: input and conversion.
+"""Student exercise for Week 01, Day 04.
 
-This file is intentionally incomplete. Write the implementation yourself.
+Read instructions.md first. Write the implementation; do not copy solution.py.
 """
 
-# Requirements:
-# 1. Implement: values and variables.
-# 2. Demonstrate: strings, integers, and booleans and input and conversion.
-# 3. Handle this failure boundary explicitly: tracebacks and handled errors.
-# 4. Produce the lesson deliverable: an authorized-target report.
-# 5. Add a normal, boundary, and malformed/denied test case.
+# Requirements
+# Create a small `CHANGELOG.md` entry for one lesson change. Use `git status`, inspect the diff, stage only the intended file, and write a meaningful commit message. Do not commit generated files.
 
-# Your implementation goes here.
+# Add normal, boundary, and failure assertions for the cases in the lesson.
+
+# Write the requested program here.
+raise NotImplementedError

@@ -51,6 +51,12 @@ week overview and links to every lesson.
 
 Each lesson aims to provide a concept explanation, small worked example, prediction questions, student implementation, tests or acceptance criteria, progressively stronger hints, a separate reference solution when appropriate, and “What this unlocks in MarketingOps AI.” Periodic blank-file exercises provide only requirements and tests.
 
+The [curriculum index](course-lessons/README.md) labels readiness honestly:
+Weeks 1–2 are **Authored**, Week 3 is **Authored (partial)**, and later weeks
+remain **Draft** until they receive subject-specific teaching content,
+aligned tests, and a working reference solution. A lesson's content status is
+not a learner's progress status.
+
 ### GitHub lesson format
 
 The complete 36-week catalog is also available as a browsable lesson mirror in
@@ -112,6 +118,13 @@ npm run build
 ```
 
 Student exercise tests live beside their projects under `workspace/`. Do not run or rewrite reference solutions as a substitute for the student's attempt.
+
+## Contributing
+
+Open an issue or pull request with the lesson ID, technical source, examples
+executed, tests run, and any accessibility or beginner-readability concerns.
+Keep public fixtures fictional, keep learner state local, and do not add
+credentials or personal evidence.
 
 ## Repository guidance
 

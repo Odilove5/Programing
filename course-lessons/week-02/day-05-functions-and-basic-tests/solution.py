@@ -1,20 +1,6 @@
-"""Reference pattern for Lesson 02.05: functions and basic tests.
-
-This is deliberately a small reference model, not a replacement for the
-student exercise or a future capstone implementation. Compare the boundaries,
-naming, and failure handling after attempting exercise.py.
-"""
-
-REFERENCE = {
-    "lesson": "02.05",
-    "topic": 'functions and basic tests',
-    "input_contract": "explicit local fixture or fictional record",
-    "success_contract": "deterministic structured result",
-    "failure_contract": "specific, safe, inspectable failure",
-    "capstone_capability": 'a scope decision tool',
-}
-
-
-if __name__ == "__main__":
-    for key, value in REFERENCE.items():
-        print(f"{key}: {value}")
+def policy_decision(action, context):
+    if action in {"read_metrics", "generate_draft"}:
+        return {"decision": "allow", "reason": "low-risk read or draft"}
+    if action in {"publish", "change_budget"}:
+        return {"decision": "approval-required", "reason": "human approval required"}
+    return {"decision": "deny", "reason": "unknown action"}

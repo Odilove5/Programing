@@ -1,13 +1,17 @@
-"""Student exercise for Lesson 03.03: state changes and termination.
+"""Student exercise for Week 03, Day 03.
 
-This file is intentionally incomplete. Write the implementation yourself.
+Read instructions.md first. Write the implementation; do not copy solution.py.
 """
 
-# Requirements:
-# 1. Implement: lists, sets, for loops, range, and while.
-# 2. Demonstrate: state changes and termination and loop boundary tests.
-# 3. Handle this failure boundary explicitly: semantic Git diff review.
-# 4. Produce the lesson deliverable: a blank-file campaign rules checker.
-# 5. Add a normal, boundary, and malformed/denied test case.
+# Requirements
+# Implement `retry_states(max_attempts)` that returns each attempt and `drain_queue(items)` that removes each item exactly once. Add assertions for zero, one, and multiple items.
 
-# Your implementation goes here.
+# Add normal, boundary, and failure assertions for the cases in the lesson.
+
+def retry_states(max_attempts):
+    """TODO: implement the lesson contract."""
+    raise NotImplementedError
+
+def drain_queue(items):
+    """TODO: implement the lesson contract."""
+    raise NotImplementedError

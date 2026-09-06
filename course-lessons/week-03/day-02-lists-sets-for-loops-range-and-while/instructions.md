@@ -1,76 +1,169 @@
-# Lesson 03.02: lists, sets, for loops, range, and while
+# Week 03, Day 02: Lists, Sets, `for`, `range()`, and `while`
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Finish Loops and Bridge to Marketing  
-**Track:** Python  
-**Format:** Learn  
-**Status:** required
+**Content status:** Authored (partial)
+**Required:** Yes
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Complete the active loop lesson, then prove foundational fluency with campaign records from a blank file.
+A campaign report usually contains many records. Lists preserve record order, dictionaries describe one record, and sets answer uniqueness or membership questions. You learned loops separately; now you combine them to transform a small collection without losing evidence or duplicating logic.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- A list holds many records in processing order.
+- A set removes duplicates and supports membership checks.
+- A dictionary gives each record named fields.
+- Use `for` to process each record; use `while` only when state, not items, controls continuation.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### List of records
 
-## Student exercise
+A list holds many records in processing order.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Set of unique values
 
-- lists, sets, for loops, range, and while
-- state changes and termination
-- loop boundary tests
-- semantic Git diff review
-- a blank-file campaign rules checker
+A set removes duplicates and supports membership checks.
 
-Run the exercise with:
+### Dictionary fields
+
+A dictionary gives each record named fields.
+
+### Looping choices
+
+Use `for` to process each record; use `while` only when state, not items, controls continuation.
+
+## Syntax
+
+`records = [{"name": ..., "status": ...}]`
+
+`for record in records:`
+
+`channels = {record["channel"] for record in records}`
+
+## Worked examples
+
+```python
+campaigns = [{"name": "Search"}, {"name": "Social"}]
+for campaign in campaigns:
+    print(campaign["name"])
+```
+
+**Expected output**
+
+```text
+Search
+Social
+```
+
+**Notice:** The list controls order; the dictionary controls field access.
+```python
+channels = {"paid", "organic", "paid"}
+print(channels)
+```
+
+**Expected output**
+
+```text
+{'paid', 'organic'}
+```
+
+**Notice:** Sets retain one copy of each value; do not use them when order matters.
+```python
+remaining = 3
+while remaining:
+    print(remaining)
+    remaining -= 1
+```
+
+**Expected output**
+
+```text
+3
+2
+1
+```
+
+**Notice:** A while loop is appropriate when a counter is the state being changed.
+
+## MarketingOps example
+
+```python
+campaigns = [{"name": "Search", "channel": "paid", "status": "active"}, {"name": "Social", "channel": "organic", "status": "paused"}]
+print({c["channel"] for c in campaigns})
+```
+
+**Expected output**
+
+```text
+{'paid', 'organic'}
+```
+
+**Notice:** Unique channels are a set; campaign records remain ordered dictionaries in a list.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Using a set for records and losing order or duplicate evidence.
+- Using an index when a `for record in records` loop is clearer.
+- Accessing a missing dictionary key without deciding how to handle it.
+
+## Check your understanding
+
+1. Which structure stores many records?
+2. Why are channels a set?
+3. What should an empty campaign list return?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **Which structure preserves duplicate records?**
+   - a) List
+   - b) Set
+   - c) None
+2. **Which expression iterates fields?**
+   - a) `record.items()`
+   - b) `record.add()`
+   - c) `record.append()`
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **a** — The correct choice follows the rule taught above.
+2. **a** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Implement `summarize_campaigns(campaigns)` returning names in order, unique channels, and active records. Test normal and empty input plus one malformed record.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 03 project by making `a blank-file campaign rules checker` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[← Previous lesson](../../week-03/day-01-finish-loops-and-bridge-to-marketing/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-03/day-03-state-changes-and-termination/instructions.md)

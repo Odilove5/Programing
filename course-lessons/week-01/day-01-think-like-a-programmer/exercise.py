@@ -1,13 +1,13 @@
-"""Student exercise for Lesson 01.01: Think Like a Programmer.
+"""Student exercise for Week 01, Day 01.
 
-This file is intentionally incomplete. Write the implementation yourself.
+Read instructions.md first. Write the implementation; do not copy solution.py.
 """
 
-# Requirements:
-# 1. Implement: values and variables.
-# 2. Demonstrate: strings, integers, and booleans and input and conversion.
-# 3. Handle this failure boundary explicitly: tracebacks and handled errors.
-# 4. Produce the lesson deliverable: an authorized-target report.
-# 5. Add a normal, boundary, and malformed/denied test case.
+# Requirements
+# Write `campaign_preview(name, spend, leads)` that returns a labeled string. In the main block, read fictional campaign values, convert numeric input, and handle a non-numeric spend with a useful message.
 
-# Your implementation goes here.
+# Add normal, boundary, and failure assertions for the cases in the lesson.
+
+def campaign_preview(name, spend, leads):
+    """TODO: implement the lesson contract."""
+    raise NotImplementedError

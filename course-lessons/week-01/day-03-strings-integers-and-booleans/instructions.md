@@ -1,76 +1,161 @@
-# Lesson 01.03: strings, integers, and booleans
+# Week 01, Day 03: Normalize and Validate Operator Input
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Think Like a Programmer  
-**Track:** Python  
-**Format:** Learn  
-**Status:** required
+**Content status:** Authored
+**Required:** Yes
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Preserve the completed foundation in values, types, input, output, errors, and small scripts.
+Raw text from a person or file is not yet a valid identifier. Normalization makes equivalent spellings comparable; validation decides whether the normalized value satisfies a contract. This builds directly on strings and input and is the first boundary before any MarketingOps calculation or action.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- Use operations such as `strip()` and `lower()` to create a canonical representation.
+- Check a rule and return a clear decision instead of letting malformed data travel deeper.
+- Keep the original input and reason for rejection so a report can be explained.
+- A function that receives text and returns a result is easy to test without I/O.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### Normalization
 
-## Student exercise
+Use operations such as `strip()` and `lower()` to create a canonical representation.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Validation
 
-- values and variables
-- strings, integers, and booleans
-- input and conversion
-- tracebacks and handled errors
-- an authorized-target report
+Check a rule and return a clear decision instead of letting malformed data travel deeper.
 
-Run the exercise with:
+### Rejected evidence
+
+Keep the original input and reason for rejection so a report can be explained.
+
+### Pure boundary functions
+
+A function that receives text and returns a result is easy to test without I/O.
+
+## Syntax
+
+`clean = value.strip().lower()`
+
+`if not clean: ...`
+
+`return {"valid": ..., "reason": ...}`
+
+## Worked examples
+
+```python
+def normalize_label(raw):
+    return raw.strip().lower()
+
+print(normalize_label("  Spring-Search  "))
+```
+
+**Expected output**
+
+```text
+spring-search
+```
+
+**Notice:** Normalization changes presentation but keeps the meaning.
+```python
+def validate_label(raw):
+    value = raw.strip().lower()
+    if not value:
+        return {"valid": False, "reason": "empty"}
+    return {"valid": True, "value": value}
+
+print(validate_label("   "))
+```
+
+**Expected output**
+
+```text
+{'valid': False, 'reason': 'empty'}
+```
+
+**Notice:** The invalid case is explicit and does not reach later logic.
+
+## MarketingOps example
+
+```python
+records = [" Spring-Search ", "", "RETARGETING"]
+for record in records:
+    print(validate_label(record))
+```
+
+**Expected output**
+
+```text
+{'valid': True, 'value': 'spring-search'}
+{'valid': False, 'reason': 'empty'}
+{'valid': True, 'value': 'retargeting'}
+```
+
+**Notice:** A rejected campaign identifier remains observable.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Validating before stripping whitespace.
+- Returning only `False` and losing the rejection reason.
+- Treating normalization as authorization; a clean value still needs policy checks.
+
+## Check your understanding
+
+1. Should `"  A  "` and `"a"` compare equal here?
+2. What evidence should a rejected record preserve?
+3. Where should normalization happen?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **What does normalization do?**
+   - a) Deletes all data
+   - b) Creates a consistent representation
+   - c) Approves an action
+2. **What should a validator return for blank input?**
+   - a) A useful rejection
+   - b) A network request
+   - c) A silent success
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **b** — The correct choice follows the rule taught above.
+2. **a** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Implement `normalize_campaign_id(raw)` and `validate_campaign_id(raw)`. Return accepted normalized values and rejection reasons. Test whitespace, mixed case, empty input, and an internal space.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 01 project by making `an authorized-target report` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[← Previous lesson](../../week-01/day-02-values-and-variables/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-01/day-04-input-and-conversion/instructions.md)

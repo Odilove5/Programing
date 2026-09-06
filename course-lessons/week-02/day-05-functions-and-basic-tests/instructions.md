@@ -1,76 +1,152 @@
-# Lesson 02.05: functions and basic tests
+# Week 02, Day 05: Rules of Engagement and Safe Defaults
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Make Decisions with Data  
-**Track:** Python  
-**Format:** Practice  
-**Status:** required
+**Content status:** Authored
+**Required:** Yes
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Preserve the completed foundation in Boolean logic, conditions, validation, functions, tests, and Git.
+A rules-of-engagement document turns an ambiguous task into explicit boundaries. Safe defaults prevent an unfinished configuration from becoming an action. This lesson connects conditional logic to the policy discipline needed by later agents and adapters.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- A named operation that policy explicitly permits.
+- An operation outside scope or over a limit.
+- A bounded action that needs a human decision.
+- Unknown actions are denied until policy says otherwise.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### Allowed action
 
-## Student exercise
+A named operation that policy explicitly permits.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Denied action
 
-- comparisons and Boolean logic
-- conditional branches
-- normalization and validation
-- functions and basic tests
-- a scope decision tool
+An operation outside scope or over a limit.
 
-Run the exercise with:
+### Approval required
+
+A bounded action that needs a human decision.
+
+### Default closed
+
+Unknown actions are denied until policy says otherwise.
+
+## Syntax
+
+`policy.get(action, "deny")`
+
+`if decision == "approval-required": ...`
+
+## Worked examples
+
+```python
+policy = {"read_metrics": "allow", "publish": "approval-required"}
+for action in ["read_metrics", "publish", "delete"]:
+    print(action, policy.get(action, "deny"))
+```
+
+**Expected output**
+
+```text
+read_metrics allow
+publish approval-required
+delete deny
+```
+
+**Notice:** The missing `delete` rule fails closed.
+```python
+request = {"action": "publish", "approved": False}
+print("execute" if request["approved"] else "hold")
+```
+
+**Expected output**
+
+```text
+hold
+```
+
+**Notice:** Approval is a separate state, not an implied success.
+
+## MarketingOps example
+
+```python
+action = "change_budget"
+print({"action": action, "decision": "approval-required", "reason": "budget changes require a human"})
+```
+
+**Expected output**
+
+```text
+{'action': 'change_budget', 'decision': 'approval-required', 'reason': 'budget changes require a human'}
+```
+
+**Notice:** A recommendation cannot bypass an approval boundary.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Defaulting unknown actions to allow.
+- Treating approval-required as already approved.
+- Writing policy only in prose with no testable values.
+
+## Check your understanding
+
+1. What should an unknown action do?
+2. Who makes an approval decision?
+3. Why separate policy from execution?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **What is fail-closed?**
+   - a) Unknown action denied
+   - b) Unknown action executed
+   - c) Unknown action ignored
+2. **What does approval-required mean?**
+   - a) Execute now
+   - b) Hold for a human
+   - c) Delete the request
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **a** — The correct choice follows the rule taught above.
+2. **b** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Implement `policy_decision(action, context)` for read, draft, publish, and budget-change actions. Return allow, deny, or approval-required with a reason.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 02 project by making `a scope decision tool` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[← Previous lesson](../../week-02/day-04-normalization-and-validation/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-02/day-06-a-scope-decision-tool/instructions.md)

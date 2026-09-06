@@ -1,13 +1,17 @@
-"""Student exercise for Lesson 03.04: loop boundary tests.
+"""Student exercise for Week 03, Day 04.
 
-This file is intentionally incomplete. Write the implementation yourself.
+Read instructions.md first. Write the implementation; do not copy solution.py.
 """
 
-# Requirements:
-# 1. Implement: lists, sets, for loops, range, and while.
-# 2. Demonstrate: state changes and termination and loop boundary tests.
-# 3. Handle this failure boundary explicitly: semantic Git diff review.
-# 4. Produce the lesson deliverable: a blank-file campaign rules checker.
-# 5. Add a normal, boundary, and malformed/denied test case.
+# Requirements
+# Write `test_loop_boundaries()` for maximum values 0, 1, and 3. Verify produced attempts, post-loop state, and that an empty input performs zero iterations.
 
-# Your implementation goes here.
+# Add normal, boundary, and failure assertions for the cases in the lesson.
+
+def loop_values(maximum):
+    """TODO: implement the lesson contract."""
+    raise NotImplementedError
+
+def test_loop_boundaries():
+    """TODO: implement the lesson contract."""
+    raise NotImplementedError

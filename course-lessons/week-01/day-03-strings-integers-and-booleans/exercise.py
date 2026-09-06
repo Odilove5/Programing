@@ -1,13 +1,13 @@
-"""Student exercise for Lesson 01.03: strings, integers, and booleans.
+"""Student exercise for Week 01, Day 03.
 
-This file is intentionally incomplete. Write the implementation yourself.
+Read instructions.md first. Write the implementation; do not copy solution.py.
 """
 
-# Requirements:
-# 1. Implement: values and variables.
-# 2. Demonstrate: strings, integers, and booleans and input and conversion.
-# 3. Handle this failure boundary explicitly: tracebacks and handled errors.
-# 4. Produce the lesson deliverable: an authorized-target report.
-# 5. Add a normal, boundary, and malformed/denied test case.
+# Requirements
+# Implement `normalize_campaign_id(raw)` and `validate_campaign_id(raw)`. Return accepted normalized values and rejection reasons. Test whitespace, mixed case, empty input, and an internal space.
 
-# Your implementation goes here.
+# Add normal, boundary, and failure assertions for the cases in the lesson.
+
+def validate_campaign_id(raw):
+    """TODO: implement the lesson contract."""
+    raise NotImplementedError

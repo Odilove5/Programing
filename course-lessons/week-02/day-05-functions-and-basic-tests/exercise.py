@@ -1,13 +1,13 @@
-"""Student exercise for Lesson 02.05: functions and basic tests.
+"""Student exercise for Week 02, Day 05.
 
-This file is intentionally incomplete. Write the implementation yourself.
+Read instructions.md first. Write the implementation; do not copy solution.py.
 """
 
-# Requirements:
-# 1. Implement: comparisons and Boolean logic.
-# 2. Demonstrate: conditional branches and normalization and validation.
-# 3. Handle this failure boundary explicitly: functions and basic tests.
-# 4. Produce the lesson deliverable: a scope decision tool.
-# 5. Add a normal, boundary, and malformed/denied test case.
+# Requirements
+# Implement `policy_decision(action, context)` for read, draft, publish, and budget-change actions. Return allow, deny, or approval-required with a reason.
 
-# Your implementation goes here.
+# Add normal, boundary, and failure assertions for the cases in the lesson.
+
+def policy_decision(action, context):
+    """TODO: implement the lesson contract."""
+    raise NotImplementedError

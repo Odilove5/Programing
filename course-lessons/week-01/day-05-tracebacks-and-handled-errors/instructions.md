@@ -1,76 +1,152 @@
-# Lesson 01.05: tracebacks and handled errors
+# Week 01, Day 05: Authorization, Scope, and Evidence
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Think Like a Programmer  
-**Track:** Python  
-**Format:** Practice  
-**Status:** required
+**Content status:** Authored
+**Required:** Yes
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Preserve the completed foundation in values, types, input, output, errors, and small scripts.
+A program can be technically correct and still be unsafe if it acts on the wrong target. Authorization defines what is allowed; scope defines the boundary; evidence records why a decision was made. These ideas prepare you to build MarketingOps systems that never let a recommendation silently become an external action.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- A declared set of permitted inputs or resources.
+- A decision that an operation is permitted in the declared scope.
+- Missing or invalid authorization produces a denial, not a guess.
+- A redacted record of input, decision, and reason.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### Scope
 
-## Student exercise
+A declared set of permitted inputs or resources.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Authorization
 
-- values and variables
-- strings, integers, and booleans
-- input and conversion
-- tracebacks and handled errors
-- an authorized-target report
+A decision that an operation is permitted in the declared scope.
 
-Run the exercise with:
+### Fail closed
+
+Missing or invalid authorization produces a denial, not a guess.
+
+### Evidence
+
+A redacted record of input, decision, and reason.
+
+## Syntax
+
+`decision = {"allowed": bool, "reason": str}`
+
+`if target not in allowed: deny`
+
+## Worked examples
+
+```python
+allowed = {"demo-campaign"}
+target = "demo-campaign"
+print({"allowed": target in allowed, "target": target})
+```
+
+**Expected output**
+
+```text
+{'allowed': True, 'target': 'demo-campaign'}
+```
+
+**Notice:** Membership is deterministic and inspectable.
+```python
+allowed = {"demo-campaign"}
+target = "production-campaign"
+print({"allowed": target in allowed, "reason": "outside declared scope"})
+```
+
+**Expected output**
+
+```text
+{'allowed': False, 'reason': 'outside declared scope'}
+```
+
+**Notice:** A denied decision explains the boundary without attempting an action.
+
+## MarketingOps example
+
+```python
+proposal = {"action": "publish_content", "campaign": "spring-search"}
+policy = {"publish_content": "approval-required"}
+print({"action": proposal["action"], "decision": policy[proposal["action"]]})
+```
+
+**Expected output**
+
+```text
+{'action': 'publish_content', 'decision': 'approval-required'}
+```
+
+**Notice:** MarketingOps policy can classify a proposal before any adapter runs.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Treating a normalized name as proof of authorization.
+- Allowing a missing policy entry by default.
+- Logging secret tokens or customer data as evidence.
+
+## Check your understanding
+
+1. What should happen when a target is absent from the allowlist?
+2. Why record the reason for denial?
+3. Can an AI recommendation override policy?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **What is fail-closed behavior?**
+   - a) Allow when uncertain
+   - b) Deny when required data is missing
+   - c) Retry forever
+2. **Who should enforce authorization?**
+   - a) Deterministic code
+   - b) A printed message
+   - c) An unvalidated model string
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **b** — The correct choice follows the rule taught above.
+2. **a** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Write `authorize_action(action, scope, policy)` that returns an evidence dictionary for allowed, denied, and approval-required actions. Use fictional campaign names and test missing policy data.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 01 project by making `an authorized-target report` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[← Previous lesson](../../week-01/day-04-input-and-conversion/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-01/day-06-an-authorized-target-report/instructions.md)

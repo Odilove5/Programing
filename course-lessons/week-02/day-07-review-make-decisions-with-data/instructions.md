@@ -1,76 +1,130 @@
-# Lesson 02.07: Review: Make Decisions with Data
+# Week 02, Day 07: Optional Review: Decisions and Validation
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Make Decisions with Data  
-**Track:** Python  
-**Format:** Review  
-**Status:** optional retrieval / recovery
+**Content status:** Authored
+**Required:** Optional review
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Preserve the completed foundation in Boolean logic, conditions, validation, functions, tests, and Git.
+Review Week 2 by rebuilding one conditional rule and one validation test from memory. The goal is honest calibration before the loop and collection work, not another project.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- Explain the branch before running it.
+- Include at least one denied or malformed value.
+- Use an assertion to preserve the expected decision.
+- Name the concept to practise next.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### Decision recall
 
-## Student exercise
+Explain the branch before running it.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Negative cases
 
-- comparisons and Boolean logic
-- conditional branches
-- normalization and validation
-- functions and basic tests
-- a scope decision tool
+Include at least one denied or malformed value.
 
-Run the exercise with:
+### Test evidence
+
+Use an assertion to preserve the expected decision.
+
+### Next step
+
+Name the concept to practise next.
+
+## Syntax
+
+`assert decision == expected`
+
+## Worked examples
+
+```python
+spend = 120
+assert (spend > 100) is True
+print("boundary reviewed")
+```
+
+**Expected output**
+
+```text
+boundary reviewed
+```
+
+**Notice:** The assertion makes the boundary explicit.
+
+## MarketingOps example
+
+```python
+print({"rule": "spend limit", "next_attempt": "test missing spend"})
+```
+
+**Expected output**
+
+```text
+{'rule': 'spend limit', 'next_attempt': 'test missing spend'}
+```
+
+**Notice:** A small retrieval note supports the deterministic KPI work ahead.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Testing only the allowed branch.
+- Treating missing data as zero without a rule.
+- Recording confidence without a concrete example.
+
+## Check your understanding
+
+1. What branch is the boundary?
+2. What missing field should do?
+3. What will you practise next?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **What makes a review useful?**
+   - a) A runnable check
+   - b) A vague score
+   - c) No failure case
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **a** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Rebuild a spend decision with one allowed and one denied assertion, then write a recovery note naming a missing-data case.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 02 project by making `a scope decision tool` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[← Previous lesson](../../week-02/day-06-a-scope-decision-tool/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-03/day-01-finish-loops-and-bridge-to-marketing/instructions.md)

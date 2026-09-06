@@ -2,7 +2,7 @@
 
 **Theme:** Existing Foundations / Bridge  
 **Track:** Python  
-**Content readiness:** Validated
+**Content readiness:** Authored
 
 ## What you will learn
 

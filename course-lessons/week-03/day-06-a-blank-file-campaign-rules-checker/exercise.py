@@ -1,13 +1,13 @@
-"""Student exercise for Lesson 03.06: a blank-file campaign rules checker.
+"""Student exercise for Week 03, Day 06.
 
-This file is intentionally incomplete. Write the implementation yourself.
+Read instructions.md first. Write the implementation; do not copy solution.py.
 """
 
-# Requirements:
-# 1. Implement: lists, sets, for loops, range, and while.
-# 2. Demonstrate: state changes and termination and loop boundary tests.
-# 3. Handle this failure boundary explicitly: semantic Git diff review.
-# 4. Produce the lesson deliverable: a blank-file campaign rules checker.
-# 5. Add a normal, boundary, and malformed/denied test case.
+# Requirements
+# From an empty file, implement `check_campaigns(campaigns, max_spend, max_cpa)`. Return violations and rejected records, handle zero conversions and malformed data, and add normal/boundary/invalid tests.
 
-# Your implementation goes here.
+# Add normal, boundary, and failure assertions for the cases in the lesson.
+
+def check_campaigns(campaigns, max_spend, max_cpa):
+    """TODO: implement the lesson contract."""
+    raise NotImplementedError

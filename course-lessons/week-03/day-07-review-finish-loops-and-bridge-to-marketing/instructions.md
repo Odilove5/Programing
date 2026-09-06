@@ -1,76 +1,150 @@
-# Lesson 03.07: Review: Finish Loops and Bridge to Marketing
+# Week 03, Day 07: Optional Review and Recovery: Loops and Collections
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Finish Loops and Bridge to Marketing  
-**Track:** Python  
-**Format:** Review  
-**Status:** optional retrieval / recovery
+**Content status:** Authored (partial)
+**Required:** Optional review
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Complete the active loop lesson, then prove foundational fluency with campaign records from a blank file.
+Review days are optional retrieval practice. You pause new material, rebuild the week's smallest examples without notes, and record which concept needs another attempt. This prevents a passing guided exercise from being mistaken for independent mastery.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- Rebuild from requirements rather than copying a previous file.
+- Name the exact concept or boundary that remains uncertain.
+- Choose one small next attempt with a testable result.
+- Review improves reliability without adding a new framework.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### Retrieval
 
-## Student exercise
+Rebuild from requirements rather than copying a previous file.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Reflection
 
-- lists, sets, for loops, range, and while
-- state changes and termination
-- loop boundary tests
-- semantic Git diff review
-- a blank-file campaign rules checker
+Name the exact concept or boundary that remains uncertain.
 
-Run the exercise with:
+### Recovery plan
+
+Choose one small next attempt with a testable result.
+
+### No new scope
+
+Review improves reliability without adding a new framework.
+
+## Syntax
+
+`assert explanation`
+
+`python -m unittest -v`
+
+## Worked examples
+
+```python
+values = list(range(1, 4))
+assert values == [1, 2, 3]
+print("retrieved")
+```
+
+**Expected output**
+
+```text
+retrieved
+```
+
+**Notice:** A small assertion can prove a recalled boundary.
+```python
+records = [{"channel": "paid"}, {"channel": "paid"}]
+assert {r["channel"] for r in records} == {"paid"}
+```
+
+**Expected output**
+
+```text
+
+```
+
+**Notice:** The set assertion checks uniqueness without discarding the original list.
+
+## MarketingOps example
+
+```python
+goal = {"concept": "campaign rules", "next_attempt": "test zero conversions"}
+print(goal)
+```
+
+**Expected output**
+
+```text
+{'concept': 'campaign rules', 'next_attempt': 'test zero conversions'}
+```
+
+**Notice:** A review note points to a concrete MarketingOps capability without pretending it is mastered.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Reading the solution before attempting retrieval.
+- Writing a vague reflection such as `loops are hard`.
+- Adding new project scope instead of fixing one weak boundary.
+
+## Check your understanding
+
+1. Which concept can you rebuild without notes?
+2. Which boundary failed?
+3. What is the smallest next test?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **What is the goal of review day?**
+   - a) Honest retrieval
+   - b) More frameworks
+   - c) Skipping tests
+2. **What makes a recovery plan useful?**
+   - a) A concrete next attempt
+   - b) A vague feeling
+   - c) No evidence
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **a** — The correct choice follows the rule taught above.
+2. **a** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Create a short retrieval report with one rebuilt loop, one collection transformation, one failing or boundary test, and a next-attempt note. Day 7 is optional and does not count toward required completion.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 03 project by making `a blank-file campaign rules checker` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[← Previous lesson](../../week-03/day-06-a-blank-file-campaign-rules-checker/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-04/day-01-transform-campaign-records/instructions.md)

@@ -1,76 +1,156 @@
-# Lesson 01.01: Think Like a Programmer
+# Week 01, Day 01: Values, Types, Input, and Output
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Think Like a Programmer  
-**Track:** Python  
-**Format:** Learn  
-**Status:** required
+**Content status:** Authored
+**Required:** Yes
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Preserve the completed foundation in values, types, input, output, errors, and small scripts.
+A Python program is a sequence of expressions that produces values. Naming those values and displaying them lets a later step use earlier information. You begin here because every validator, connector, and KPI calculation in MarketingOps is built from values with known types.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- Integers, floats, strings, booleans, and None represent different kinds of information.
+- Assignment binds a name to a value; it does not permanently label the value or copy a file.
+- `input()` returns text.
+- `print()` is a presentation side effect.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### Values and types
 
-## Student exercise
+Integers, floats, strings, booleans, and None represent different kinds of information. `type()` lets you inspect a value rather than guessing.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Names and assignment
 
-- values and variables
-- strings, integers, and booleans
-- input and conversion
-- tracebacks and handled errors
-- an authorized-target report
+Assignment binds a name to a value; it does not permanently label the value or copy a file.
 
-Run the exercise with:
+### Input boundaries
+
+`input()` returns text. Convert and validate it at the boundary before using it as a number.
+
+### Output
+
+`print()` is a presentation side effect. f-strings make labels explicit and readable.
+
+## Syntax
+
+`name = value`
+
+`text = input(prompt)`
+
+`print(f"label: {value}")`
+
+## Worked examples
+
+```python
+spend = 125.50
+print(type(spend).__name__)
+print(f"Spend: ${spend:.2f}")
+```
+
+**Expected output**
+
+```text
+float
+Spend: $125.50
+```
+
+**Notice:** The value is numeric before it is formatted.
+```python
+raw = "  42  "
+leads = int(raw.strip())
+print(leads + 1)
+```
+
+**Expected output**
+
+```text
+43
+```
+
+**Notice:** Whitespace is removed before conversion; invalid text would raise `ValueError`.
+
+## MarketingOps example
+
+```python
+campaign = "spring-search"
+spend = 500.0
+leads = 20
+print(f"{campaign}: {leads} leads from ${spend:.2f}")
+```
+
+**Expected output**
+
+```text
+spring-search: 20 leads from $500.00
+```
+
+**Notice:** Campaign data is still ordinary Python values; business meaning comes from clear names.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Using `input()` text in arithmetic without `int()` or `float()`.
+- Confusing the string `"20"` with the integer `20`.
+- Printing a value and assuming `print()` changed its type.
+
+## Check your understanding
+
+1. What is the type of `"20"`?
+2. Why does `float("20.5")` work but `float("twenty")` fail?
+3. What should happen if a campaign spend is blank?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **Which expression converts text to an integer?**
+   - a) `str(value)`
+   - b) `int(text)`
+   - c) `type(text)`
+2. **What does assignment do?**
+   - a) Binds a name to a value
+   - b) Prints the value
+   - c) Always copies the value
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **b** — The correct choice follows the rule taught above.
+2. **a** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Write `campaign_preview(name, spend, leads)` that returns a labeled string. In the main block, read fictional campaign values, convert numeric input, and handle a non-numeric spend with a useful message.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 01 project by making `an authorized-target report` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-01/day-02-values-and-variables/instructions.md)

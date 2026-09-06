@@ -1,13 +1,13 @@
-"""Student exercise for Lesson 02.06: a scope decision tool.
+"""Student exercise for Week 02, Day 06.
 
-This file is intentionally incomplete. Write the implementation yourself.
+Read instructions.md first. Write the implementation; do not copy solution.py.
 """
 
-# Requirements:
-# 1. Implement: comparisons and Boolean logic.
-# 2. Demonstrate: conditional branches and normalization and validation.
-# 3. Handle this failure boundary explicitly: functions and basic tests.
-# 4. Produce the lesson deliverable: a scope decision tool.
-# 5. Add a normal, boundary, and malformed/denied test case.
+# Requirements
+# Implement `validate_target(raw, allowed)` with accepted and rejected result dictionaries. Add tests for whitespace, empty input, internal spaces, duplicate input, and out-of-scope values.
 
-# Your implementation goes here.
+# Add normal, boundary, and failure assertions for the cases in the lesson.
+
+def validate_target(raw, allowed):
+    """TODO: implement the lesson contract."""
+    raise NotImplementedError

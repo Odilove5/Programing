@@ -1,13 +1,13 @@
-"""Student exercise for Lesson 02.02: comparisons and Boolean logic.
+"""Student exercise for Week 02, Day 02.
 
-This file is intentionally incomplete. Write the implementation yourself.
+Read instructions.md first. Write the implementation; do not copy solution.py.
 """
 
-# Requirements:
-# 1. Implement: comparisons and Boolean logic.
-# 2. Demonstrate: conditional branches and normalization and validation.
-# 3. Handle this failure boundary explicitly: functions and basic tests.
-# 4. Produce the lesson deliverable: a scope decision tool.
-# 5. Add a normal, boundary, and malformed/denied test case.
+# Requirements
+# Create a fictional list of process-like records and write a read-only filter that returns records above a threshold. State which property is required and how missing properties are handled.
 
-# Your implementation goes here.
+# Add normal, boundary, and failure assertions for the cases in the lesson.
+
+def above_threshold(records, threshold):
+    """TODO: implement the lesson contract."""
+    raise NotImplementedError

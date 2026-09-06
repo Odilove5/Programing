@@ -1,76 +1,151 @@
-# Lesson 02.04: normalization and validation
+# Week 02, Day 04: Stage Changes and Inspect Diffs
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Make Decisions with Data  
-**Track:** Python  
-**Format:** Code  
-**Status:** required
+**Content status:** Authored
+**Required:** Yes
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Preserve the completed foundation in Boolean logic, conditions, validation, functions, tests, and Git.
+Staging is a deliberate boundary between edits and a Git snapshot. A diff review catches accidental text changes, generated reports, and unrelated exercise edits. This lesson turns Git commands into a repeatable quality check.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- A diff shows additions and removals relative to a baseline.
+- Stage only files belonging to the learning outcome.
+- Line-ending changes, caches, and reports can obscure the semantic change.
+- Read the staged diff before committing.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### Diff
 
-## Student exercise
+A diff shows additions and removals relative to a baseline.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Selective staging
 
-- comparisons and Boolean logic
-- conditional branches
-- normalization and validation
-- functions and basic tests
-- a scope decision tool
+Stage only files belonging to the learning outcome.
 
-Run the exercise with:
+### Noise
+
+Line-ending changes, caches, and reports can obscure the semantic change.
+
+### Review
+
+Read the staged diff before committing.
+
+## Syntax
+
+`git diff -- path`
+
+`git diff --cached`
+
+`git status --short`
+
+## Worked examples
+
+```python
+changes = ["exercise.py", "__pycache__/exercise.pyc", ".DS_Store"]
+print([path for path in changes if not path.startswith("__pycache__") and path != ".DS_Store"])
+```
+
+**Expected output**
+
+```text
+['exercise.py']
+```
+
+**Notice:** Filtering noise is part of a focused review.
+```python
+diff_lines = ["+return decision", "+print(secret)"]
+print([line for line in diff_lines if "secret" not in line])
+```
+
+**Expected output**
+
+```text
+['+return decision']
+```
+
+**Notice:** A review should catch unsafe output before commit.
+
+## MarketingOps example
+
+```python
+files = ["campaign_metrics.py", "campaign_metrics_test.py", "report.json"]
+print({"course": [f for f in files if f.endswith(".py")], "review": "exclude generated report"})
+```
+
+**Expected output**
+
+```text
+{'course': ['campaign_metrics.py', 'campaign_metrics_test.py'], 'review': 'exclude generated report'}
+```
+
+**Notice:** Generated marketing reports are evidence, not always source.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Using `git diff` after staging and assuming it shows staged changes.
+- Committing generated files because they appear in status.
+- Reviewing only filenames instead of content.
+
+## Check your understanding
+
+1. Which diff shows staged content?
+2. Why exclude caches?
+3. What makes a commit focused?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **Which command shows staged diff?**
+   - a) `git diff --cached`
+   - b) `python diff`
+   - c) `git log --empty`
+2. **What is semantic noise?**
+   - a) A meaningful rule
+   - b) Generated or unrelated changes
+   - c) A test assertion
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **a** — The correct choice follows the rule taught above.
+2. **b** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Write a `diff_review.py` helper that classifies filenames as source, test, generated, or OS noise. Include a short review checklist in its output.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 02 project by making `a scope decision tool` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[← Previous lesson](../../week-02/day-03-conditional-branches/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-02/day-05-functions-and-basic-tests/instructions.md)

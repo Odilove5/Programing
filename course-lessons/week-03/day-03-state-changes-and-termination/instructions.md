@@ -1,76 +1,175 @@
-# Lesson 03.03: state changes and termination
+# Week 03, Day 03: State Changes and Termination
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Finish Loops and Bridge to Marketing  
-**Track:** Python  
-**Format:** Learn  
-**Status:** required
+**Content status:** Authored (partial)
+**Required:** Yes
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Complete the active loop lesson, then prove foundational fluency with campaign records from a blank file.
+A `while` loop is a promise to keep working while a condition is true. The promise is safe only when the loop changes state toward a reachable stopping point. This lesson makes the state transition visible before you use a loop in a retry, queue, or polling workflow.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- Variables such as `attempt`, `index`, or `remaining` describe where the loop is now.
+- The loop body changes state so the next condition check can differ.
+- A statement that should remain true during each iteration helps you reason about correctness.
+- A bounded limit, empty queue, or successful condition must be reachable.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### State
 
-## Student exercise
+Variables such as `attempt`, `index`, or `remaining` describe where the loop is now.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Transition
 
-- lists, sets, for loops, range, and while
-- state changes and termination
-- loop boundary tests
-- semantic Git diff review
-- a blank-file campaign rules checker
+The loop body changes state so the next condition check can differ.
 
-Run the exercise with:
+### Invariant
+
+A statement that should remain true during each iteration helps you reason about correctness.
+
+### Termination
+
+A bounded limit, empty queue, or successful condition must be reachable.
+
+## Syntax
+
+`while state_is_valid(state):
+    state = next_state(state)`
+
+## Worked examples
+
+```python
+remaining = 3
+while remaining > 0:
+    print(remaining)
+    remaining -= 1
+```
+
+**Expected output**
+
+```text
+3
+2
+1
+```
+
+**Notice:** The state moves 3 → 2 → 1 → 0.
+```python
+items = ["a", "b"]
+index = 0
+while index < len(items):
+    print(items[index])
+    index += 1
+```
+
+**Expected output**
+
+```text
+a
+b
+```
+
+**Notice:** The index changes after each access and reaches the list length.
+```python
+queue = ["metric-1"]
+while queue:
+    job = queue.pop(0)
+    print(job)
+```
+
+**Expected output**
+
+```text
+metric-1
+```
+
+**Notice:** Removing work makes the queue condition eventually false.
+
+## MarketingOps example
+
+```python
+attempt = 1
+max_attempts = 3
+while attempt <= max_attempts:
+    print(f"collect metrics: {attempt}")
+    attempt += 1
+```
+
+**Expected output**
+
+```text
+collect metrics: 1
+collect metrics: 2
+collect metrics: 3
+```
+
+**Notice:** A bounded collection retry has explicit state and a hard limit.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Changing a different variable than the one in the condition.
+- Incrementing after a `continue` path is skipped.
+- Using a condition that cannot become false.
+
+## Check your understanding
+
+1. Which variable changes?
+2. What value makes the condition false?
+3. What happens when the queue is empty before the loop starts?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **What is a state transition?**
+   - a) A changed loop variable
+   - b) A print label
+   - c) A type annotation
+2. **What proves termination?**
+   - a) A reachable stopping condition
+   - b) More output
+   - c) A larger list
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **a** — The correct choice follows the rule taught above.
+2. **a** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Implement `retry_states(max_attempts)` that returns each attempt and `drain_queue(items)` that removes each item exactly once. Add assertions for zero, one, and multiple items.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 03 project by making `a blank-file campaign rules checker` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[← Previous lesson](../../week-03/day-02-lists-sets-for-loops-range-and-while/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-03/day-04-loop-boundary-tests/instructions.md)

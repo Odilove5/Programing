@@ -1,76 +1,148 @@
-# Lesson 02.03: conditional branches
+# Week 02, Day 03: Scoped Decisions from Validated Data
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Make Decisions with Data  
-**Track:** Python  
-**Format:** Learn  
-**Status:** required
+**Content status:** Authored
+**Required:** Yes
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Preserve the completed foundation in Boolean logic, conditions, validation, functions, tests, and Git.
+A decision should consume validated facts and produce an explainable result. This lesson combines conditionals with normalization so a campaign rule can distinguish valid, denied, and malformed input before any side effect.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- Validate required fields before comparing them.
+- List expected combinations before writing nested branches.
+- Return a stable reason rather than a vague failure.
+- Normalize, validate, then decide.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### Preconditions
 
-## Student exercise
+Validate required fields before comparing them.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Decision table
 
-- comparisons and Boolean logic
-- conditional branches
-- normalization and validation
-- functions and basic tests
-- a scope decision tool
+List expected combinations before writing nested branches.
 
-Run the exercise with:
+### Reason codes
+
+Return a stable reason rather than a vague failure.
+
+### Ordering
+
+Normalize, validate, then decide.
+
+## Syntax
+
+`return {"decision": "allow", "reason": "..."}`
+
+## Worked examples
+
+```python
+record = {"status": "active", "spend": 20}
+if record["status"] == "active" and record["spend"] <= 50:
+    print("allow")
+```
+
+**Expected output**
+
+```text
+allow
+```
+
+**Notice:** Both predicates must be true.
+```python
+record = {"status": "unknown"}
+print({"decision": "deny", "reason": "invalid status"} if record["status"] not in {"active", "paused"} else {"decision": "review"})
+```
+
+**Expected output**
+
+```text
+{'decision': 'deny', 'reason': 'invalid status'}
+```
+
+**Notice:** Malformed state is not silently treated as safe.
+
+## MarketingOps example
+
+```python
+goal = {"qualified_leads": 25, "target": 30}
+print({"status": "at-risk" if goal["qualified_leads"] < goal["target"] else "on-track"})
+```
+
+**Expected output**
+
+```text
+{'status': 'at-risk'}
+```
+
+**Notice:** A deterministic goal decision can later be given to an AI analyst as evidence.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Comparing values before validating their type.
+- Returning a boolean with no explanation.
+- Letting a missing field take an accidental default.
+
+## Check your understanding
+
+1. Which check must happen first?
+2. What reason should a denied record contain?
+3. Can a model replace this rule?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **What is the safe order?**
+   - a) Decide, then validate
+   - b) Normalize, validate, decide
+   - c) Execute, then inspect
+2. **What makes a decision auditable?**
+   - a) A reason code
+   - b) A hidden branch
+   - c) A random default
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **b** — The correct choice follows the rule taught above.
+2. **a** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Implement `evaluate_campaign(record, limit)` with explicit validation and reason codes for missing, malformed, over-limit, and allowed records.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 02 project by making `a scope decision tool` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[← Previous lesson](../../week-02/day-02-comparisons-and-boolean-logic/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-02/day-04-normalization-and-validation/instructions.md)

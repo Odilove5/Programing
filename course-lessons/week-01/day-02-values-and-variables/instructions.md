@@ -1,76 +1,157 @@
-# Lesson 01.02: values and variables
+# Week 01, Day 02: Paths, Quoting, and Redirection
 
-**Phase:** Existing Foundations / Bridge  
-**Module:** Think Like a Programmer  
-**Track:** Python  
-**Format:** Learn  
-**Status:** required
+**Content status:** Authored
+**Required:** Yes
+**Estimated time:** 90 minutes
 
-## Objective
+## Why this lesson matters
 
-Preserve the completed foundation in values, types, input, output, errors, and small scripts.
+Shell commands are programs that receive text arguments. Quoting controls where one argument starts and ends, while paths identify files and directories. You learn this now because course exercises and later data pipelines must be reproducible on paths containing spaces without accidentally writing outside the workspace.
 
-By the end of this lesson, you should be able to explain the concept,
-implement a small deterministic example, test a normal and boundary case, and
-describe how the capability supports the Autonomous MarketingOps AI without
-giving an AI model unrestricted authority.
+## What you will learn
 
-## Read first
+By the end of this lesson, you will be able to:
 
-1. Predict the inputs, outputs, state changes, and likely failure cases before
-   running code.
-2. Read the relevant official documentation linked from the dashboard lesson.
-3. Work from a local fixture or fictional data. Do not add credentials or
-   real customer data.
+- A command receives a list of arguments; spaces normally separate arguments.
+- Single and double quotes preserve spaces, with different expansion behavior.
+- Relative paths depend on the working directory; explicit paths make file operations easier to review.
+- `>` replaces a file, while `>>` appends.
 
-## Worked example
+## Concepts
 
-The dashboard provides a small, inspectable example for this lesson. Re-type
-the important idea in your own words before opening the reference file.
+### Arguments
 
-## Student exercise
+A command receives a list of arguments; spaces normally separate arguments.
 
-Open `exercise.py` and implement the requirements in your own words. Keep the
-implementation small and observable. Your work should demonstrate these
-capabilities:
+### Quoting
 
-- values and variables
-- strings, integers, and booleans
-- input and conversion
-- tracebacks and handled errors
-- an authorized-target report
+Single and double quotes preserve spaces, with different expansion behavior.
 
-Run the exercise with:
+### Paths
+
+Relative paths depend on the working directory; explicit paths make file operations easier to review.
+
+### Redirection
+
+`>` replaces a file, while `>>` appends. Treat redirection as a write with side effects.
+
+## Syntax
+
+`command "path with spaces/file.txt"`
+
+`command > output.txt`
+
+`command >> log.txt`
+
+## Worked examples
+
+```python
+from pathlib import Path
+path = Path("lab data") / "campaign.txt"
+print(path)
+```
+
+**Expected output**
+
+```text
+lab data/campaign.txt
+```
+
+**Notice:** `Path` joins components without hand-written slash escaping.
+```python
+from pathlib import Path
+output = Path("demo-output.txt")
+output.write_text("one\n", encoding="utf-8")
+output.write_text(output.read_text(encoding="utf-8") + "two\n", encoding="utf-8")
+print(output.read_text(encoding="utf-8"), end="")
+```
+
+**Expected output**
+
+```text
+one
+two
+```
+
+**Notice:** Writing is a side effect; encoding and the destination should be explicit.
+
+## MarketingOps example
+
+```python
+from pathlib import Path
+fixture = Path("fixtures") / "campaigns.json"
+print(f"Read-only fixture path: {fixture}")
+```
+
+**Expected output**
+
+```text
+Read-only fixture path: fixtures/campaigns.json
+```
+
+**Notice:** A connector can be pointed at a saved fixture before live credentials exist.
+
+This fictional example reinforces the Python concept. It does not call a live API, use credentials, or authorize an external action.
+
+## Common mistakes and failure cases
+
+- Splitting a path with spaces into multiple shell arguments.
+- Using `>` when you meant to append evidence.
+- Assuming a relative path is independent of the current directory.
+
+## Check your understanding
+
+1. Why quote a path containing spaces?
+2. What is the difference between `>` and `>>`?
+3. Why is `pathlib` safer than string concatenation?
+
+<details>
+<summary>Think through the questions</summary>
+
+Try the examples and write predictions before opening the reference file.
+
+</details>
+
+## Quiz
+
+1. **Which object joins path components?**
+   - a) `Path`
+   - b) `print`
+   - c) `input`
+2. **Which redirection appends?**
+   - a) `>`
+   - b) `>>`
+   - c) `|`
+
+<details>
+<summary>Answer key and explanations</summary>
+
+1. **a** — The correct choice follows the rule taught above.
+2. **b** — The correct choice follows the rule taught above.
+
+</details>
+
+## Exercise handoff
+
+Create a `Path` for a fictional campaign fixture inside `workspace/fixtures`, print the resolved relative components, and write a dry-run report without reading or writing outside the lesson directory.
+
+Open [`exercise.py`](exercise.py) and write the implementation yourself. Run:
 
 ```bash
 python exercise.py
+python -m unittest -v
 ```
 
-Add or run tests for a normal case, a boundary case, and one malformed,
-denied, or failed case. Do not treat a passing happy-path example as proof of
-correctness.
+The exercise must cover normal input, at least one boundary, and the failure or malformed case named above. Use the hints in the exercise file only after your first attempt. Inspect [`solution.py`](solution.py) only after your tests run or you can explain the remaining failure.
 
-## Acceptance criteria
+## Weekly project connection
 
-- The result is deterministic and has a clear input/output boundary.
-- Invalid or out-of-scope input fails safely and explains what happened.
-- The implementation does not bypass validation, policy, approval, or evidence
-  boundaries introduced later in the course.
-- You can explain the key decision without copying the reference file.
+This contributes to the Week 01 project by making `an authorized-target report` more testable and reviewable.
 
-## Optional hints
+## Official reading
 
-- Start with the smallest input that can prove the rule.
-- Name the state that changes and the condition that must eventually stop.
-- Keep calculation and policy decisions in Python, not in prose or a model.
+[Python documentation](https://docs.python.org/3/tutorial/) — use the relevant section for this lesson's syntax and behavior.
 
-## What this unlocks in MarketingOps AI
+## Navigation
 
-This lesson is one bounded capability in the cumulative MarketingOps system.
-The next layers can compose it only when its inputs, outputs, errors, and
-evidence are explicit and testable.
-
-## Reference workflow
-
-Attempt the exercise first. Then compare your design with `solution.py`, run
-the example again, and record one difference you would keep or change.
+[← Previous lesson](../../week-01/day-01-think-like-a-programmer/instructions.md) · [Week overview](../README.md) · [Full curriculum](../../README.md) · [Next lesson →](../../week-01/day-03-strings-integers-and-booleans/instructions.md)
