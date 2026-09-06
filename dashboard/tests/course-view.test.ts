@@ -14,7 +14,7 @@ function verifiedState(): AppState {
   };
 }
 
-describe("canonical dashboard views", () => {
+describe("dashboard views with fictional learner fixtures", () => {
   it("preserves the verified checkpoint without completing future lessons", () => { const state=verifiedState(); expect(curriculum.filter(l=>l.required&&l.week===1).every(l=>lessonState(l,state)==="completed")).toBe(true); expect(curriculum.filter(l=>l.required&&l.week===2).every(l=>lessonState(l,state)==="completed")).toBe(true); expect(currentLesson(state).id).toBe("week-03-day-01"); expect(currentLesson(state).checkpoint?.current).toBe("range()"); expect(state.progress["week-03-day-02"]).toBeUndefined(); });
   it("selects the exact next action after the active lesson", () => { expect(nextRequiredLesson(verifiedState())?.id).toBe("week-03-day-02"); });
   it("keeps optional days out of required progress", () => { const progress=requiredProgress(verifiedState()); expect(progress).toEqual({completed:12,remaining:204,total:216}); });

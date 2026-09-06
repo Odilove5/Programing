@@ -1,18 +1,18 @@
 # Curriculum migration: security automation to MarketingOps AI
 
-## Checkpoint preservation
+## Progress portability
 
-The migration keeps the `week-NN-day-NN` identity scheme and the version-1
-progress document. No completion record, note, session, exercise repository, or
-archive is deleted or rewritten. Weeks 1 and 2 remain complete. Week 3 Day 1
-remains in progress at the bounded `range()` retry exercise.
+The migration keeps the `week-NN-day-NN` identity scheme and version-1 progress
+document. Course metadata is public; completion records, notes, sessions,
+archives, and checkpoints are local learner state and are not seeded in a
+fresh clone.
 
 ## Old-to-new mapping
 
 | Old range | New destination | Treatment |
 | --- | --- | --- |
-| Weeks 1–2 operator foundations | Phase 0 foundations | Preserved as completed historical lessons |
-| Week 3 Day 1 lists and loops | Phase 0 active lesson | Preserved until its existing loop objectives are complete |
+| Weeks 1–2 operator foundations | Phase 0 foundations | Preserved as reusable foundation lessons |
+| Week 3 Day 1 lists and loops | Phase 0 bridge | Preserved as a lesson; learner state is local |
 | Weeks 3–4 remaining foundations | Phase 0 bridge and Phase 1 | Consolidated into independent campaign-record practice and data transformations |
 | Weeks 5–8 system scripting | Phases 1–2 | Files, configuration, functions, models, logging, and tests retained; host/security framing replaced |
 | Weeks 9–16 network/web automation | Phase 3 | HTTP/API/retry/rate-limit skills retained and redirected to mock analytics, CRM, and ads connectors |
@@ -40,4 +40,3 @@ At migration time, nested repositories contained CRLF/LF-only modifications,
 an untracked `.DS_Store`, and an accidental `056` in the Week 3 README. These
 pre-existing learner/environment changes are intentionally left untouched for a
 future Git-hygiene lesson.
-

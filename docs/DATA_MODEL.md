@@ -8,11 +8,12 @@ Lesson states are `locked`, `available`, `in-progress`, `completed`, and `needs-
 
 Exports are JSON with `version: 1`. The Settings page creates the file locally. Import parses JSON and validates the complete document before any database write. Invalid versions, malformed URLs, invalid confidence values, or incomplete records are rejected without replacing existing data.
 
-The legacy `.study-progress.json` remains owned by `study_coach.py`. This release preserves it rather than guessing how CLI completions should map to richer evidence records.
+The legacy `.study-progress.json` remains owned by `study_coach.py` and is
+ignored locally. CLI completions are not inferred from repository files or
+automatically mapped into another learner's dashboard state.
 
-The MarketingOps migration retains every `week-NN-day-NN` identifier. Weeks 1
-and 2 remain completed and Week 3 Day 1 remains in progress; new curriculum
-content never implies new completion. Future project models such as Campaign,
+The MarketingOps migration retains every `week-NN-day-NN` identifier. New
+course content never implies learner completion. Future project models such as Campaign,
 MetricSnapshot, BusinessGoal, Recommendation, ActionRequest, Approval, and
 Evidence are separate from the learning-progress document.
 
@@ -25,8 +26,7 @@ completion.
 
 The optional curriculum `checkpoint` field is presentation metadata for an
 interrupted lesson: current, completed, and remaining step labels. It does not
-change completion. Week 3 Day 1 therefore resumes at `range()` while its saved
-lesson state remains `in-progress`.
+change completion. Each learner's saved lesson state remains local.
 
 Mastery uses evidence states—NOT INTRODUCED, INTRODUCED, GUIDED, PRACTICED,
 INDEPENDENT, and MASTERED—rather than an invented percentage. The projection

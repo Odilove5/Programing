@@ -19,7 +19,7 @@ import { useApp } from "../../../components/app-provider";
 import { InteractiveExercise } from "../../../components/interactive-exercise";
 import { GuidedPractice } from "../../../components/guided-practice";
 import { CheckpointSteps, StatusBadge } from "../../../components/course-panels";
-import { curriculum, curriculumById } from "../../../lib/curriculum";
+import { contentReadiness, curriculum, curriculumById } from "../../../lib/curriculum";
 export default function LessonPage() {
   const { id } = useParams<{ id: string }>();
   const lesson = curriculumById.get(id);
@@ -120,6 +120,7 @@ export default function LessonPage() {
         <p className="eyebrow">{lesson.phase}</p>
         <h1>{lesson.title}</h1>
         <p>{lesson.summary}</p>
+        <p className="content-readiness">Course content: <strong>{contentReadiness(lesson)}</strong></p>
         <div className="header-actions">
           <button
             className="button secondary"

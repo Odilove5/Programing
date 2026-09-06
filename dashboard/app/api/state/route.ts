@@ -1,5 +1,4 @@
 import { env } from "cloudflare:workers";
-import { canonicalProgressState } from "../../../lib/canonical-progress";
 import { appStateSchema, defaultState } from "../../../lib/progress";
 
 async function database() {
@@ -11,7 +10,7 @@ async function database() {
 export async function GET() {
   const db = await database();
   const row = await db.prepare("SELECT value FROM app_state WHERE id = 1").first<{ value: string }>();
-  return Response.json(row ? appStateSchema.parse(JSON.parse(row.value)) : canonicalProgressState);
+  return Response.json(row ? appStateSchema.parse(JSON.parse(row.value)) : defaultState);
 }
 
 export async function PUT(request: Request) {

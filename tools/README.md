@@ -7,3 +7,9 @@ student work under `workspace/`, dashboard progress, or lesson archives.
 ```bash
 python tools/export_course_lessons.py
 ```
+
+Validate the generated hierarchy and lesson files with:
+
+```bash
+python tools/validate_course_export.py
+```

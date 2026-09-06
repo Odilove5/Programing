@@ -2,7 +2,9 @@
 
 The canonical web curriculum is generated in `dashboard/lib/curriculum.ts`. The CLI uses `curriculum.json` plus `course_catalog.py`. Keep their phase and week intent aligned. The dashboard schema requires 252 stable records: 36 weeks, six required lessons, and one optional retrieval day per week.
 
-Never renumber existing `week-NN-day-NN` IDs. Weeks 1 and 2 are completed history, and Week 3 Day 1 remains active until its loop checkpoint is complete.
+Never renumber existing `week-NN-day-NN` IDs. Completion and checkpoint
+records belong to individual local learners and are never embedded in the
+public curriculum metadata.
 
 ## Required lesson design
 
@@ -20,4 +22,3 @@ Build one current capability at a time. Do not introduce an AI framework before 
 - Record evidence and test normal, boundary, malformed, denied, timeout, and duplicate behavior.
 
 Prefer narrow official documentation and original summaries. Run Python tests, dashboard type checking, lint, curriculum tests, and the production build after curriculum changes.
-

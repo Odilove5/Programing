@@ -1852,6 +1852,15 @@ export const curriculumById = new Map(
   curriculum.map((lesson) => [lesson.id, lesson]),
 );
 
+export type ContentReadiness = "Draft" | "Authored (partial)" | "Validated";
+
+/** Readiness of authored course material, independent of learner progress. */
+export function contentReadiness(lesson: Lesson): ContentReadiness {
+  if (lesson.week <= 2) return "Validated";
+  if (lesson.week === 3) return "Authored (partial)";
+  return "Draft";
+}
+
 export function validateCurriculum(records = curriculum) {
   const parsed = z.array(lessonSchema).length(252).parse(records);
   const ids = new Set(parsed.map((lesson) => lesson.id));

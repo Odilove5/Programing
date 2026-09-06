@@ -1,16 +1,16 @@
 # Python + AI Software Engineering: MarketingOps AI Roadmap
 
 This is a project-driven course whose capstone is an Autonomous AI Marketing
-Operations Agent. The course retains 36 calendar weeks so existing lesson IDs
-and progress remain valid. Each week has six required lessons and one optional
-retrieval/recovery day. An integrated build every sixth lesson unlocks a visible
-capability; blank-file checks periodically verify independent recall.
+Operations Agent. The course has 36 calendar weeks, six required lessons, and
+one optional retrieval/recovery day per week. Stable lesson IDs make local
+progress portable, but the public repository never contains a learner's
+completion state. The generated [daily curriculum index](../course-lessons/README.md)
+is the student-facing sequence.
 
 ## Phase 0 — Existing foundations and bridge (Weeks 1–3)
 
-Weeks 1 and 2 remain completed historical foundations. Week 3 Day 1 remains in
-progress and must finish its existing `range()` and `while` loop sequence. Days
-2–5 bridge existing Python, testing, shell, and Git skills into campaign data.
+Weeks 1–3 provide the foundations and bridge into campaign data. Days 2–5
+bridge Python, testing, shell, and Git skills into campaign data.
 Day 6 is a blank-file mastery checkpoint: analyze campaign records and identify
 CPA or spend violations using only requirements and tests.
 
@@ -108,4 +108,3 @@ Every phase contains blank-file retrieval checks. The student receives a
 contract and tests but no starter implementation. Git exercises explicitly
 separate semantic edits from CRLF/LF noise, generated files, `.DS_Store`, and
 accidental text before a focused commit is created.
-

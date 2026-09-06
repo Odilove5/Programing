@@ -1681,6 +1681,11 @@ pre {
   font-size: 0.75rem;
   overflow-wrap: anywhere;
 }
+.content-readiness {
+  color: #b9c8d2;
+  font-size: 0.78rem;
+}
+.content-readiness strong { color: var(--accent); }
 .guided-practice {
   margin: 0 0 34px;
   padding: 24px;

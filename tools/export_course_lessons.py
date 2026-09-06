@@ -30,6 +30,92 @@ def phase_for_week(week: int) -> str:
     return next(name for name, _level, start, end in PATHS if start <= week <= end)
 
 
+def week_module(week: int) -> dict[str, object]:
+    first = unit_for_day(week, 1)
+    return first
+
+
+def content_status(week: int) -> str:
+    if week <= 2:
+        return "Validated"
+    if week == 3:
+        return "Authored (partial)"
+    return "Draft"
+
+
+def lesson_directory(week: int, day: int, unit: dict[str, str]) -> Path:
+    return OUTPUT / f"week-{week:02d}" / f"day-{day:02d}-{slug(unit['topic'])}"
+
+
+def write_week_overview(week: int) -> None:
+    module = week_module(week)
+    daily = [unit_for_day(week, day) for day in range(1, 8)]
+    lines = [
+        f"# Week {week:02d} — {module['title']}",
+        "",
+        f"**Theme:** {phase_for_week(week)}  ",
+        f"**Track:** {module['track']}  ",
+        f"**Content readiness:** {content_status(week)}",
+        "",
+        "## What you will learn",
+        "",
+        f"{module['description']}",
+        "",
+        "By the end of this week, you should be able to:",
+        "",
+    ]
+    lines.extend(f"- {objective}" for objective in module["objectives"])
+    lines.extend([
+        "",
+        "## Prerequisites",
+        "",
+        *[f"- {item}" for item in module["prerequisites"]],
+        "",
+        "## Daily sequence",
+        "",
+    ])
+    for day, unit in enumerate(daily, 1):
+        optional = " — **Optional review/recovery**" if day == 7 else " — **Required**"
+        directory = lesson_directory(week, day, unit).name
+        lines.append(f"{day}. [Day {day:02d} — {unit['topic']}]({directory}/instructions.md){optional}")
+    lines.extend([
+        "",
+        "## Weekly project or milestone",
+        "",
+        f"**{module['capabilities'][-1]}** — complete the Day 06 applied project and retain the tests and evidence requested by its instructions.",
+        "",
+        "## Skills practiced",
+        "",
+        *[f"- {capability}" for capability in module["capabilities"]],
+        "",
+        "## Definition of completion",
+        "",
+        "Days 01–06 are complete when the student can explain the concept, implement it without copying, test normal/boundary/failure behavior, and connect the capability to MarketingOps AI. Day 07 is optional retrieval practice and is not included in the required lesson total.",
+        "",
+        f"[← Full curriculum](../README.md) · [Week {week:02d} folder](.)",
+        "",
+    ])
+    (OUTPUT / f"week-{week:02d}" / "README.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def write_curriculum_index() -> None:
+    rows = []
+    for week in range(1, 37):
+        module = week_module(week)
+        daily = [unit_for_day(week, day) for day in range(1, 8)]
+        topics = "; ".join(unit["topic"] for unit in daily[:6])
+        rows.append(
+            f"| {week} | [{module['title']}](week-{week:02d}/README.md) | {topics} | {module['capabilities'][-1]} | {content_status(week)} |"
+        )
+    content = "# Course lessons — daily curriculum\n\n"
+    content += "A reusable, 36-week Python + AI Software Engineering course. Days 01–06 are required; Day 07 is optional retrieval/recovery. The dashboard is optional—this index and the linked lesson files are sufficient to follow the course.\n\n"
+    content += "## Lesson totals\n\n- **216 required lessons** (36 weeks × 6 days)\n- **36 optional review days**\n- **252 total daily entries**\n\n"
+    content += "## Weekly curriculum\n\n| Week | Weekly theme | Daily topics (Days 01–06) | Project or milestone | Content status |\n|---:|---|---|---|---|\n"
+    content += "\n".join(rows)
+    content += "\n\n## Lesson workflow\n\nOpen a week README, choose the next day, read `instructions.md`, complete `exercise.py`, run its tests, and compare with the separate `solution.py` reference pattern only after attempting the work.\n"
+    (OUTPUT / "README.md").write_text(content, encoding="utf-8")
+
+
 def instructions(week: int, day: int, unit: dict[str, str]) -> str:
     status = "required" if day <= 6 else "optional retrieval / recovery"
     return f"""# Lesson {week:02d}.{day:02d}: {unit['topic']}
@@ -172,11 +258,13 @@ canonical progress records remain the source of truth.
     for week in range(1, 37):
         for day in range(1, 8):
             unit = unit_for_day(week, day)
-            directory = OUTPUT / f"week-{week:02d}" / f"day-{day:02d}-{slug(unit['topic'])}"
+            directory = lesson_directory(week, day, unit)
             directory.mkdir(parents=True, exist_ok=True)
             (directory / "instructions.md").write_text(instructions(week, day, unit), encoding="utf-8")
             (directory / "exercise.py").write_text(exercise(week, day, unit), encoding="utf-8")
             (directory / "solution.py").write_text(solution(week, day, unit), encoding="utf-8")
+        write_week_overview(week)
+    write_curriculum_index()
     print(f"Exported 252 lessons to {OUTPUT}")
 
 

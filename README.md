@@ -1,14 +1,15 @@
 # Python + AI Software Engineering — MarketingOps AI
 
-A local-first, project-driven programming course that grows from Python foundations into an Autonomous AI Marketing Operations Agent. The student writes the implementations; the course supplies explanations, focused examples, prediction questions, exercises, tests, progressive hints, and separate reference material.
+A project-driven Python and AI Software Engineering course that grows from
+programming foundations into an Autonomous MarketingOps AI capstone. Learners
+write the implementations; the course supplies explanations, focused
+examples, prediction questions, exercises, tests, progressive hints, and
+separate reference material.
 
-## Current student checkpoint
-
-- Week 1: complete.
-- Week 2: complete.
-- Week 3 Day 1: in progress.
-- Resume at the bounded `range()` exercise in `cli-sessions/week-03-day-01.md`.
-- Complete `range()`, `while` loops, state changes, termination conditions, infinite-loop prevention, loop choice, and termination tests before starting the MarketingOps bridge checkpoint.
+This public repository contains reusable course content, not one learner's
+completion record. New learners begin at Week 1 Day 1. Returning learners
+resume from their own ignored local progress store. Progress is never inferred
+from exercise files or project directories.
 
 The migration preserves the 36-week, seven-day calendar and all `week-NN-day-NN` identifiers so saved progress remains valid. Day 7 is optional retrieval/recovery; the other six days are required.
 
@@ -43,6 +44,9 @@ Model output never has unrestricted access to external actions. AI proposes; typ
 
 See the [course roadmap](docs/COURSE_ROADMAP.md), [capstone architecture](docs/AUTONOMOUS_MARKETINGOPS_ARCHITECTURE.md), and [migration mapping](docs/MIGRATION_TO_MARKETINGOPS.md).
 
+See the complete [daily curriculum index](course-lessons/README.md), with a
+week overview and links to every lesson.
+
 ## Learning workflow
 
 Each lesson aims to provide a concept explanation, small worked example, prediction questions, student implementation, tests or acceptance criteria, progressively stronger hints, a separate reference solution when appropriate, and “What this unlocks in MarketingOps AI.” Periodic blank-file exercises provide only requirements and tests.
@@ -76,7 +80,10 @@ npm run build
 npm run start
 ```
 
-Open <http://127.0.0.1:3000>. Durable local progress is stored in `dashboard/.data/offsec-bootcamp.sqlite`; the legacy filename is retained to avoid a destructive progress migration.
+Open <http://127.0.0.1:3000>. On a fresh clone the dashboard shows **Start
+course** and stores progress only in the local ignored database under
+`dashboard/.data/`. Use the dashboard's export/reset controls to move or clear
+your own learner state.
 
 ## Preserved CLI
 
@@ -87,7 +94,11 @@ python study_coach.py --start 2026-08-07 --minutes 90 today
 python study_coach.py dashboard
 ```
 
-The CLI uses `curriculum.json` and `.study-progress.json`. The dashboard uses its richer generated curriculum and versioned SQLite state. Both progress stores remain intact.
+The CLI uses the public curriculum plus a local ignored `.study-progress.json`.
+The dashboard uses its richer generated curriculum and a local ignored SQLite
+state. Personal sessions and archives under `cli-sessions/` and
+`lesson-archives/` are local-only; historical tracked files in those
+directories are documented for a future private archive decision.
 
 ## Verification
 
@@ -110,5 +121,9 @@ Student exercise tests live beside their projects under `workspace/`. Do not run
 - [Data model](docs/DATA_MODEL.md)
 - [Testing](docs/TESTING.md)
 - [MarketingOps architecture](docs/AUTONOMOUS_MARKETINGOPS_ARCHITECTURE.md)
+- [Course content and learner progress](docs/COURSE_CONTENT_AND_PROGRESS.md)
 
-Completed security-themed exercises remain as evidence of foundational Python, validation, testing, and Git skills. Future lessons use business and marketing contexts except where security principles directly support safe software and AI engineering.
+Legacy security-themed examples are retained as optional teaching material for
+validation, testing, and Git. Future lessons use business and marketing
+contexts except where security principles directly support safe software and AI
+engineering.
