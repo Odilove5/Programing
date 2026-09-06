@@ -1,0 +1,113 @@
+{
+  "program": {
+    "title": "Python + AI Software Engineering: Autonomous MarketingOps",
+    "duration": "36 weeks",
+    "study_days": 216,
+    "daily_minutes": 90,
+    "checkpoint": "Weeks 1 and 2 complete; Week 3 Day 1 in progress at bounded range practice",
+    "capstone": "Autonomous AI Marketing Operations Agent with deterministic KPIs, validated AI recommendations, policy-controlled adapters, human approval, evidence, and outcome measurement",
+    "daily_routine": [
+      {"minutes": 15, "activity": "Retrieve prior concepts and predict behavior"},
+      {"minutes": 25, "activity": "Learn one focused programming concept"},
+      {"minutes": 40, "activity": "Write and test the student implementation"},
+      {"minutes": 10, "activity": "Review failures, design, evidence, and Git diff"}
+    ],
+    "evidence_checklist": [
+      "Explain the concept without notes",
+      "Implement it without copying",
+      "Test normal, boundary, malformed, and denied behavior",
+      "Explain one failure and its fix",
+      "Identify trust and side-effect boundaries",
+      "Connect the capability to MarketingOps AI"
+    ],
+    "architecture_rule": "AI proposes; deterministic code validates; policy authorizes; a human approves when required; a deterministic adapter executes; evidence records the outcome",
+    "source_policy": {
+      "label": "Primary technical documentation",
+      "allowed_domains": ["docs.python.org", "www.gnu.org", "learn.microsoft.com", "git-scm.com", "docs.github.com", "developer.mozilla.org"]
+    }
+  },
+  "sources": {
+    "python_tutorial": {"title": "Python Tutorial", "url": "https://docs.python.org/3/tutorial/"},
+    "python_library": {"title": "Python Standard Library", "url": "https://docs.python.org/3/library/"},
+    "python_security": {"title": "Python Security Considerations", "url": "https://docs.python.org/3/library/security_warnings.html"},
+    "bash": {"title": "GNU Bash Reference Manual", "url": "https://www.gnu.org/software/bash/manual/bash.html"},
+    "powershell": {"title": "Microsoft PowerShell Documentation", "url": "https://learn.microsoft.com/powershell/"},
+    "git": {"title": "Pro Git", "url": "https://git-scm.com/book/en/v2"},
+    "github": {"title": "GitHub Get Started", "url": "https://docs.github.com/en/get-started"},
+    "http": {"title": "MDN HTTP Overview", "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"}
+  },
+  "weekly_rotation": [
+    {"track": "Python and domain models", "topic_group": "python", "objective": "Explain and implement {topic}.", "sources": ["python_tutorial", "python_library"], "practice": "Predict behavior, write a focused example, then implement {topic} with explicit inputs and outputs.", "deliverable": "Student-written Python plus normal, boundary, and failure checks."},
+    {"track": "Data and interfaces", "topic_group": "data", "objective": "Use {topic} with validated marketing data.", "sources": ["python_library", "http"], "practice": "Transform a local fixture using {topic} while preserving rejected-data evidence.", "deliverable": "A deterministic data transformation or interface contract."},
+    {"track": "Reliable automation", "topic_group": "automation", "objective": "Build {topic} behind a safe deterministic boundary.", "sources": ["python_library", "python_security"], "practice": "Implement {topic} with timeouts, bounded work, useful errors, or dry-run where applicable.", "deliverable": "A reusable component and a negative test."},
+    {"track": "Git and quality", "topic_group": "quality", "objective": "Practice {topic} on the current project.", "sources": ["git", "github"], "practice": "Inspect semantic and noise changes, test the intended snapshot, and document {topic}.", "deliverable": "A reviewed diff, focused test evidence, or small commit."},
+    {"track": "Policy and reliability", "topic_group": "policy", "objective": "Apply {topic} as an explicit engineering constraint.", "sources": ["python_security", "python_library"], "practice": "Write deterministic rules and denied or failure cases for {topic}.", "deliverable": "An explainable decision record and tests."},
+    {"track": "Integrated project", "topic_group": "project", "objective": "Integrate this week's skills into {topic}.", "sources": ["python_tutorial", "python_library", "git"], "practice": "Implement only the current vertical slice of {topic}; do not build future milestones.", "deliverable": "Student code, tests, documentation, and a focused Git review."},
+    {"track": "Rest / review", "topic_group": "python", "objective": "", "sources": [], "practice": "", "deliverable": ""}
+  ],
+  "phases": [
+    {"name": "Existing foundations and bridge", "weeks": [1,3], "topics": {
+      "python": ["values, variables, types, and handled conversion", "conditions, Boolean logic, imports, and functions", "lists, for loops, range, while loops, and termination"],
+      "data": ["Bash paths, quoting, and redirection", "PowerShell objects and pipelines", "campaign lists and dictionaries"],
+      "automation": ["input normalization and validation", "scoped decisions and basic tests", "state changes and loop boundary tests"],
+      "quality": ["useful commits", "staging and diff inspection", "semantic changes versus line-ending and generated-file noise"],
+      "policy": ["authorization, scope, and evidence", "fail-closed rules and safe defaults", "CPA and spend thresholds"],
+      "project": ["target-data normalizer", "scope-aware target validator", "blank-file campaign rules checker"]}},
+    {"name": "Python for marketing data", "weeks": [4,7], "topics": {
+      "python": ["nested campaign dictionaries", "functions and reusable transformations", "CSV and JSON processing", "typing basics and module design"],
+      "data": ["list comprehensions and rejected records", "pathlib and encodings", "campaign KPI inputs", "human-readable and machine-readable reports"],
+      "automation": ["record normalization", "dual-format file loading", "CTR, CPC, CPA, and ROAS", "analyzer composition"],
+      "quality": ["blank-file retrieval", "file failure tests", "zero-denominator tests", "focused analyzer release"],
+      "policy": ["malformed record handling", "evidence preservation", "deterministic arithmetic", "data-quality limits"],
+      "project": ["campaign transformer", "campaign file loader", "KPI calculator", "Campaign Performance Analyzer"]}},
+    {"name": "Reliable business logic and data models", "weeks": [8,11], "topics": {
+      "python": ["dataclasses", "enums and typed domain states", "pure functions and composition", "pytest fixtures and parametrization"],
+      "data": ["Campaign and MetricSnapshot", "BusinessGoal and Recommendation", "Evidence and ActionRequest", "validated configuration"],
+      "automation": ["model normalization", "deterministic goal rules", "structured logging and redaction", "regression test suites"],
+      "quality": ["type-driven review", "separation-of-concerns review", "observable failure evidence", "blank-file KPI checkpoint"],
+      "policy": ["model invariants", "safe dependency ordering", "configuration boundaries", "negative and boundary coverage"],
+      "project": ["marketing domain model", "goal progress evaluator", "observable metrics run", "Reliable KPI Engine"]}},
+    {"name": "APIs and business data integration", "weeks": [12,15], "topics": {
+      "python": ["HTTP requests and responses", "pagination and bounded retries", "API schema validation", "protocols and dependency injection"],
+      "data": ["JSON API contracts", "rate-limit metadata", "authentication and environment secrets", "canonical connector records"],
+      "automation": ["timeout-aware client", "exponential backoff", "malformed response handling", "mock Analytics, CRM, and Ads clients"],
+      "quality": ["mock HTTP tests", "retry and idempotency tests", "secret and log review", "connector contract tests"],
+      "policy": ["untrusted API data", "bounded collection", "least-privilege credentials", "mock-first integration"],
+      "project": ["mock analytics client", "paginated metrics client", "validated CRM connector", "Marketing Data API Connector"]}},
+    {"name": "Backend and persistence", "weeks": [16,19], "topics": {
+      "python": ["services and repositories", "SQLite and parameterized SQL", "FastAPI request and response models", "background-job boundaries"],
+      "data": ["goal and campaign persistence", "metric and evidence relationships", "API resources", "migration and correlation metadata"],
+      "automation": ["repository implementation", "transactional CRUD", "API error handling", "structured backend logging"],
+      "quality": ["service unit tests", "database fixtures", "API tests", "persistent workflow checkpoint"],
+      "policy": ["data ownership boundaries", "transaction integrity", "validated API boundaries", "auditable job state"],
+      "project": ["campaign service", "SQLite evidence store", "MarketingOps API", "Persistent MarketingOps Backend"]}},
+    {"name": "LLM engineering", "weeks": [20,23], "topics": {
+      "python": ["model client interfaces", "prompt and context builders", "structured recommendation models", "evaluation harnesses"],
+      "data": ["verified KPI context", "evidence-referenced prompts", "schema-conforming model output", "evaluation datasets"],
+      "automation": ["mock-first model gateway", "untrusted context filtering", "model retries and fallback", "cost and latency measurement"],
+      "quality": ["prompt contract tests", "injection and grounding tests", "structured-output failure tests", "analyst evaluation"],
+      "policy": ["AI recommends but cannot execute", "hallucination boundaries", "fail-closed output validation", "token and cost budgets"],
+      "project": ["model gateway", "grounded context builder", "validated analyst recommendation", "AI Performance Analyst"]}},
+    {"name": "Tools, agents, and orchestration", "weeks": [24,27], "topics": {
+      "python": ["typed tool contracts", "planner and executor interfaces", "state machines and bounded loops", "specialized agent contracts"],
+      "data": ["tool input and output schemas", "plan and task records", "persistent workflow state", "agent handoff evidence"],
+      "automation": ["allowlisted tool registry", "bounded plan execution", "idempotent recovery", "coordinated agent workflow"],
+      "quality": ["tool contract tests", "planner boundary tests", "termination and retry tests", "agent collaboration evals"],
+      "policy": ["bounded tools", "proposal versus permission", "step and time limits", "role justification"],
+      "project": ["read-only tool registry", "campaign experiment planner", "resumable orchestrator", "Agent Workflow"]}},
+    {"name": "Policy engine and human oversight", "weeks": [28,31], "topics": {
+      "python": ["policy decision models", "approval workflows", "deterministic adapters", "autonomy state models"],
+      "data": ["action classification", "approval identity and expiry", "adapter receipts and idempotency keys", "budget and monitoring state"],
+      "automation": ["allow, deny, and approval evaluation", "approval binding", "dry-run execution", "scheduled policy-controlled actions"],
+      "quality": ["policy tables and parametrized tests", "tampered approval tests", "duplicate and compensation tests", "autonomy-level evaluation"],
+      "policy": ["fail-closed authorization", "human oversight", "budget limits", "auditability across Levels 0 through 4"],
+      "project": ["policy evaluator", "Approval Service", "controlled execution adapters", "Policy-Controlled Execution"]}},
+    {"name": "Autonomous MarketingOps capstone", "weeks": [32,36], "topics": {
+      "python": ["goal-driven control loop", "research and recommendation integration", "policy-aware action integration", "outcome measurement and replanning", "hardening and release"],
+      "data": ["goal baselines and horizons", "research provenance and drafts", "approval and execution evidence", "before-and-after metrics", "release fixtures and documentation"],
+      "automation": ["plan, collect, and measure", "grounded agent coordination", "controlled action execution", "bounded scheduling", "end-to-end recovery"],
+      "quality": ["goal-loop tests", "reasoning-layer evaluations", "denial and approval tests", "delayed-outcome tests", "release quality gates"],
+      "policy": ["iteration budgets", "evidence-grounded recommendations", "no direct LLM execution", "causal caution", "privacy, cost, and reliability review"],
+      "project": ["capstone control loop", "capstone reasoning layer", "capstone action layer", "measured optimization loop", "Autonomous MarketingOps Agent release"]}}
+  ]
+}
