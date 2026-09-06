@@ -9,7 +9,10 @@ import {
   Check,
   CircleAlert,
   Clock3,
+  ExternalLink,
   Flag,
+  FileCode2,
+  FileText,
   ShieldCheck,
 } from "lucide-react";
 import { useApp } from "../../../components/app-provider";
@@ -151,6 +154,7 @@ export default function LessonPage() {
           <CheckpointSteps lesson={lesson}/>
         </section>
       )}
+      <LessonKit lesson={lesson} />
       <div className="lesson-layout">
         <article className="lesson-content">
           <section className="lesson-overview" aria-labelledby="overview-title">
@@ -484,6 +488,53 @@ export default function LessonPage() {
     </div>
   );
 }
+
+function LessonKit({ lesson }: { lesson: (typeof curriculum)[number] }) {
+  const weekPath = `https://github.com/Odilove5/Programing/tree/main/course-lessons/week-${String(lesson.week).padStart(2, "0")}`;
+  const files = [
+    {
+      name: "instructions.md",
+      label: "Read first",
+      description: "Objective, worked-example workflow, acceptance criteria, and capstone connection.",
+      icon: FileText,
+    },
+    {
+      name: "exercise.py",
+      label: "Write here",
+      description: "An intentionally incomplete student file. Build the implementation yourself.",
+      icon: FileCode2,
+    },
+    {
+      name: "solution.py",
+      label: "Compare after attempting",
+      description: "A separate reference pattern; it is not a substitute for your exercise.",
+      icon: FileCode2,
+    },
+  ];
+  return (
+    <section className="lesson-kit panel" aria-labelledby="lesson-kit-title">
+      <div className="lesson-kit-heading">
+        <div>
+          <p className="kicker">GitHub lesson format</p>
+          <h2 id="lesson-kit-title">A small lesson you can finish and review</h2>
+          <p>Use the same three-file workflow as the reference course: read, implement, then compare.</p>
+        </div>
+        <a className="button secondary" href={weekPath} target="_blank" rel="noreferrer">
+          Open week on GitHub <ExternalLink size={15} />
+        </a>
+      </div>
+      <div className="lesson-kit-files">
+        {files.map(({ name, label, description, icon: Icon }) => (
+          <div className="lesson-kit-file" key={name}>
+            <Icon size={17} aria-hidden="true" />
+            <div><strong>{name}</strong><span>{label}</span><p>{description}</p></div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function LessonSection({
   title,
   children,

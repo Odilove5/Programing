@@ -1610,6 +1610,41 @@ pre {
   border-radius: 10px;
   background: #0d141c;
 }
+.lesson-kit {
+  margin: 20px 0 28px;
+  padding: 22px;
+  border: 1px solid #31506a;
+  background: #0d1822;
+}
+.lesson-kit-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 22px;
+}
+.lesson-kit-heading h2 { margin: 0 0 8px; }
+.lesson-kit-heading p:not(.kicker) { max-width: 65ch; margin: 0; color: #bdcbd6; }
+.lesson-kit-heading .button { flex: none; white-space: nowrap; }
+.lesson-kit-files {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 18px;
+}
+.lesson-kit-file {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid #2a3c4b;
+  border-radius: 8px;
+  background: #091119;
+  color: #9ef0cf;
+}
+.lesson-kit-file strong, .lesson-kit-file span, .lesson-kit-file p { display: block; }
+.lesson-kit-file strong { color: #e3edf3; font: 13px ui-monospace, SFMono-Regular, Consolas, monospace; }
+.lesson-kit-file span { margin-top: 3px; color: #9ef0cf; font-size: .74rem; font-weight: 750; }
+.lesson-kit-file p { margin: 8px 0 0; color: #aebcc7; font-size: .78rem; line-height: 1.45; }
 .expected-output {
   margin-bottom: 24px;
   border-color: #3b665a;
@@ -1814,6 +1849,9 @@ pre {
   border-bottom: 0;
 }
 @media (max-width: 720px) {
+  .lesson-kit-heading { display: grid; }
+  .lesson-kit-heading .button { width: fit-content; }
+  .lesson-kit-files { grid-template-columns: 1fr; }
   .code-walkthrough > div,
   .exercise-workbench {
     grid-template-columns: 1fr;

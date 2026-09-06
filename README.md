@@ -47,6 +47,24 @@ See the [course roadmap](docs/COURSE_ROADMAP.md), [capstone architecture](docs/A
 
 Each lesson aims to provide a concept explanation, small worked example, prediction questions, student implementation, tests or acceptance criteria, progressively stronger hints, a separate reference solution when appropriate, and “What this unlocks in MarketingOps AI.” Periodic blank-file exercises provide only requirements and tests.
 
+### GitHub lesson format
+
+The complete 36-week catalog is also available as a browsable lesson mirror in
+[`course-lessons/`](course-lessons/). Every canonical lesson keeps the same
+stable week/day identifier and has the same three-file workflow:
+
+```text
+course-lessons/week-03/day-01-lists-for-loops-range-and-while-termination/
+├── instructions.md  # read this first
+├── exercise.py      # intentionally incomplete student file
+└── solution.py      # separate reference pattern, after your attempt
+```
+
+The dashboard remains the source of truth for progress and richer interactive
+practice; the GitHub mirror makes every lesson easy to inspect, clone, and
+review. Regenerate it with `python tools/export_course_lessons.py` after
+curriculum metadata changes.
+
 ## Run the dashboard
 
 Requirements: Node.js 22.13 or newer and npm.
