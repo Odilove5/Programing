@@ -21,13 +21,13 @@ By the end of this week, you should be able to:
 
 ## Daily sequence
 
-1. [Day 01 — Think Like a Programmer](day-01-think-like-a-programmer/instructions.md) — **Required**
-2. [Day 02 — values and variables](day-02-values-and-variables/instructions.md) — **Required**
-3. [Day 03 — strings, integers, and booleans](day-03-strings-integers-and-booleans/instructions.md) — **Required**
-4. [Day 04 — input and conversion](day-04-input-and-conversion/instructions.md) — **Required**
-5. [Day 05 — tracebacks and handled errors](day-05-tracebacks-and-handled-errors/instructions.md) — **Required**
-6. [Day 06 — an authorized-target report](day-06-an-authorized-target-report/instructions.md) — **Required**
-7. [Day 07 — Review: Think Like a Programmer](day-07-review-think-like-a-programmer/instructions.md) — **Optional review/recovery**
+1. [Day 01 — Values, Types, Input, and Output](day-01-think-like-a-programmer/instructions.md) — **Required**
+2. [Day 02 — Paths, Quoting, and Redirection](day-02-values-and-variables/instructions.md) — **Required**
+3. [Day 03 — Normalize and Validate Operator Input](day-03-strings-integers-and-booleans/instructions.md) — **Required**
+4. [Day 04 — Create a Repository and Make Useful Commits](day-04-input-and-conversion/instructions.md) — **Required**
+5. [Day 05 — Authorization, Scope, and Evidence](day-05-tracebacks-and-handled-errors/instructions.md) — **Required**
+6. [Day 06 — Build an Authorized-Target Report](day-06-an-authorized-target-report/instructions.md) — **Required**
+7. [Day 07 — Optional Review: Values and Safe Decisions](day-07-review-think-like-a-programmer/instructions.md) — **Optional review/recovery**
 
 ## Weekly project or milestone
 

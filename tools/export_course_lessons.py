@@ -47,6 +47,16 @@ def lesson_directory(week: int, day: int, unit: dict[str, str]) -> Path:
     return OUTPUT / f"week-{week:02d}" / f"day-{day:02d}-{slug(unit['topic'])}"
 
 
+def display_topic(week: int, day: int, unit: dict[str, str]) -> str:
+    """Use authored lesson titles in indexes without creating a second catalog."""
+    instruction = lesson_directory(week, day, unit) / "instructions.md"
+    if instruction.exists():
+        first = instruction.read_text(encoding="utf-8").splitlines()[0]
+        if first.startswith("# ") and ": " in first:
+            return first.split(": ", 1)[1]
+    return unit["topic"]
+
+
 def write_week_overview(week: int) -> None:
     module = week_module(week)
     daily = [unit_for_day(week, day) for day in range(1, 8)]
@@ -77,7 +87,7 @@ def write_week_overview(week: int) -> None:
     for day, unit in enumerate(daily, 1):
         optional = " — **Optional review/recovery**" if day == 7 else " — **Required**"
         directory = lesson_directory(week, day, unit).name
-        lines.append(f"{day}. [Day {day:02d} — {unit['topic']}]({directory}/instructions.md){optional}")
+        lines.append(f"{day}. [Day {day:02d} — {display_topic(week, day, unit)}]({directory}/instructions.md){optional}")
     lines.extend([
         "",
         "## Weekly project or milestone",
@@ -103,7 +113,7 @@ def write_curriculum_index() -> None:
     for week in range(1, 37):
         module = week_module(week)
         daily = [unit_for_day(week, day) for day in range(1, 8)]
-        topics = "; ".join(unit["topic"] for unit in daily[:6])
+        topics = "; ".join(display_topic(week, day, unit) for day, unit in enumerate(daily[:6], 1))
         rows.append(
             f"| {week} | [{module['title']}](week-{week:02d}/README.md) | {topics} | {module['capabilities'][-1]} | {content_status(week)} |"
         )

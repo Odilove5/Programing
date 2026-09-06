@@ -21,13 +21,13 @@ By the end of this week, you should be able to:
 
 ## Daily sequence
 
-1. [Day 01 — Make Decisions with Data](day-01-make-decisions-with-data/instructions.md) — **Required**
-2. [Day 02 — comparisons and Boolean logic](day-02-comparisons-and-boolean-logic/instructions.md) — **Required**
-3. [Day 03 — conditional branches](day-03-conditional-branches/instructions.md) — **Required**
-4. [Day 04 — normalization and validation](day-04-normalization-and-validation/instructions.md) — **Required**
-5. [Day 05 — functions and basic tests](day-05-functions-and-basic-tests/instructions.md) — **Required**
-6. [Day 06 — a scope decision tool](day-06-a-scope-decision-tool/instructions.md) — **Required**
-7. [Day 07 — Review: Make Decisions with Data](day-07-review-make-decisions-with-data/instructions.md) — **Optional review/recovery**
+1. [Day 01 — Conditionals, Boolean Logic, and Imports](day-01-make-decisions-with-data/instructions.md) — **Required**
+2. [Day 02 — PowerShell Objects and Pipelines](day-02-comparisons-and-boolean-logic/instructions.md) — **Required**
+3. [Day 03 — Scoped Decisions from Validated Data](day-03-conditional-branches/instructions.md) — **Required**
+4. [Day 04 — Stage Changes and Inspect Diffs](day-04-normalization-and-validation/instructions.md) — **Required**
+5. [Day 05 — Rules of Engagement and Safe Defaults](day-05-functions-and-basic-tests/instructions.md) — **Required**
+6. [Day 06 — Build a Scope-Aware Target Validator](day-06-a-scope-decision-tool/instructions.md) — **Required**
+7. [Day 07 — Optional Review: Decisions and Validation](day-07-review-make-decisions-with-data/instructions.md) — **Optional review/recovery**
 
 ## Weekly project or milestone
 
