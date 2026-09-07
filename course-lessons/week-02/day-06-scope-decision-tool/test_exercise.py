@@ -4,4 +4,6 @@ from exercise import *
 
 
 def test_acceptance():
-    assert validate_target(" Demo ", {"demo"})["accepted"]; assert validate_target(" ", {"demo"})["valid"] is False
+    assert validate_target(" Demo ", {"demo"})["accepted"] is True
+    assert validate_target(" ", {"demo"})["accepted"] is False
+    assert validate_target("not-allowed", {"demo"})["reason"] == "out of scope"

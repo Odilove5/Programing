@@ -13,7 +13,13 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from course_catalog import PATHS, unit_for_day, lesson_presentation, canonical_lessons
+from course_catalog import (
+    PATHS,
+    canonical_lessons,
+    lesson_content_status,
+    lesson_presentation,
+    unit_for_day,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -36,11 +42,12 @@ def week_module(week: int) -> dict[str, object]:
 
 
 def content_status(week: int) -> str:
-    if week <= 2:
-        return "Authored"
-    if week == 3:
-        return "Authored"
-    return "Draft"
+    statuses = {lesson_content_status(week, day) for day in range(1, 8)}
+    if len(statuses) == 1:
+        return statuses.pop()
+    if "Draft" in statuses:
+        return "Partially authored"
+    return "Mixed readiness"
 
 
 def lesson_directory(week: int, day: int, unit: dict[str, str]) -> Path:
@@ -258,21 +265,6 @@ if __name__ == "__main__":
 
 def main() -> None:
     OUTPUT.mkdir(exist_ok=True)
-    (OUTPUT / "README.md").write_text(
-        """# Course lessons
-
-One folder per canonical `week-NN-day-NN` lesson. Each lesson keeps the same
-three-file workflow as the reference course:
-
-- `instructions.md` — objective, exercise contract, acceptance criteria
-- `exercise.py` — intentionally incomplete student file
-- `solution.py` — separate reference pattern to inspect after attempting
-
-These files are a presentation/export mirror. The dashboard curriculum and
-canonical progress records remain the source of truth.
-""",
-        encoding="utf-8",
-    )
     for week in range(1, 37):
         for day in range(1, 8):
             unit = unit_for_day(week, day)

@@ -3,32 +3,32 @@ on:
   push:
   pull_request:
 jobs:
-  verify:
+  python-compatibility:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         python-version: ["3.10", "3.12"]
-        node-version: ["20"]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: ${{ matrix.python-version }}
-          cache: pip
-      - uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: npm
-          cache-dependency-path: dashboard/package-lock.json
       - run: python -m unittest discover -v
       - run: python tools/validate_course_export.py
+
+  full-verification:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22.13.0"
+          cache: npm
+          cache-dependency-path: dashboard/package-lock.json
       - run: npm ci
         working-directory: dashboard
-      - run: npm run typecheck
-        working-directory: dashboard
-      - run: npm run lint
-        working-directory: dashboard
-      - run: npm run test -- --run
-        working-directory: dashboard
-      - run: npm run build
-        working-directory: dashboard
+      - run: python tools/verify_course.py --ci

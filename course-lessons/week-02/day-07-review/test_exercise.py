@@ -4,4 +4,6 @@ from exercise import *
 
 
 def test_acceptance():
-    assert review_spend(50, 100) == "within"; assert review_spend(0, 10)["within_limit"] is True
+    assert review_spend(50, 100) == "within"
+    assert review_spend(0, 10) == "within"
+    assert review_spend(11, 10) == "over"

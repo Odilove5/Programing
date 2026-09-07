@@ -13,11 +13,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "No prior experience required"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain values and variables",
       "Implement strings, integers, and booleans and input and conversion",
       "Diagnose failures involving tracebacks and handled errors",
       "Build an authorized-target report"
+    ],
+    "daily_objectives": [
+      "Explain values, types, input, and output in your own words",
+      "Implement the week-01-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an authorized-target report",
     "content_status": "Authored",
@@ -36,11 +41,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "No prior experience required"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain values and variables",
       "Implement strings, integers, and booleans and input and conversion",
       "Diagnose failures involving tracebacks and handled errors",
       "Build an authorized-target report"
+    ],
+    "daily_objectives": [
+      "Explain paths, quoting, and redirection in your own words",
+      "Implement the week-01-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an authorized-target report",
     "content_status": "Authored",
@@ -59,11 +69,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "No prior experience required"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain values and variables",
       "Implement strings, integers, and booleans and input and conversion",
       "Diagnose failures involving tracebacks and handled errors",
       "Build an authorized-target report"
+    ],
+    "daily_objectives": [
+      "Explain normalization and validation in your own words",
+      "Implement the week-01-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an authorized-target report",
     "content_status": "Authored",
@@ -82,11 +97,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "No prior experience required"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain values and variables",
       "Implement strings, integers, and booleans and input and conversion",
       "Diagnose failures involving tracebacks and handled errors",
       "Build an authorized-target report"
+    ],
+    "daily_objectives": [
+      "Explain git repositories and useful commits in your own words",
+      "Implement the week-01-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an authorized-target report",
     "content_status": "Authored",
@@ -105,11 +125,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "No prior experience required"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain values and variables",
       "Implement strings, integers, and booleans and input and conversion",
       "Diagnose failures involving tracebacks and handled errors",
       "Build an authorized-target report"
+    ],
+    "daily_objectives": [
+      "Explain authorization, scope, and evidence in your own words",
+      "Implement the week-01-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an authorized-target report",
     "content_status": "Authored",
@@ -128,11 +153,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "No prior experience required"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain values and variables",
       "Implement strings, integers, and booleans and input and conversion",
       "Diagnose failures involving tracebacks and handled errors",
       "Build an authorized-target report"
+    ],
+    "daily_objectives": [
+      "Explain authorized target report in your own words",
+      "Implement the week-01-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an authorized-target report",
     "content_status": "Authored",
@@ -151,11 +181,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "No prior experience required"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain values and variables",
       "Implement strings, integers, and booleans and input and conversion",
       "Diagnose failures involving tracebacks and handled errors",
       "Build an authorized-target report"
+    ],
+    "daily_objectives": [
+      "Explain week 1 review and retrieval in your own words",
+      "Implement the week-01-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an authorized-target report",
     "content_status": "Authored",
@@ -174,11 +209,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 1"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain comparisons and Boolean logic",
       "Implement conditional branches and normalization and validation",
       "Diagnose failures involving functions and basic tests",
       "Build a scope decision tool"
+    ],
+    "daily_objectives": [
+      "Explain conditionals and decisions in your own words",
+      "Implement the week-02-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a scope decision tool",
     "content_status": "Authored",
@@ -197,11 +237,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 1"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain comparisons and Boolean logic",
       "Implement conditional branches and normalization and validation",
       "Diagnose failures involving functions and basic tests",
       "Build a scope decision tool"
+    ],
+    "daily_objectives": [
+      "Explain comparisons and boolean logic in your own words",
+      "Implement the week-02-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a scope decision tool",
     "content_status": "Authored",
@@ -220,11 +265,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 1"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain comparisons and Boolean logic",
       "Implement conditional branches and normalization and validation",
       "Diagnose failures involving functions and basic tests",
       "Build a scope decision tool"
+    ],
+    "daily_objectives": [
+      "Explain validation with conditional branches in your own words",
+      "Implement the week-02-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a scope decision tool",
     "content_status": "Authored",
@@ -243,11 +293,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 1"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain comparisons and Boolean logic",
       "Implement conditional branches and normalization and validation",
       "Diagnose failures involving functions and basic tests",
       "Build a scope decision tool"
+    ],
+    "daily_objectives": [
+      "Explain normalization and validation practice in your own words",
+      "Implement the week-02-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a scope decision tool",
     "content_status": "Authored",
@@ -266,11 +321,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 1"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain comparisons and Boolean logic",
       "Implement conditional branches and normalization and validation",
       "Diagnose failures involving functions and basic tests",
       "Build a scope decision tool"
+    ],
+    "daily_objectives": [
+      "Explain functions and basic tests in your own words",
+      "Implement the week-02-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a scope decision tool",
     "content_status": "Authored",
@@ -289,11 +349,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 1"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain comparisons and Boolean logic",
       "Implement conditional branches and normalization and validation",
       "Diagnose failures involving functions and basic tests",
       "Build a scope decision tool"
+    ],
+    "daily_objectives": [
+      "Explain scope decision tool in your own words",
+      "Implement the week-02-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a scope decision tool",
     "content_status": "Authored",
@@ -312,11 +377,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 1"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain comparisons and Boolean logic",
       "Implement conditional branches and normalization and validation",
       "Diagnose failures involving functions and basic tests",
       "Build a scope decision tool"
+    ],
+    "daily_objectives": [
+      "Explain week 2 review and retrieval in your own words",
+      "Implement the week-02-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a scope decision tool",
     "content_status": "Authored",
@@ -335,11 +405,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 2"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain lists, sets, for loops, range, and while",
       "Implement state changes and termination and loop boundary tests",
       "Diagnose failures involving semantic Git diff review",
       "Build a blank-file campaign rules checker"
+    ],
+    "daily_objectives": [
+      "Explain loops and bounded range() practice in your own words",
+      "Implement the week-03-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a blank-file campaign rules checker",
     "content_status": "Authored",
@@ -358,11 +433,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 2"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain lists, sets, for loops, range, and while",
       "Implement state changes and termination and loop boundary tests",
       "Diagnose failures involving semantic Git diff review",
       "Build a blank-file campaign rules checker"
+    ],
+    "daily_objectives": [
+      "Explain collections and loops in your own words",
+      "Implement the week-03-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a blank-file campaign rules checker",
     "content_status": "Authored",
@@ -381,11 +461,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 2"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain lists, sets, for loops, range, and while",
       "Implement state changes and termination and loop boundary tests",
       "Diagnose failures involving semantic Git diff review",
       "Build a blank-file campaign rules checker"
+    ],
+    "daily_objectives": [
+      "Explain state changes and termination in your own words",
+      "Implement the week-03-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a blank-file campaign rules checker",
     "content_status": "Authored",
@@ -404,11 +489,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 2"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain lists, sets, for loops, range, and while",
       "Implement state changes and termination and loop boundary tests",
       "Diagnose failures involving semantic Git diff review",
       "Build a blank-file campaign rules checker"
+    ],
+    "daily_objectives": [
+      "Explain loop boundary tests in your own words",
+      "Implement the week-03-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a blank-file campaign rules checker",
     "content_status": "Authored",
@@ -427,11 +517,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 2"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain lists, sets, for loops, range, and while",
       "Implement state changes and termination and loop boundary tests",
       "Diagnose failures involving semantic Git diff review",
       "Build a blank-file campaign rules checker"
+    ],
+    "daily_objectives": [
+      "Explain semantic git diff review in your own words",
+      "Implement the week-03-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a blank-file campaign rules checker",
     "content_status": "Authored",
@@ -450,11 +545,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 2"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain lists, sets, for loops, range, and while",
       "Implement state changes and termination and loop boundary tests",
       "Diagnose failures involving semantic Git diff review",
       "Build a blank-file campaign rules checker"
+    ],
+    "daily_objectives": [
+      "Explain campaign rules checker in your own words",
+      "Implement the week-03-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a blank-file campaign rules checker",
     "content_status": "Authored",
@@ -473,11 +573,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 2"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain lists, sets, for loops, range, and while",
       "Implement state changes and termination and loop boundary tests",
       "Diagnose failures involving semantic Git diff review",
       "Build a blank-file campaign rules checker"
+    ],
+    "daily_objectives": [
+      "Explain week 3 review and retrieval in your own words",
+      "Implement the week-03-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a blank-file campaign rules checker",
     "content_status": "Authored",
@@ -496,11 +601,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 3"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain nested dictionaries",
       "Implement list comprehensions and pure transformations",
       "Diagnose failures involving malformed record evidence",
       "Build a campaign record transformer"
+    ],
+    "daily_objectives": [
+      "Explain day 01: transform campaign records in your own words",
+      "Implement the week-04-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a campaign record transformer",
     "content_status": "Draft",
@@ -519,11 +629,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 3"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain nested dictionaries",
       "Implement list comprehensions and pure transformations",
       "Diagnose failures involving malformed record evidence",
       "Build a campaign record transformer"
+    ],
+    "daily_objectives": [
+      "Explain day 02: nested dictionaries in your own words",
+      "Implement the week-04-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a campaign record transformer",
     "content_status": "Draft",
@@ -542,11 +657,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 3"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain nested dictionaries",
       "Implement list comprehensions and pure transformations",
       "Diagnose failures involving malformed record evidence",
       "Build a campaign record transformer"
+    ],
+    "daily_objectives": [
+      "Explain day 03: list comprehensions in your own words",
+      "Implement the week-04-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a campaign record transformer",
     "content_status": "Draft",
@@ -565,11 +685,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 3"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain nested dictionaries",
       "Implement list comprehensions and pure transformations",
       "Diagnose failures involving malformed record evidence",
       "Build a campaign record transformer"
+    ],
+    "daily_objectives": [
+      "Explain day 04: pure transformations in your own words",
+      "Implement the week-04-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a campaign record transformer",
     "content_status": "Draft",
@@ -588,11 +713,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 3"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain nested dictionaries",
       "Implement list comprehensions and pure transformations",
       "Diagnose failures involving malformed record evidence",
       "Build a campaign record transformer"
+    ],
+    "daily_objectives": [
+      "Explain day 05: malformed record evidence in your own words",
+      "Implement the week-04-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a campaign record transformer",
     "content_status": "Draft",
@@ -611,11 +741,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 3"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain nested dictionaries",
       "Implement list comprehensions and pure transformations",
       "Diagnose failures involving malformed record evidence",
       "Build a campaign record transformer"
+    ],
+    "daily_objectives": [
+      "Explain day 06: a campaign record transformer in your own words",
+      "Implement the week-04-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a campaign record transformer",
     "content_status": "Draft",
@@ -634,11 +769,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 3"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain nested dictionaries",
       "Implement list comprehensions and pure transformations",
       "Diagnose failures involving malformed record evidence",
       "Build a campaign record transformer"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: transform campaign records in your own words",
+      "Implement the week-04-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a campaign record transformer",
     "content_status": "Draft",
@@ -657,11 +797,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 4"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain CSV rows and JSON values",
       "Implement pathlib and encodings and file exceptions",
       "Diagnose failures involving input contracts",
       "Build a dual-format campaign loader"
+    ],
+    "daily_objectives": [
+      "Explain day 01: read marketing files in your own words",
+      "Implement the week-05-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a dual-format campaign loader",
     "content_status": "Draft",
@@ -680,11 +825,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 4"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain CSV rows and JSON values",
       "Implement pathlib and encodings and file exceptions",
       "Diagnose failures involving input contracts",
       "Build a dual-format campaign loader"
+    ],
+    "daily_objectives": [
+      "Explain day 02: csv rows and json values in your own words",
+      "Implement the week-05-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a dual-format campaign loader",
     "content_status": "Draft",
@@ -703,11 +853,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 4"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain CSV rows and JSON values",
       "Implement pathlib and encodings and file exceptions",
       "Diagnose failures involving input contracts",
       "Build a dual-format campaign loader"
+    ],
+    "daily_objectives": [
+      "Explain day 03: pathlib and encodings in your own words",
+      "Implement the week-05-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a dual-format campaign loader",
     "content_status": "Draft",
@@ -726,11 +881,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 4"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain CSV rows and JSON values",
       "Implement pathlib and encodings and file exceptions",
       "Diagnose failures involving input contracts",
       "Build a dual-format campaign loader"
+    ],
+    "daily_objectives": [
+      "Explain day 04: file exceptions in your own words",
+      "Implement the week-05-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a dual-format campaign loader",
     "content_status": "Draft",
@@ -749,11 +909,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 4"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain CSV rows and JSON values",
       "Implement pathlib and encodings and file exceptions",
       "Diagnose failures involving input contracts",
       "Build a dual-format campaign loader"
+    ],
+    "daily_objectives": [
+      "Explain day 05: input contracts in your own words",
+      "Implement the week-05-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a dual-format campaign loader",
     "content_status": "Draft",
@@ -772,11 +937,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 4"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain CSV rows and JSON values",
       "Implement pathlib and encodings and file exceptions",
       "Diagnose failures involving input contracts",
       "Build a dual-format campaign loader"
+    ],
+    "daily_objectives": [
+      "Explain day 06: a dual-format campaign loader in your own words",
+      "Implement the week-05-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a dual-format campaign loader",
     "content_status": "Draft",
@@ -795,11 +965,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 4"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain CSV rows and JSON values",
       "Implement pathlib and encodings and file exceptions",
       "Diagnose failures involving input contracts",
       "Build a dual-format campaign loader"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: read marketing files in your own words",
+      "Implement the week-05-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a dual-format campaign loader",
     "content_status": "Draft",
@@ -818,11 +993,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 5"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain ratio formulas",
       "Implement zero denominators and numeric validation",
       "Diagnose failures involving human-readable summaries",
       "Build a deterministic KPI calculator"
+    ],
+    "daily_objectives": [
+      "Explain day 01: calculate marketing kpis in your own words",
+      "Implement the week-06-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a deterministic KPI calculator",
     "content_status": "Draft",
@@ -841,11 +1021,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 5"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain ratio formulas",
       "Implement zero denominators and numeric validation",
       "Diagnose failures involving human-readable summaries",
       "Build a deterministic KPI calculator"
+    ],
+    "daily_objectives": [
+      "Explain day 02: ratio formulas in your own words",
+      "Implement the week-06-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a deterministic KPI calculator",
     "content_status": "Draft",
@@ -864,11 +1049,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 5"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain ratio formulas",
       "Implement zero denominators and numeric validation",
       "Diagnose failures involving human-readable summaries",
       "Build a deterministic KPI calculator"
+    ],
+    "daily_objectives": [
+      "Explain day 03: zero denominators in your own words",
+      "Implement the week-06-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a deterministic KPI calculator",
     "content_status": "Draft",
@@ -887,11 +1077,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 5"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain ratio formulas",
       "Implement zero denominators and numeric validation",
       "Diagnose failures involving human-readable summaries",
       "Build a deterministic KPI calculator"
+    ],
+    "daily_objectives": [
+      "Explain day 04: numeric validation in your own words",
+      "Implement the week-06-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a deterministic KPI calculator",
     "content_status": "Draft",
@@ -910,11 +1105,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 5"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain ratio formulas",
       "Implement zero denominators and numeric validation",
       "Diagnose failures involving human-readable summaries",
       "Build a deterministic KPI calculator"
+    ],
+    "daily_objectives": [
+      "Explain day 05: human-readable summaries in your own words",
+      "Implement the week-06-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a deterministic KPI calculator",
     "content_status": "Draft",
@@ -933,11 +1133,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 5"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain ratio formulas",
       "Implement zero denominators and numeric validation",
       "Diagnose failures involving human-readable summaries",
       "Build a deterministic KPI calculator"
+    ],
+    "daily_objectives": [
+      "Explain day 06: a deterministic kpi calculator in your own words",
+      "Implement the week-06-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a deterministic KPI calculator",
     "content_status": "Draft",
@@ -956,11 +1161,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 5"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain ratio formulas",
       "Implement zero denominators and numeric validation",
       "Diagnose failures involving human-readable summaries",
       "Build a deterministic KPI calculator"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: calculate marketing kpis in your own words",
+      "Implement the week-06-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a deterministic KPI calculator",
     "content_status": "Draft",
@@ -979,11 +1189,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 6"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain module boundaries",
       "Implement typed function signatures and regression tests",
       "Diagnose failures involving focused Git packaging",
       "Build Campaign Performance Analyzer"
+    ],
+    "daily_objectives": [
+      "Explain day 01: release the campaign analyzer in your own words",
+      "Implement the week-07-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Campaign Performance Analyzer",
     "content_status": "Draft",
@@ -1002,11 +1217,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 6"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain module boundaries",
       "Implement typed function signatures and regression tests",
       "Diagnose failures involving focused Git packaging",
       "Build Campaign Performance Analyzer"
+    ],
+    "daily_objectives": [
+      "Explain day 02: module boundaries in your own words",
+      "Implement the week-07-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Campaign Performance Analyzer",
     "content_status": "Draft",
@@ -1025,11 +1245,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 6"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain module boundaries",
       "Implement typed function signatures and regression tests",
       "Diagnose failures involving focused Git packaging",
       "Build Campaign Performance Analyzer"
+    ],
+    "daily_objectives": [
+      "Explain day 03: typed function signatures in your own words",
+      "Implement the week-07-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Campaign Performance Analyzer",
     "content_status": "Draft",
@@ -1048,11 +1273,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 6"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain module boundaries",
       "Implement typed function signatures and regression tests",
       "Diagnose failures involving focused Git packaging",
       "Build Campaign Performance Analyzer"
+    ],
+    "daily_objectives": [
+      "Explain day 04: regression tests in your own words",
+      "Implement the week-07-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Campaign Performance Analyzer",
     "content_status": "Draft",
@@ -1071,11 +1301,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 6"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain module boundaries",
       "Implement typed function signatures and regression tests",
       "Diagnose failures involving focused Git packaging",
       "Build Campaign Performance Analyzer"
+    ],
+    "daily_objectives": [
+      "Explain day 05: focused git packaging in your own words",
+      "Implement the week-07-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Campaign Performance Analyzer",
     "content_status": "Draft",
@@ -1094,11 +1329,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 6"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain module boundaries",
       "Implement typed function signatures and regression tests",
       "Diagnose failures involving focused Git packaging",
       "Build Campaign Performance Analyzer"
+    ],
+    "daily_objectives": [
+      "Explain day 06: campaign performance analyzer in your own words",
+      "Implement the week-07-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Campaign Performance Analyzer",
     "content_status": "Draft",
@@ -1117,11 +1357,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 6"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain module boundaries",
       "Implement typed function signatures and regression tests",
       "Diagnose failures involving focused Git packaging",
       "Build Campaign Performance Analyzer"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: release the campaign analyzer in your own words",
+      "Implement the week-07-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Campaign Performance Analyzer",
     "content_status": "Draft",
@@ -1140,11 +1385,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 7"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain dataclasses",
       "Implement enums and type hints",
       "Diagnose failures involving model invariants",
       "Build Campaign and MetricSnapshot models"
+    ],
+    "daily_objectives": [
+      "Explain day 01: model the marketing domain in your own words",
+      "Implement the week-08-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Campaign and MetricSnapshot models",
     "content_status": "Draft",
@@ -1163,11 +1413,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 7"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain dataclasses",
       "Implement enums and type hints",
       "Diagnose failures involving model invariants",
       "Build Campaign and MetricSnapshot models"
+    ],
+    "daily_objectives": [
+      "Explain day 02: dataclasses in your own words",
+      "Implement the week-08-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Campaign and MetricSnapshot models",
     "content_status": "Draft",
@@ -1186,11 +1441,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 7"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain dataclasses",
       "Implement enums and type hints",
       "Diagnose failures involving model invariants",
       "Build Campaign and MetricSnapshot models"
+    ],
+    "daily_objectives": [
+      "Explain day 03: enums in your own words",
+      "Implement the week-08-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Campaign and MetricSnapshot models",
     "content_status": "Draft",
@@ -1209,11 +1469,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 7"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain dataclasses",
       "Implement enums and type hints",
       "Diagnose failures involving model invariants",
       "Build Campaign and MetricSnapshot models"
+    ],
+    "daily_objectives": [
+      "Explain day 04: type hints in your own words",
+      "Implement the week-08-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Campaign and MetricSnapshot models",
     "content_status": "Draft",
@@ -1232,11 +1497,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 7"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain dataclasses",
       "Implement enums and type hints",
       "Diagnose failures involving model invariants",
       "Build Campaign and MetricSnapshot models"
+    ],
+    "daily_objectives": [
+      "Explain day 05: model invariants in your own words",
+      "Implement the week-08-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Campaign and MetricSnapshot models",
     "content_status": "Draft",
@@ -1255,11 +1525,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 7"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain dataclasses",
       "Implement enums and type hints",
       "Diagnose failures involving model invariants",
       "Build Campaign and MetricSnapshot models"
+    ],
+    "daily_objectives": [
+      "Explain day 06: campaign and metricsnapshot models in your own words",
+      "Implement the week-08-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Campaign and MetricSnapshot models",
     "content_status": "Draft",
@@ -1278,11 +1553,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 7"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain dataclasses",
       "Implement enums and type hints",
       "Diagnose failures involving model invariants",
       "Build Campaign and MetricSnapshot models"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: model the marketing domain in your own words",
+      "Implement the week-08-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Campaign and MetricSnapshot models",
     "content_status": "Draft",
@@ -1301,11 +1581,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 8"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pure functions",
       "Implement separation of concerns and normalization",
       "Diagnose failures involving dependency ordering",
       "Build goal-progress rules"
+    ],
+    "daily_objectives": [
+      "Explain day 01: design pure business rules in your own words",
+      "Implement the week-09-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "goal-progress rules",
     "content_status": "Draft",
@@ -1324,11 +1609,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 8"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pure functions",
       "Implement separation of concerns and normalization",
       "Diagnose failures involving dependency ordering",
       "Build goal-progress rules"
+    ],
+    "daily_objectives": [
+      "Explain day 02: pure functions in your own words",
+      "Implement the week-09-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "goal-progress rules",
     "content_status": "Draft",
@@ -1347,11 +1637,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 8"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pure functions",
       "Implement separation of concerns and normalization",
       "Diagnose failures involving dependency ordering",
       "Build goal-progress rules"
+    ],
+    "daily_objectives": [
+      "Explain day 03: separation of concerns in your own words",
+      "Implement the week-09-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "goal-progress rules",
     "content_status": "Draft",
@@ -1370,11 +1665,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 8"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pure functions",
       "Implement separation of concerns and normalization",
       "Diagnose failures involving dependency ordering",
       "Build goal-progress rules"
+    ],
+    "daily_objectives": [
+      "Explain day 04: normalization in your own words",
+      "Implement the week-09-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "goal-progress rules",
     "content_status": "Draft",
@@ -1393,11 +1693,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 8"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pure functions",
       "Implement separation of concerns and normalization",
       "Diagnose failures involving dependency ordering",
       "Build goal-progress rules"
+    ],
+    "daily_objectives": [
+      "Explain day 05: dependency ordering in your own words",
+      "Implement the week-09-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "goal-progress rules",
     "content_status": "Draft",
@@ -1416,11 +1721,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 8"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pure functions",
       "Implement separation of concerns and normalization",
       "Diagnose failures involving dependency ordering",
       "Build goal-progress rules"
+    ],
+    "daily_objectives": [
+      "Explain day 06: goal-progress rules in your own words",
+      "Implement the week-09-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "goal-progress rules",
     "content_status": "Draft",
@@ -1439,11 +1749,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 8"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pure functions",
       "Implement separation of concerns and normalization",
       "Diagnose failures involving dependency ordering",
       "Build goal-progress rules"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: design pure business rules in your own words",
+      "Implement the week-09-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "goal-progress rules",
     "content_status": "Draft",
@@ -1462,11 +1777,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 9"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain configuration precedence",
       "Implement environment variables and log levels and context",
       "Diagnose failures involving secret redaction",
       "Build an observable metrics run"
+    ],
+    "daily_objectives": [
+      "Explain day 01: configure and observe the engine in your own words",
+      "Implement the week-10-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an observable metrics run",
     "content_status": "Draft",
@@ -1485,11 +1805,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 9"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain configuration precedence",
       "Implement environment variables and log levels and context",
       "Diagnose failures involving secret redaction",
       "Build an observable metrics run"
+    ],
+    "daily_objectives": [
+      "Explain day 02: configuration precedence in your own words",
+      "Implement the week-10-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an observable metrics run",
     "content_status": "Draft",
@@ -1508,11 +1833,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 9"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain configuration precedence",
       "Implement environment variables and log levels and context",
       "Diagnose failures involving secret redaction",
       "Build an observable metrics run"
+    ],
+    "daily_objectives": [
+      "Explain day 03: environment variables in your own words",
+      "Implement the week-10-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an observable metrics run",
     "content_status": "Draft",
@@ -1531,11 +1861,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 9"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain configuration precedence",
       "Implement environment variables and log levels and context",
       "Diagnose failures involving secret redaction",
       "Build an observable metrics run"
+    ],
+    "daily_objectives": [
+      "Explain day 04: log levels and context in your own words",
+      "Implement the week-10-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an observable metrics run",
     "content_status": "Draft",
@@ -1554,11 +1889,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 9"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain configuration precedence",
       "Implement environment variables and log levels and context",
       "Diagnose failures involving secret redaction",
       "Build an observable metrics run"
+    ],
+    "daily_objectives": [
+      "Explain day 05: secret redaction in your own words",
+      "Implement the week-10-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an observable metrics run",
     "content_status": "Draft",
@@ -1577,11 +1917,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 9"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain configuration precedence",
       "Implement environment variables and log levels and context",
       "Diagnose failures involving secret redaction",
       "Build an observable metrics run"
+    ],
+    "daily_objectives": [
+      "Explain day 06: an observable metrics run in your own words",
+      "Implement the week-10-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an observable metrics run",
     "content_status": "Draft",
@@ -1600,11 +1945,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 9"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain configuration precedence",
       "Implement environment variables and log levels and context",
       "Diagnose failures involving secret redaction",
       "Build an observable metrics run"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: configure and observe the engine in your own words",
+      "Implement the week-10-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an observable metrics run",
     "content_status": "Draft",
@@ -1623,11 +1973,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 10"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pytest structure",
       "Implement fixtures and parametrization",
       "Diagnose failures involving negative tests",
       "Build Reliable KPI Engine"
+    ],
+    "daily_objectives": [
+      "Explain day 01: prove business logic in your own words",
+      "Implement the week-11-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Reliable KPI Engine",
     "content_status": "Draft",
@@ -1646,11 +2001,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 10"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pytest structure",
       "Implement fixtures and parametrization",
       "Diagnose failures involving negative tests",
       "Build Reliable KPI Engine"
+    ],
+    "daily_objectives": [
+      "Explain day 02: pytest structure in your own words",
+      "Implement the week-11-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Reliable KPI Engine",
     "content_status": "Draft",
@@ -1669,11 +2029,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 10"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pytest structure",
       "Implement fixtures and parametrization",
       "Diagnose failures involving negative tests",
       "Build Reliable KPI Engine"
+    ],
+    "daily_objectives": [
+      "Explain day 03: fixtures in your own words",
+      "Implement the week-11-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Reliable KPI Engine",
     "content_status": "Draft",
@@ -1692,11 +2057,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 10"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pytest structure",
       "Implement fixtures and parametrization",
       "Diagnose failures involving negative tests",
       "Build Reliable KPI Engine"
+    ],
+    "daily_objectives": [
+      "Explain day 04: parametrization in your own words",
+      "Implement the week-11-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Reliable KPI Engine",
     "content_status": "Draft",
@@ -1715,11 +2085,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 10"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pytest structure",
       "Implement fixtures and parametrization",
       "Diagnose failures involving negative tests",
       "Build Reliable KPI Engine"
+    ],
+    "daily_objectives": [
+      "Explain day 05: negative tests in your own words",
+      "Implement the week-11-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Reliable KPI Engine",
     "content_status": "Draft",
@@ -1738,11 +2113,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 10"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pytest structure",
       "Implement fixtures and parametrization",
       "Diagnose failures involving negative tests",
       "Build Reliable KPI Engine"
+    ],
+    "daily_objectives": [
+      "Explain day 06: reliable kpi engine in your own words",
+      "Implement the week-11-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Reliable KPI Engine",
     "content_status": "Draft",
@@ -1761,11 +2141,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 10"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pytest structure",
       "Implement fixtures and parametrization",
       "Diagnose failures involving negative tests",
       "Build Reliable KPI Engine"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: prove business logic in your own words",
+      "Implement the week-11-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Reliable KPI Engine",
     "content_status": "Draft",
@@ -1784,11 +2169,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 11"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain HTTP methods and status",
       "Implement headers and JSON and timeouts",
       "Diagnose failures involving error categories",
       "Build a mock analytics request"
+    ],
+    "daily_objectives": [
+      "Explain day 01: understand http and rest in your own words",
+      "Implement the week-12-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a mock analytics request",
     "content_status": "Draft",
@@ -1807,11 +2197,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 11"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain HTTP methods and status",
       "Implement headers and JSON and timeouts",
       "Diagnose failures involving error categories",
       "Build a mock analytics request"
+    ],
+    "daily_objectives": [
+      "Explain day 02: http methods and status in your own words",
+      "Implement the week-12-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a mock analytics request",
     "content_status": "Draft",
@@ -1830,11 +2225,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 11"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain HTTP methods and status",
       "Implement headers and JSON and timeouts",
       "Diagnose failures involving error categories",
       "Build a mock analytics request"
+    ],
+    "daily_objectives": [
+      "Explain day 03: headers and json in your own words",
+      "Implement the week-12-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a mock analytics request",
     "content_status": "Draft",
@@ -1853,11 +2253,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 11"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain HTTP methods and status",
       "Implement headers and JSON and timeouts",
       "Diagnose failures involving error categories",
       "Build a mock analytics request"
+    ],
+    "daily_objectives": [
+      "Explain day 04: timeouts in your own words",
+      "Implement the week-12-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a mock analytics request",
     "content_status": "Draft",
@@ -1876,11 +2281,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 11"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain HTTP methods and status",
       "Implement headers and JSON and timeouts",
       "Diagnose failures involving error categories",
       "Build a mock analytics request"
+    ],
+    "daily_objectives": [
+      "Explain day 05: error categories in your own words",
+      "Implement the week-12-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a mock analytics request",
     "content_status": "Draft",
@@ -1899,11 +2309,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 11"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain HTTP methods and status",
       "Implement headers and JSON and timeouts",
       "Diagnose failures involving error categories",
       "Build a mock analytics request"
+    ],
+    "daily_objectives": [
+      "Explain day 06: a mock analytics request in your own words",
+      "Implement the week-12-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a mock analytics request",
     "content_status": "Draft",
@@ -1922,11 +2337,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 11"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain HTTP methods and status",
       "Implement headers and JSON and timeouts",
       "Diagnose failures involving error categories",
       "Build a mock analytics request"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: understand http and rest in your own words",
+      "Implement the week-12-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a mock analytics request",
     "content_status": "Draft",
@@ -1945,11 +2365,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 12"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pagination",
       "Implement bounded retries and exponential backoff",
       "Diagnose failures involving rate-limit behavior",
       "Build a paginated metrics client"
+    ],
+    "daily_objectives": [
+      "Explain day 01: build bounded api clients in your own words",
+      "Implement the week-13-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a paginated metrics client",
     "content_status": "Draft",
@@ -1968,11 +2393,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 12"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pagination",
       "Implement bounded retries and exponential backoff",
       "Diagnose failures involving rate-limit behavior",
       "Build a paginated metrics client"
+    ],
+    "daily_objectives": [
+      "Explain day 02: pagination in your own words",
+      "Implement the week-13-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a paginated metrics client",
     "content_status": "Draft",
@@ -1991,11 +2421,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 12"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pagination",
       "Implement bounded retries and exponential backoff",
       "Diagnose failures involving rate-limit behavior",
       "Build a paginated metrics client"
+    ],
+    "daily_objectives": [
+      "Explain day 03: bounded retries in your own words",
+      "Implement the week-13-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a paginated metrics client",
     "content_status": "Draft",
@@ -2014,11 +2449,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 12"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pagination",
       "Implement bounded retries and exponential backoff",
       "Diagnose failures involving rate-limit behavior",
       "Build a paginated metrics client"
+    ],
+    "daily_objectives": [
+      "Explain day 04: exponential backoff in your own words",
+      "Implement the week-13-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a paginated metrics client",
     "content_status": "Draft",
@@ -2037,11 +2477,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 12"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pagination",
       "Implement bounded retries and exponential backoff",
       "Diagnose failures involving rate-limit behavior",
       "Build a paginated metrics client"
+    ],
+    "daily_objectives": [
+      "Explain day 05: rate-limit behavior in your own words",
+      "Implement the week-13-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a paginated metrics client",
     "content_status": "Draft",
@@ -2060,11 +2505,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 12"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pagination",
       "Implement bounded retries and exponential backoff",
       "Diagnose failures involving rate-limit behavior",
       "Build a paginated metrics client"
+    ],
+    "daily_objectives": [
+      "Explain day 06: a paginated metrics client in your own words",
+      "Implement the week-13-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a paginated metrics client",
     "content_status": "Draft",
@@ -2083,11 +2533,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 12"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain pagination",
       "Implement bounded retries and exponential backoff",
       "Diagnose failures involving rate-limit behavior",
       "Build a paginated metrics client"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: build bounded api clients in your own words",
+      "Implement the week-13-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a paginated metrics client",
     "content_status": "Draft",
@@ -2106,11 +2561,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 13"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain authentication concepts",
       "Implement environment secrets and schema validation",
       "Diagnose failures involving untrusted data",
       "Build a validated CRM response"
+    ],
+    "daily_objectives": [
+      "Explain day 01: protect credentials and validate schemas in your own words",
+      "Implement the week-14-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a validated CRM response",
     "content_status": "Draft",
@@ -2129,11 +2589,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 13"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain authentication concepts",
       "Implement environment secrets and schema validation",
       "Diagnose failures involving untrusted data",
       "Build a validated CRM response"
+    ],
+    "daily_objectives": [
+      "Explain day 02: authentication concepts in your own words",
+      "Implement the week-14-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a validated CRM response",
     "content_status": "Draft",
@@ -2152,11 +2617,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 13"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain authentication concepts",
       "Implement environment secrets and schema validation",
       "Diagnose failures involving untrusted data",
       "Build a validated CRM response"
+    ],
+    "daily_objectives": [
+      "Explain day 03: environment secrets in your own words",
+      "Implement the week-14-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a validated CRM response",
     "content_status": "Draft",
@@ -2175,11 +2645,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 13"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain authentication concepts",
       "Implement environment secrets and schema validation",
       "Diagnose failures involving untrusted data",
       "Build a validated CRM response"
+    ],
+    "daily_objectives": [
+      "Explain day 04: schema validation in your own words",
+      "Implement the week-14-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a validated CRM response",
     "content_status": "Draft",
@@ -2198,11 +2673,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 13"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain authentication concepts",
       "Implement environment secrets and schema validation",
       "Diagnose failures involving untrusted data",
       "Build a validated CRM response"
+    ],
+    "daily_objectives": [
+      "Explain day 05: untrusted data in your own words",
+      "Implement the week-14-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a validated CRM response",
     "content_status": "Draft",
@@ -2221,11 +2701,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 13"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain authentication concepts",
       "Implement environment secrets and schema validation",
       "Diagnose failures involving untrusted data",
       "Build a validated CRM response"
+    ],
+    "daily_objectives": [
+      "Explain day 06: a validated crm response in your own words",
+      "Implement the week-14-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a validated CRM response",
     "content_status": "Draft",
@@ -2244,11 +2729,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 13"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain authentication concepts",
       "Implement environment secrets and schema validation",
       "Diagnose failures involving untrusted data",
       "Build a validated CRM response"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: protect credentials and validate schemas in your own words",
+      "Implement the week-14-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a validated CRM response",
     "content_status": "Draft",
@@ -2267,11 +2757,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 14"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain protocols and interfaces",
       "Implement dependency injection and mock clients",
       "Diagnose failures involving contract tests",
       "Build Marketing Data API Connector"
+    ],
+    "daily_objectives": [
+      "Explain day 01: design mock-first connectors in your own words",
+      "Implement the week-15-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Marketing Data API Connector",
     "content_status": "Draft",
@@ -2290,11 +2785,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 14"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain protocols and interfaces",
       "Implement dependency injection and mock clients",
       "Diagnose failures involving contract tests",
       "Build Marketing Data API Connector"
+    ],
+    "daily_objectives": [
+      "Explain day 02: protocols and interfaces in your own words",
+      "Implement the week-15-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Marketing Data API Connector",
     "content_status": "Draft",
@@ -2313,11 +2813,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 14"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain protocols and interfaces",
       "Implement dependency injection and mock clients",
       "Diagnose failures involving contract tests",
       "Build Marketing Data API Connector"
+    ],
+    "daily_objectives": [
+      "Explain day 03: dependency injection in your own words",
+      "Implement the week-15-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Marketing Data API Connector",
     "content_status": "Draft",
@@ -2336,11 +2841,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 14"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain protocols and interfaces",
       "Implement dependency injection and mock clients",
       "Diagnose failures involving contract tests",
       "Build Marketing Data API Connector"
+    ],
+    "daily_objectives": [
+      "Explain day 04: mock clients in your own words",
+      "Implement the week-15-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Marketing Data API Connector",
     "content_status": "Draft",
@@ -2359,11 +2869,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 14"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain protocols and interfaces",
       "Implement dependency injection and mock clients",
       "Diagnose failures involving contract tests",
       "Build Marketing Data API Connector"
+    ],
+    "daily_objectives": [
+      "Explain day 05: contract tests in your own words",
+      "Implement the week-15-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Marketing Data API Connector",
     "content_status": "Draft",
@@ -2382,11 +2897,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 14"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain protocols and interfaces",
       "Implement dependency injection and mock clients",
       "Diagnose failures involving contract tests",
       "Build Marketing Data API Connector"
+    ],
+    "daily_objectives": [
+      "Explain day 06: marketing data api connector in your own words",
+      "Implement the week-15-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Marketing Data API Connector",
     "content_status": "Draft",
@@ -2405,11 +2925,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 14"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain protocols and interfaces",
       "Implement dependency injection and mock clients",
       "Diagnose failures involving contract tests",
       "Build Marketing Data API Connector"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: design mock-first connectors in your own words",
+      "Implement the week-15-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Marketing Data API Connector",
     "content_status": "Draft",
@@ -2428,11 +2953,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 15"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain service responsibilities",
       "Implement repository interfaces and composition",
       "Diagnose failures involving error boundaries",
       "Build campaign and goal services"
+    ],
+    "daily_objectives": [
+      "Explain day 01: design services and repositories in your own words",
+      "Implement the week-16-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "campaign and goal services",
     "content_status": "Draft",
@@ -2451,11 +2981,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 15"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain service responsibilities",
       "Implement repository interfaces and composition",
       "Diagnose failures involving error boundaries",
       "Build campaign and goal services"
+    ],
+    "daily_objectives": [
+      "Explain day 02: service responsibilities in your own words",
+      "Implement the week-16-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "campaign and goal services",
     "content_status": "Draft",
@@ -2474,11 +3009,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 15"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain service responsibilities",
       "Implement repository interfaces and composition",
       "Diagnose failures involving error boundaries",
       "Build campaign and goal services"
+    ],
+    "daily_objectives": [
+      "Explain day 03: repository interfaces in your own words",
+      "Implement the week-16-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "campaign and goal services",
     "content_status": "Draft",
@@ -2497,11 +3037,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 15"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain service responsibilities",
       "Implement repository interfaces and composition",
       "Diagnose failures involving error boundaries",
       "Build campaign and goal services"
+    ],
+    "daily_objectives": [
+      "Explain day 04: composition in your own words",
+      "Implement the week-16-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "campaign and goal services",
     "content_status": "Draft",
@@ -2520,11 +3065,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 15"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain service responsibilities",
       "Implement repository interfaces and composition",
       "Diagnose failures involving error boundaries",
       "Build campaign and goal services"
+    ],
+    "daily_objectives": [
+      "Explain day 05: error boundaries in your own words",
+      "Implement the week-16-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "campaign and goal services",
     "content_status": "Draft",
@@ -2543,11 +3093,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 15"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain service responsibilities",
       "Implement repository interfaces and composition",
       "Diagnose failures involving error boundaries",
       "Build campaign and goal services"
+    ],
+    "daily_objectives": [
+      "Explain day 06: campaign and goal services in your own words",
+      "Implement the week-16-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "campaign and goal services",
     "content_status": "Draft",
@@ -2566,11 +3121,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 15"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain service responsibilities",
       "Implement repository interfaces and composition",
       "Diagnose failures involving error boundaries",
       "Build campaign and goal services"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: design services and repositories in your own words",
+      "Implement the week-16-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "campaign and goal services",
     "content_status": "Draft",
@@ -2589,11 +3149,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 16"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain tables and relationships",
       "Implement CRUD and constraints",
       "Diagnose failures involving transactions",
       "Build a SQLite evidence repository"
+    ],
+    "daily_objectives": [
+      "Explain day 01: persist marketing data in your own words",
+      "Implement the week-17-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a SQLite evidence repository",
     "content_status": "Draft",
@@ -2612,11 +3177,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 16"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain tables and relationships",
       "Implement CRUD and constraints",
       "Diagnose failures involving transactions",
       "Build a SQLite evidence repository"
+    ],
+    "daily_objectives": [
+      "Explain day 02: tables and relationships in your own words",
+      "Implement the week-17-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a SQLite evidence repository",
     "content_status": "Draft",
@@ -2635,11 +3205,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 16"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain tables and relationships",
       "Implement CRUD and constraints",
       "Diagnose failures involving transactions",
       "Build a SQLite evidence repository"
+    ],
+    "daily_objectives": [
+      "Explain day 03: crud in your own words",
+      "Implement the week-17-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a SQLite evidence repository",
     "content_status": "Draft",
@@ -2658,11 +3233,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 16"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain tables and relationships",
       "Implement CRUD and constraints",
       "Diagnose failures involving transactions",
       "Build a SQLite evidence repository"
+    ],
+    "daily_objectives": [
+      "Explain day 04: constraints in your own words",
+      "Implement the week-17-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a SQLite evidence repository",
     "content_status": "Draft",
@@ -2681,11 +3261,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 16"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain tables and relationships",
       "Implement CRUD and constraints",
       "Diagnose failures involving transactions",
       "Build a SQLite evidence repository"
+    ],
+    "daily_objectives": [
+      "Explain day 05: transactions in your own words",
+      "Implement the week-17-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a SQLite evidence repository",
     "content_status": "Draft",
@@ -2704,11 +3289,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 16"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain tables and relationships",
       "Implement CRUD and constraints",
       "Diagnose failures involving transactions",
       "Build a SQLite evidence repository"
+    ],
+    "daily_objectives": [
+      "Explain day 06: a sqlite evidence repository in your own words",
+      "Implement the week-17-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a SQLite evidence repository",
     "content_status": "Draft",
@@ -2727,11 +3317,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 16"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain tables and relationships",
       "Implement CRUD and constraints",
       "Diagnose failures involving transactions",
       "Build a SQLite evidence repository"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: persist marketing data in your own words",
+      "Implement the week-17-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a SQLite evidence repository",
     "content_status": "Draft",
@@ -2750,11 +3345,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 17"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain FastAPI routes",
       "Implement request schemas and response schemas",
       "Diagnose failures involving HTTP error handling",
       "Build MarketingOps API resources"
+    ],
+    "daily_objectives": [
+      "Explain day 01: build a fastapi boundary in your own words",
+      "Implement the week-18-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "MarketingOps API resources",
     "content_status": "Draft",
@@ -2773,11 +3373,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 17"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain FastAPI routes",
       "Implement request schemas and response schemas",
       "Diagnose failures involving HTTP error handling",
       "Build MarketingOps API resources"
+    ],
+    "daily_objectives": [
+      "Explain day 02: fastapi routes in your own words",
+      "Implement the week-18-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "MarketingOps API resources",
     "content_status": "Draft",
@@ -2796,11 +3401,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 17"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain FastAPI routes",
       "Implement request schemas and response schemas",
       "Diagnose failures involving HTTP error handling",
       "Build MarketingOps API resources"
+    ],
+    "daily_objectives": [
+      "Explain day 03: request schemas in your own words",
+      "Implement the week-18-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "MarketingOps API resources",
     "content_status": "Draft",
@@ -2819,11 +3429,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 17"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain FastAPI routes",
       "Implement request schemas and response schemas",
       "Diagnose failures involving HTTP error handling",
       "Build MarketingOps API resources"
+    ],
+    "daily_objectives": [
+      "Explain day 04: response schemas in your own words",
+      "Implement the week-18-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "MarketingOps API resources",
     "content_status": "Draft",
@@ -2842,11 +3457,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 17"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain FastAPI routes",
       "Implement request schemas and response schemas",
       "Diagnose failures involving HTTP error handling",
       "Build MarketingOps API resources"
+    ],
+    "daily_objectives": [
+      "Explain day 05: http error handling in your own words",
+      "Implement the week-18-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "MarketingOps API resources",
     "content_status": "Draft",
@@ -2865,11 +3485,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 17"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain FastAPI routes",
       "Implement request schemas and response schemas",
       "Diagnose failures involving HTTP error handling",
       "Build MarketingOps API resources"
+    ],
+    "daily_objectives": [
+      "Explain day 06: marketingops api resources in your own words",
+      "Implement the week-18-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "MarketingOps API resources",
     "content_status": "Draft",
@@ -2888,11 +3513,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 17"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain FastAPI routes",
       "Implement request schemas and response schemas",
       "Diagnose failures involving HTTP error handling",
       "Build MarketingOps API resources"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: build a fastapi boundary in your own words",
+      "Implement the week-18-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "MarketingOps API resources",
     "content_status": "Draft",
@@ -2911,11 +3541,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 18"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain correlation IDs",
       "Implement structured logs and migration planning",
       "Diagnose failures involving background-job concepts",
       "Build Persistent MarketingOps Backend"
+    ],
+    "daily_objectives": [
+      "Explain day 01: operate a persistent backend in your own words",
+      "Implement the week-19-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Persistent MarketingOps Backend",
     "content_status": "Draft",
@@ -2934,11 +3569,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 18"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain correlation IDs",
       "Implement structured logs and migration planning",
       "Diagnose failures involving background-job concepts",
       "Build Persistent MarketingOps Backend"
+    ],
+    "daily_objectives": [
+      "Explain day 02: correlation ids in your own words",
+      "Implement the week-19-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Persistent MarketingOps Backend",
     "content_status": "Draft",
@@ -2957,11 +3597,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 18"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain correlation IDs",
       "Implement structured logs and migration planning",
       "Diagnose failures involving background-job concepts",
       "Build Persistent MarketingOps Backend"
+    ],
+    "daily_objectives": [
+      "Explain day 03: structured logs in your own words",
+      "Implement the week-19-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Persistent MarketingOps Backend",
     "content_status": "Draft",
@@ -2980,11 +3625,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 18"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain correlation IDs",
       "Implement structured logs and migration planning",
       "Diagnose failures involving background-job concepts",
       "Build Persistent MarketingOps Backend"
+    ],
+    "daily_objectives": [
+      "Explain day 04: migration planning in your own words",
+      "Implement the week-19-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Persistent MarketingOps Backend",
     "content_status": "Draft",
@@ -3003,11 +3653,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 18"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain correlation IDs",
       "Implement structured logs and migration planning",
       "Diagnose failures involving background-job concepts",
       "Build Persistent MarketingOps Backend"
+    ],
+    "daily_objectives": [
+      "Explain day 05: background-job concepts in your own words",
+      "Implement the week-19-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Persistent MarketingOps Backend",
     "content_status": "Draft",
@@ -3026,11 +3681,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 18"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain correlation IDs",
       "Implement structured logs and migration planning",
       "Diagnose failures involving background-job concepts",
       "Build Persistent MarketingOps Backend"
+    ],
+    "daily_objectives": [
+      "Explain day 06: persistent marketingops backend in your own words",
+      "Implement the week-19-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Persistent MarketingOps Backend",
     "content_status": "Draft",
@@ -3049,11 +3709,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 18"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain correlation IDs",
       "Implement structured logs and migration planning",
       "Diagnose failures involving background-job concepts",
       "Build Persistent MarketingOps Backend"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: operate a persistent backend in your own words",
+      "Implement the week-19-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Persistent MarketingOps Backend",
     "content_status": "Draft",
@@ -3072,11 +3737,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 19"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain model client boundaries",
       "Implement system and user instructions and timeouts and retries",
       "Diagnose failures involving cost metadata",
       "Build a mock-first model gateway"
+    ],
+    "daily_objectives": [
+      "Explain day 01: call a model safely in your own words",
+      "Implement the week-20-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a mock-first model gateway",
     "content_status": "Draft",
@@ -3095,11 +3765,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 19"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain model client boundaries",
       "Implement system and user instructions and timeouts and retries",
       "Diagnose failures involving cost metadata",
       "Build a mock-first model gateway"
+    ],
+    "daily_objectives": [
+      "Explain day 02: model client boundaries in your own words",
+      "Implement the week-20-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a mock-first model gateway",
     "content_status": "Draft",
@@ -3118,11 +3793,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 19"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain model client boundaries",
       "Implement system and user instructions and timeouts and retries",
       "Diagnose failures involving cost metadata",
       "Build a mock-first model gateway"
+    ],
+    "daily_objectives": [
+      "Explain day 03: system and user instructions in your own words",
+      "Implement the week-20-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a mock-first model gateway",
     "content_status": "Draft",
@@ -3141,11 +3821,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 19"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain model client boundaries",
       "Implement system and user instructions and timeouts and retries",
       "Diagnose failures involving cost metadata",
       "Build a mock-first model gateway"
+    ],
+    "daily_objectives": [
+      "Explain day 04: timeouts and retries in your own words",
+      "Implement the week-20-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a mock-first model gateway",
     "content_status": "Draft",
@@ -3164,11 +3849,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 19"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain model client boundaries",
       "Implement system and user instructions and timeouts and retries",
       "Diagnose failures involving cost metadata",
       "Build a mock-first model gateway"
+    ],
+    "daily_objectives": [
+      "Explain day 05: cost metadata in your own words",
+      "Implement the week-20-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a mock-first model gateway",
     "content_status": "Draft",
@@ -3187,11 +3877,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 19"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain model client boundaries",
       "Implement system and user instructions and timeouts and retries",
       "Diagnose failures involving cost metadata",
       "Build a mock-first model gateway"
+    ],
+    "daily_objectives": [
+      "Explain day 06: a mock-first model gateway in your own words",
+      "Implement the week-20-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a mock-first model gateway",
     "content_status": "Draft",
@@ -3210,11 +3905,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 19"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain model client boundaries",
       "Implement system and user instructions and timeouts and retries",
       "Diagnose failures involving cost metadata",
       "Build a mock-first model gateway"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: call a model safely in your own words",
+      "Implement the week-20-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a mock-first model gateway",
     "content_status": "Draft",
@@ -3233,11 +3933,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 20"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain context selection",
       "Implement prompt construction and evidence references",
       "Diagnose failures involving prompt injection boundaries",
       "Build an analyst context builder"
+    ],
+    "daily_objectives": [
+      "Explain day 01: construct grounded context in your own words",
+      "Implement the week-21-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an analyst context builder",
     "content_status": "Draft",
@@ -3256,11 +3961,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 20"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain context selection",
       "Implement prompt construction and evidence references",
       "Diagnose failures involving prompt injection boundaries",
       "Build an analyst context builder"
+    ],
+    "daily_objectives": [
+      "Explain day 02: context selection in your own words",
+      "Implement the week-21-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an analyst context builder",
     "content_status": "Draft",
@@ -3279,11 +3989,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 20"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain context selection",
       "Implement prompt construction and evidence references",
       "Diagnose failures involving prompt injection boundaries",
       "Build an analyst context builder"
+    ],
+    "daily_objectives": [
+      "Explain day 03: prompt construction in your own words",
+      "Implement the week-21-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an analyst context builder",
     "content_status": "Draft",
@@ -3302,11 +4017,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 20"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain context selection",
       "Implement prompt construction and evidence references",
       "Diagnose failures involving prompt injection boundaries",
       "Build an analyst context builder"
+    ],
+    "daily_objectives": [
+      "Explain day 04: evidence references in your own words",
+      "Implement the week-21-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an analyst context builder",
     "content_status": "Draft",
@@ -3325,11 +4045,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 20"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain context selection",
       "Implement prompt construction and evidence references",
       "Diagnose failures involving prompt injection boundaries",
       "Build an analyst context builder"
+    ],
+    "daily_objectives": [
+      "Explain day 05: prompt injection boundaries in your own words",
+      "Implement the week-21-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an analyst context builder",
     "content_status": "Draft",
@@ -3348,11 +4073,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 20"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain context selection",
       "Implement prompt construction and evidence references",
       "Diagnose failures involving prompt injection boundaries",
       "Build an analyst context builder"
+    ],
+    "daily_objectives": [
+      "Explain day 06: an analyst context builder in your own words",
+      "Implement the week-21-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an analyst context builder",
     "content_status": "Draft",
@@ -3371,11 +4101,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 20"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain context selection",
       "Implement prompt construction and evidence references",
       "Diagnose failures involving prompt injection boundaries",
       "Build an analyst context builder"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: construct grounded context in your own words",
+      "Implement the week-21-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an analyst context builder",
     "content_status": "Draft",
@@ -3394,11 +4129,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 21"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain structured output",
       "Implement schema validation and hallucination boundaries",
       "Diagnose failures involving fallback behavior",
       "Build a validated Recommendation"
+    ],
+    "daily_objectives": [
+      "Explain day 01: validate structured ai output in your own words",
+      "Implement the week-22-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a validated Recommendation",
     "content_status": "Draft",
@@ -3417,11 +4157,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 21"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain structured output",
       "Implement schema validation and hallucination boundaries",
       "Diagnose failures involving fallback behavior",
       "Build a validated Recommendation"
+    ],
+    "daily_objectives": [
+      "Explain day 02: structured output in your own words",
+      "Implement the week-22-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a validated Recommendation",
     "content_status": "Draft",
@@ -3440,11 +4185,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 21"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain structured output",
       "Implement schema validation and hallucination boundaries",
       "Diagnose failures involving fallback behavior",
       "Build a validated Recommendation"
+    ],
+    "daily_objectives": [
+      "Explain day 03: schema validation in your own words",
+      "Implement the week-22-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a validated Recommendation",
     "content_status": "Draft",
@@ -3463,11 +4213,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 21"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain structured output",
       "Implement schema validation and hallucination boundaries",
       "Diagnose failures involving fallback behavior",
       "Build a validated Recommendation"
+    ],
+    "daily_objectives": [
+      "Explain day 04: hallucination boundaries in your own words",
+      "Implement the week-22-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a validated Recommendation",
     "content_status": "Draft",
@@ -3486,11 +4241,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 21"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain structured output",
       "Implement schema validation and hallucination boundaries",
       "Diagnose failures involving fallback behavior",
       "Build a validated Recommendation"
+    ],
+    "daily_objectives": [
+      "Explain day 05: fallback behavior in your own words",
+      "Implement the week-22-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a validated Recommendation",
     "content_status": "Draft",
@@ -3509,11 +4269,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 21"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain structured output",
       "Implement schema validation and hallucination boundaries",
       "Diagnose failures involving fallback behavior",
       "Build a validated Recommendation"
+    ],
+    "daily_objectives": [
+      "Explain day 06: a validated recommendation in your own words",
+      "Implement the week-22-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a validated Recommendation",
     "content_status": "Draft",
@@ -3532,11 +4297,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 21"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain structured output",
       "Implement schema validation and hallucination boundaries",
       "Diagnose failures involving fallback behavior",
       "Build a validated Recommendation"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: validate structured ai output in your own words",
+      "Implement the week-22-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a validated Recommendation",
     "content_status": "Draft",
@@ -3555,11 +4325,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 22"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain deterministic eval cases",
       "Implement grounding checks and uncertainty",
       "Diagnose failures involving token and cost budgets",
       "Build AI Performance Analyst"
+    ],
+    "daily_objectives": [
+      "Explain day 01: evaluate the ai analyst in your own words",
+      "Implement the week-23-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "AI Performance Analyst",
     "content_status": "Draft",
@@ -3578,11 +4353,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 22"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain deterministic eval cases",
       "Implement grounding checks and uncertainty",
       "Diagnose failures involving token and cost budgets",
       "Build AI Performance Analyst"
+    ],
+    "daily_objectives": [
+      "Explain day 02: deterministic eval cases in your own words",
+      "Implement the week-23-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "AI Performance Analyst",
     "content_status": "Draft",
@@ -3601,11 +4381,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 22"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain deterministic eval cases",
       "Implement grounding checks and uncertainty",
       "Diagnose failures involving token and cost budgets",
       "Build AI Performance Analyst"
+    ],
+    "daily_objectives": [
+      "Explain day 03: grounding checks in your own words",
+      "Implement the week-23-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "AI Performance Analyst",
     "content_status": "Draft",
@@ -3624,11 +4409,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 22"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain deterministic eval cases",
       "Implement grounding checks and uncertainty",
       "Diagnose failures involving token and cost budgets",
       "Build AI Performance Analyst"
+    ],
+    "daily_objectives": [
+      "Explain day 04: uncertainty in your own words",
+      "Implement the week-23-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "AI Performance Analyst",
     "content_status": "Draft",
@@ -3647,11 +4437,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 22"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain deterministic eval cases",
       "Implement grounding checks and uncertainty",
       "Diagnose failures involving token and cost budgets",
       "Build AI Performance Analyst"
+    ],
+    "daily_objectives": [
+      "Explain day 05: token and cost budgets in your own words",
+      "Implement the week-23-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "AI Performance Analyst",
     "content_status": "Draft",
@@ -3670,11 +4465,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 22"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain deterministic eval cases",
       "Implement grounding checks and uncertainty",
       "Diagnose failures involving token and cost budgets",
       "Build AI Performance Analyst"
+    ],
+    "daily_objectives": [
+      "Explain day 06: ai performance analyst in your own words",
+      "Implement the week-23-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "AI Performance Analyst",
     "content_status": "Draft",
@@ -3693,11 +4493,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 22"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain deterministic eval cases",
       "Implement grounding checks and uncertainty",
       "Diagnose failures involving token and cost budgets",
       "Build AI Performance Analyst"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: evaluate the ai analyst in your own words",
+      "Implement the week-23-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "AI Performance Analyst",
     "content_status": "Draft",
@@ -3716,11 +4521,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 23"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain tool contracts",
       "Implement typed results and tool registry",
       "Diagnose failures involving failure behavior",
       "Build read-only marketing tools"
+    ],
+    "daily_objectives": [
+      "Explain day 01: define typed tools in your own words",
+      "Implement the week-24-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "read-only marketing tools",
     "content_status": "Draft",
@@ -3739,11 +4549,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 23"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain tool contracts",
       "Implement typed results and tool registry",
       "Diagnose failures involving failure behavior",
       "Build read-only marketing tools"
+    ],
+    "daily_objectives": [
+      "Explain day 02: tool contracts in your own words",
+      "Implement the week-24-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "read-only marketing tools",
     "content_status": "Draft",
@@ -3762,11 +4577,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 23"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain tool contracts",
       "Implement typed results and tool registry",
       "Diagnose failures involving failure behavior",
       "Build read-only marketing tools"
+    ],
+    "daily_objectives": [
+      "Explain day 03: typed results in your own words",
+      "Implement the week-24-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "read-only marketing tools",
     "content_status": "Draft",
@@ -3785,11 +4605,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 23"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain tool contracts",
       "Implement typed results and tool registry",
       "Diagnose failures involving failure behavior",
       "Build read-only marketing tools"
+    ],
+    "daily_objectives": [
+      "Explain day 04: tool registry in your own words",
+      "Implement the week-24-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "read-only marketing tools",
     "content_status": "Draft",
@@ -3808,11 +4633,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 23"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain tool contracts",
       "Implement typed results and tool registry",
       "Diagnose failures involving failure behavior",
       "Build read-only marketing tools"
+    ],
+    "daily_objectives": [
+      "Explain day 05: failure behavior in your own words",
+      "Implement the week-24-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "read-only marketing tools",
     "content_status": "Draft",
@@ -3831,11 +4661,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 23"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain tool contracts",
       "Implement typed results and tool registry",
       "Diagnose failures involving failure behavior",
       "Build read-only marketing tools"
+    ],
+    "daily_objectives": [
+      "Explain day 06: read-only marketing tools in your own words",
+      "Implement the week-24-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "read-only marketing tools",
     "content_status": "Draft",
@@ -3854,11 +4689,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 23"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain tool contracts",
       "Implement typed results and tool registry",
       "Diagnose failures involving failure behavior",
       "Build read-only marketing tools"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: define typed tools in your own words",
+      "Implement the week-24-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "read-only marketing tools",
     "content_status": "Draft",
@@ -3877,11 +4717,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 24"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain task decomposition",
       "Implement plan schemas and planner boundaries",
       "Diagnose failures involving executor contracts",
       "Build a campaign experiment plan"
+    ],
+    "daily_objectives": [
+      "Explain day 01: separate planner and executor in your own words",
+      "Implement the week-25-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a campaign experiment plan",
     "content_status": "Draft",
@@ -3900,11 +4745,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 24"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain task decomposition",
       "Implement plan schemas and planner boundaries",
       "Diagnose failures involving executor contracts",
       "Build a campaign experiment plan"
+    ],
+    "daily_objectives": [
+      "Explain day 02: task decomposition in your own words",
+      "Implement the week-25-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a campaign experiment plan",
     "content_status": "Draft",
@@ -3923,11 +4773,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 24"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain task decomposition",
       "Implement plan schemas and planner boundaries",
       "Diagnose failures involving executor contracts",
       "Build a campaign experiment plan"
+    ],
+    "daily_objectives": [
+      "Explain day 03: plan schemas in your own words",
+      "Implement the week-25-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a campaign experiment plan",
     "content_status": "Draft",
@@ -3946,11 +4801,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 24"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain task decomposition",
       "Implement plan schemas and planner boundaries",
       "Diagnose failures involving executor contracts",
       "Build a campaign experiment plan"
+    ],
+    "daily_objectives": [
+      "Explain day 04: planner boundaries in your own words",
+      "Implement the week-25-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a campaign experiment plan",
     "content_status": "Draft",
@@ -3969,11 +4829,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 24"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain task decomposition",
       "Implement plan schemas and planner boundaries",
       "Diagnose failures involving executor contracts",
       "Build a campaign experiment plan"
+    ],
+    "daily_objectives": [
+      "Explain day 05: executor contracts in your own words",
+      "Implement the week-25-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a campaign experiment plan",
     "content_status": "Draft",
@@ -3992,11 +4857,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 24"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain task decomposition",
       "Implement plan schemas and planner boundaries",
       "Diagnose failures involving executor contracts",
       "Build a campaign experiment plan"
+    ],
+    "daily_objectives": [
+      "Explain day 06: a campaign experiment plan in your own words",
+      "Implement the week-25-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a campaign experiment plan",
     "content_status": "Draft",
@@ -4015,11 +4885,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 24"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain task decomposition",
       "Implement plan schemas and planner boundaries",
       "Diagnose failures involving executor contracts",
       "Build a campaign experiment plan"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: separate planner and executor in your own words",
+      "Implement the week-25-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a campaign experiment plan",
     "content_status": "Draft",
@@ -4038,11 +4913,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 25"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain state transitions",
       "Implement persistent versus transient state and step limits",
       "Diagnose failures involving idempotency",
       "Build a resumable workflow"
+    ],
+    "daily_objectives": [
+      "Explain day 01: orchestrate bounded state in your own words",
+      "Implement the week-26-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a resumable workflow",
     "content_status": "Draft",
@@ -4061,11 +4941,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 25"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain state transitions",
       "Implement persistent versus transient state and step limits",
       "Diagnose failures involving idempotency",
       "Build a resumable workflow"
+    ],
+    "daily_objectives": [
+      "Explain day 02: state transitions in your own words",
+      "Implement the week-26-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a resumable workflow",
     "content_status": "Draft",
@@ -4084,11 +4969,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 25"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain state transitions",
       "Implement persistent versus transient state and step limits",
       "Diagnose failures involving idempotency",
       "Build a resumable workflow"
+    ],
+    "daily_objectives": [
+      "Explain day 03: persistent versus transient state in your own words",
+      "Implement the week-26-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a resumable workflow",
     "content_status": "Draft",
@@ -4107,11 +4997,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 25"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain state transitions",
       "Implement persistent versus transient state and step limits",
       "Diagnose failures involving idempotency",
       "Build a resumable workflow"
+    ],
+    "daily_objectives": [
+      "Explain day 04: step limits in your own words",
+      "Implement the week-26-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a resumable workflow",
     "content_status": "Draft",
@@ -4130,11 +5025,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 25"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain state transitions",
       "Implement persistent versus transient state and step limits",
       "Diagnose failures involving idempotency",
       "Build a resumable workflow"
+    ],
+    "daily_objectives": [
+      "Explain day 05: idempotency in your own words",
+      "Implement the week-26-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a resumable workflow",
     "content_status": "Draft",
@@ -4153,11 +5053,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 25"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain state transitions",
       "Implement persistent versus transient state and step limits",
       "Diagnose failures involving idempotency",
       "Build a resumable workflow"
+    ],
+    "daily_objectives": [
+      "Explain day 06: a resumable workflow in your own words",
+      "Implement the week-26-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a resumable workflow",
     "content_status": "Draft",
@@ -4176,11 +5081,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 25"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain state transitions",
       "Implement persistent versus transient state and step limits",
       "Diagnose failures involving idempotency",
       "Build a resumable workflow"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: orchestrate bounded state in your own words",
+      "Implement the week-26-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a resumable workflow",
     "content_status": "Draft",
@@ -4199,11 +5109,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 26"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain Strategist and Analyst roles",
       "Implement Research and Content roles and handoff schemas",
       "Diagnose failures involving agent evaluation",
       "Build Agent Workflow"
+    ],
+    "daily_objectives": [
+      "Explain day 01: coordinate specialized agents in your own words",
+      "Implement the week-27-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Agent Workflow",
     "content_status": "Draft",
@@ -4222,11 +5137,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 26"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain Strategist and Analyst roles",
       "Implement Research and Content roles and handoff schemas",
       "Diagnose failures involving agent evaluation",
       "Build Agent Workflow"
+    ],
+    "daily_objectives": [
+      "Explain day 02: strategist and analyst roles in your own words",
+      "Implement the week-27-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Agent Workflow",
     "content_status": "Draft",
@@ -4245,11 +5165,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 26"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain Strategist and Analyst roles",
       "Implement Research and Content roles and handoff schemas",
       "Diagnose failures involving agent evaluation",
       "Build Agent Workflow"
+    ],
+    "daily_objectives": [
+      "Explain day 03: research and content roles in your own words",
+      "Implement the week-27-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Agent Workflow",
     "content_status": "Draft",
@@ -4268,11 +5193,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 26"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain Strategist and Analyst roles",
       "Implement Research and Content roles and handoff schemas",
       "Diagnose failures involving agent evaluation",
       "Build Agent Workflow"
+    ],
+    "daily_objectives": [
+      "Explain day 04: handoff schemas in your own words",
+      "Implement the week-27-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Agent Workflow",
     "content_status": "Draft",
@@ -4291,11 +5221,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 26"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain Strategist and Analyst roles",
       "Implement Research and Content roles and handoff schemas",
       "Diagnose failures involving agent evaluation",
       "Build Agent Workflow"
+    ],
+    "daily_objectives": [
+      "Explain day 05: agent evaluation in your own words",
+      "Implement the week-27-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Agent Workflow",
     "content_status": "Draft",
@@ -4314,11 +5249,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 26"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain Strategist and Analyst roles",
       "Implement Research and Content roles and handoff schemas",
       "Diagnose failures involving agent evaluation",
       "Build Agent Workflow"
+    ],
+    "daily_objectives": [
+      "Explain day 06: agent workflow in your own words",
+      "Implement the week-27-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Agent Workflow",
     "content_status": "Draft",
@@ -4337,11 +5277,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 26"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain Strategist and Analyst roles",
       "Implement Research and Content roles and handoff schemas",
       "Diagnose failures involving agent evaluation",
       "Build Agent Workflow"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: coordinate specialized agents in your own words",
+      "Implement the week-27-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Agent Workflow",
     "content_status": "Draft",
@@ -4360,11 +5305,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 27"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain action classes",
       "Implement policy rules and fail-closed defaults",
       "Diagnose failures involving decision evidence",
       "Build a policy evaluator"
+    ],
+    "daily_objectives": [
+      "Explain day 01: classify actions with policy in your own words",
+      "Implement the week-28-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a policy evaluator",
     "content_status": "Draft",
@@ -4383,11 +5333,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 27"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain action classes",
       "Implement policy rules and fail-closed defaults",
       "Diagnose failures involving decision evidence",
       "Build a policy evaluator"
+    ],
+    "daily_objectives": [
+      "Explain day 02: action classes in your own words",
+      "Implement the week-28-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a policy evaluator",
     "content_status": "Draft",
@@ -4406,11 +5361,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 27"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain action classes",
       "Implement policy rules and fail-closed defaults",
       "Diagnose failures involving decision evidence",
       "Build a policy evaluator"
+    ],
+    "daily_objectives": [
+      "Explain day 03: policy rules in your own words",
+      "Implement the week-28-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a policy evaluator",
     "content_status": "Draft",
@@ -4429,11 +5389,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 27"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain action classes",
       "Implement policy rules and fail-closed defaults",
       "Diagnose failures involving decision evidence",
       "Build a policy evaluator"
+    ],
+    "daily_objectives": [
+      "Explain day 04: fail-closed defaults in your own words",
+      "Implement the week-28-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a policy evaluator",
     "content_status": "Draft",
@@ -4452,11 +5417,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 27"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain action classes",
       "Implement policy rules and fail-closed defaults",
       "Diagnose failures involving decision evidence",
       "Build a policy evaluator"
+    ],
+    "daily_objectives": [
+      "Explain day 05: decision evidence in your own words",
+      "Implement the week-28-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a policy evaluator",
     "content_status": "Draft",
@@ -4475,11 +5445,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 27"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain action classes",
       "Implement policy rules and fail-closed defaults",
       "Diagnose failures involving decision evidence",
       "Build a policy evaluator"
+    ],
+    "daily_objectives": [
+      "Explain day 06: a policy evaluator in your own words",
+      "Implement the week-28-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a policy evaluator",
     "content_status": "Draft",
@@ -4498,11 +5473,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 27"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain action classes",
       "Implement policy rules and fail-closed defaults",
       "Diagnose failures involving decision evidence",
       "Build a policy evaluator"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: classify actions with policy in your own words",
+      "Implement the week-28-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "a policy evaluator",
     "content_status": "Draft",
@@ -4521,11 +5501,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 28"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain approval requests",
       "Implement parameter hashing and expiry",
       "Diagnose failures involving separation of duties",
       "Build an approval service"
+    ],
+    "daily_objectives": [
+      "Explain day 01: bind human approval in your own words",
+      "Implement the week-29-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an approval service",
     "content_status": "Draft",
@@ -4544,11 +5529,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 28"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain approval requests",
       "Implement parameter hashing and expiry",
       "Diagnose failures involving separation of duties",
       "Build an approval service"
+    ],
+    "daily_objectives": [
+      "Explain day 02: approval requests in your own words",
+      "Implement the week-29-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an approval service",
     "content_status": "Draft",
@@ -4567,11 +5557,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 28"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain approval requests",
       "Implement parameter hashing and expiry",
       "Diagnose failures involving separation of duties",
       "Build an approval service"
+    ],
+    "daily_objectives": [
+      "Explain day 03: parameter hashing in your own words",
+      "Implement the week-29-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an approval service",
     "content_status": "Draft",
@@ -4590,11 +5585,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 28"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain approval requests",
       "Implement parameter hashing and expiry",
       "Diagnose failures involving separation of duties",
       "Build an approval service"
+    ],
+    "daily_objectives": [
+      "Explain day 04: expiry in your own words",
+      "Implement the week-29-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an approval service",
     "content_status": "Draft",
@@ -4613,11 +5613,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 28"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain approval requests",
       "Implement parameter hashing and expiry",
       "Diagnose failures involving separation of duties",
       "Build an approval service"
+    ],
+    "daily_objectives": [
+      "Explain day 05: separation of duties in your own words",
+      "Implement the week-29-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an approval service",
     "content_status": "Draft",
@@ -4636,11 +5641,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 28"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain approval requests",
       "Implement parameter hashing and expiry",
       "Diagnose failures involving separation of duties",
       "Build an approval service"
+    ],
+    "daily_objectives": [
+      "Explain day 06: an approval service in your own words",
+      "Implement the week-29-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an approval service",
     "content_status": "Draft",
@@ -4659,11 +5669,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 28"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain approval requests",
       "Implement parameter hashing and expiry",
       "Diagnose failures involving separation of duties",
       "Build an approval service"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: bind human approval in your own words",
+      "Implement the week-29-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "an approval service",
     "content_status": "Draft",
@@ -4682,11 +5697,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 29"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain deterministic adapters",
       "Implement dry-run and idempotency keys",
       "Diagnose failures involving rollback concepts",
       "Build controlled action execution"
+    ],
+    "daily_objectives": [
+      "Explain day 01: execute through controlled adapters in your own words",
+      "Implement the week-30-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "controlled action execution",
     "content_status": "Draft",
@@ -4705,11 +5725,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 29"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain deterministic adapters",
       "Implement dry-run and idempotency keys",
       "Diagnose failures involving rollback concepts",
       "Build controlled action execution"
+    ],
+    "daily_objectives": [
+      "Explain day 02: deterministic adapters in your own words",
+      "Implement the week-30-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "controlled action execution",
     "content_status": "Draft",
@@ -4728,11 +5753,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 29"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain deterministic adapters",
       "Implement dry-run and idempotency keys",
       "Diagnose failures involving rollback concepts",
       "Build controlled action execution"
+    ],
+    "daily_objectives": [
+      "Explain day 03: dry-run in your own words",
+      "Implement the week-30-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "controlled action execution",
     "content_status": "Draft",
@@ -4751,11 +5781,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 29"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain deterministic adapters",
       "Implement dry-run and idempotency keys",
       "Diagnose failures involving rollback concepts",
       "Build controlled action execution"
+    ],
+    "daily_objectives": [
+      "Explain day 04: idempotency keys in your own words",
+      "Implement the week-30-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "controlled action execution",
     "content_status": "Draft",
@@ -4774,11 +5809,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 29"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain deterministic adapters",
       "Implement dry-run and idempotency keys",
       "Diagnose failures involving rollback concepts",
       "Build controlled action execution"
+    ],
+    "daily_objectives": [
+      "Explain day 05: rollback concepts in your own words",
+      "Implement the week-30-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "controlled action execution",
     "content_status": "Draft",
@@ -4797,11 +5837,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 29"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain deterministic adapters",
       "Implement dry-run and idempotency keys",
       "Diagnose failures involving rollback concepts",
       "Build controlled action execution"
+    ],
+    "daily_objectives": [
+      "Explain day 06: controlled action execution in your own words",
+      "Implement the week-30-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "controlled action execution",
     "content_status": "Draft",
@@ -4820,11 +5865,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 29"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain deterministic adapters",
       "Implement dry-run and idempotency keys",
       "Diagnose failures involving rollback concepts",
       "Build controlled action execution"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: execute through controlled adapters in your own words",
+      "Implement the week-30-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "controlled action execution",
     "content_status": "Draft",
@@ -4843,11 +5893,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 30"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain autonomy levels",
       "Implement budget thresholds and audit logs",
       "Diagnose failures involving monitoring",
       "Build Policy-Controlled Execution"
+    ],
+    "daily_objectives": [
+      "Explain day 01: operate autonomy levels safely in your own words",
+      "Implement the week-31-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Policy-Controlled Execution",
     "content_status": "Draft",
@@ -4866,11 +5921,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 30"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain autonomy levels",
       "Implement budget thresholds and audit logs",
       "Diagnose failures involving monitoring",
       "Build Policy-Controlled Execution"
+    ],
+    "daily_objectives": [
+      "Explain day 02: autonomy levels in your own words",
+      "Implement the week-31-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Policy-Controlled Execution",
     "content_status": "Draft",
@@ -4889,11 +5949,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 30"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain autonomy levels",
       "Implement budget thresholds and audit logs",
       "Diagnose failures involving monitoring",
       "Build Policy-Controlled Execution"
+    ],
+    "daily_objectives": [
+      "Explain day 03: budget thresholds in your own words",
+      "Implement the week-31-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Policy-Controlled Execution",
     "content_status": "Draft",
@@ -4912,11 +5977,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 30"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain autonomy levels",
       "Implement budget thresholds and audit logs",
       "Diagnose failures involving monitoring",
       "Build Policy-Controlled Execution"
+    ],
+    "daily_objectives": [
+      "Explain day 04: audit logs in your own words",
+      "Implement the week-31-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Policy-Controlled Execution",
     "content_status": "Draft",
@@ -4935,11 +6005,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 30"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain autonomy levels",
       "Implement budget thresholds and audit logs",
       "Diagnose failures involving monitoring",
       "Build Policy-Controlled Execution"
+    ],
+    "daily_objectives": [
+      "Explain day 05: monitoring in your own words",
+      "Implement the week-31-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Policy-Controlled Execution",
     "content_status": "Draft",
@@ -4958,11 +6033,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 30"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain autonomy levels",
       "Implement budget thresholds and audit logs",
       "Diagnose failures involving monitoring",
       "Build Policy-Controlled Execution"
+    ],
+    "daily_objectives": [
+      "Explain day 06: policy-controlled execution in your own words",
+      "Implement the week-31-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Policy-Controlled Execution",
     "content_status": "Draft",
@@ -4981,11 +6061,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 30"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain autonomy levels",
       "Implement budget thresholds and audit logs",
       "Diagnose failures involving monitoring",
       "Build Policy-Controlled Execution"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: operate autonomy levels safely in your own words",
+      "Implement the week-31-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Policy-Controlled Execution",
     "content_status": "Draft",
@@ -5004,11 +6089,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 31"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain goal contracts",
       "Implement baselines and horizons and progress measurement",
       "Diagnose failures involving plan revisions",
       "Build the capstone control loop foundation"
+    ],
+    "daily_objectives": [
+      "Explain day 01: integrate goal, plan, and metrics in your own words",
+      "Implement the week-32-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone control loop foundation",
     "content_status": "Draft",
@@ -5027,11 +6117,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 31"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain goal contracts",
       "Implement baselines and horizons and progress measurement",
       "Diagnose failures involving plan revisions",
       "Build the capstone control loop foundation"
+    ],
+    "daily_objectives": [
+      "Explain day 02: goal contracts in your own words",
+      "Implement the week-32-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone control loop foundation",
     "content_status": "Draft",
@@ -5050,11 +6145,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 31"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain goal contracts",
       "Implement baselines and horizons and progress measurement",
       "Diagnose failures involving plan revisions",
       "Build the capstone control loop foundation"
+    ],
+    "daily_objectives": [
+      "Explain day 03: baselines and horizons in your own words",
+      "Implement the week-32-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone control loop foundation",
     "content_status": "Draft",
@@ -5073,11 +6173,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 31"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain goal contracts",
       "Implement baselines and horizons and progress measurement",
       "Diagnose failures involving plan revisions",
       "Build the capstone control loop foundation"
+    ],
+    "daily_objectives": [
+      "Explain day 04: progress measurement in your own words",
+      "Implement the week-32-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone control loop foundation",
     "content_status": "Draft",
@@ -5096,11 +6201,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 31"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain goal contracts",
       "Implement baselines and horizons and progress measurement",
       "Diagnose failures involving plan revisions",
       "Build the capstone control loop foundation"
+    ],
+    "daily_objectives": [
+      "Explain day 05: plan revisions in your own words",
+      "Implement the week-32-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone control loop foundation",
     "content_status": "Draft",
@@ -5119,11 +6229,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 31"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain goal contracts",
       "Implement baselines and horizons and progress measurement",
       "Diagnose failures involving plan revisions",
       "Build the capstone control loop foundation"
+    ],
+    "daily_objectives": [
+      "Explain day 06: the capstone control loop foundation in your own words",
+      "Implement the week-32-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone control loop foundation",
     "content_status": "Draft",
@@ -5142,11 +6257,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 31"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain goal contracts",
       "Implement baselines and horizons and progress measurement",
       "Diagnose failures involving plan revisions",
       "Build the capstone control loop foundation"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: integrate goal, plan, and metrics in your own words",
+      "Implement the week-32-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone control loop foundation",
     "content_status": "Draft",
@@ -5165,11 +6285,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 32"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain research provenance",
       "Implement analyst recommendations and content drafts",
       "Diagnose failures involving uncertainty",
       "Build the capstone reasoning layer"
+    ],
+    "daily_objectives": [
+      "Explain day 01: integrate recommendations and research in your own words",
+      "Implement the week-33-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone reasoning layer",
     "content_status": "Draft",
@@ -5188,11 +6313,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 32"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain research provenance",
       "Implement analyst recommendations and content drafts",
       "Diagnose failures involving uncertainty",
       "Build the capstone reasoning layer"
+    ],
+    "daily_objectives": [
+      "Explain day 02: research provenance in your own words",
+      "Implement the week-33-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone reasoning layer",
     "content_status": "Draft",
@@ -5211,11 +6341,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 32"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain research provenance",
       "Implement analyst recommendations and content drafts",
       "Diagnose failures involving uncertainty",
       "Build the capstone reasoning layer"
+    ],
+    "daily_objectives": [
+      "Explain day 03: analyst recommendations in your own words",
+      "Implement the week-33-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone reasoning layer",
     "content_status": "Draft",
@@ -5234,11 +6369,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 32"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain research provenance",
       "Implement analyst recommendations and content drafts",
       "Diagnose failures involving uncertainty",
       "Build the capstone reasoning layer"
+    ],
+    "daily_objectives": [
+      "Explain day 04: content drafts in your own words",
+      "Implement the week-33-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone reasoning layer",
     "content_status": "Draft",
@@ -5257,11 +6397,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 32"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain research provenance",
       "Implement analyst recommendations and content drafts",
       "Diagnose failures involving uncertainty",
       "Build the capstone reasoning layer"
+    ],
+    "daily_objectives": [
+      "Explain day 05: uncertainty in your own words",
+      "Implement the week-33-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone reasoning layer",
     "content_status": "Draft",
@@ -5280,11 +6425,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 32"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain research provenance",
       "Implement analyst recommendations and content drafts",
       "Diagnose failures involving uncertainty",
       "Build the capstone reasoning layer"
+    ],
+    "daily_objectives": [
+      "Explain day 06: the capstone reasoning layer in your own words",
+      "Implement the week-33-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone reasoning layer",
     "content_status": "Draft",
@@ -5303,11 +6453,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 32"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain research provenance",
       "Implement analyst recommendations and content drafts",
       "Diagnose failures involving uncertainty",
       "Build the capstone reasoning layer"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: integrate recommendations and research in your own words",
+      "Implement the week-33-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone reasoning layer",
     "content_status": "Draft",
@@ -5326,11 +6481,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 33"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain policy decisions",
       "Implement approval binding and adapter receipts",
       "Diagnose failures involving denial behavior",
       "Build the capstone action layer"
+    ],
+    "daily_objectives": [
+      "Explain day 01: integrate policy, approval, and execution in your own words",
+      "Implement the week-34-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone action layer",
     "content_status": "Draft",
@@ -5349,11 +6509,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 33"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain policy decisions",
       "Implement approval binding and adapter receipts",
       "Diagnose failures involving denial behavior",
       "Build the capstone action layer"
+    ],
+    "daily_objectives": [
+      "Explain day 02: policy decisions in your own words",
+      "Implement the week-34-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone action layer",
     "content_status": "Draft",
@@ -5372,11 +6537,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 33"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain policy decisions",
       "Implement approval binding and adapter receipts",
       "Diagnose failures involving denial behavior",
       "Build the capstone action layer"
+    ],
+    "daily_objectives": [
+      "Explain day 03: approval binding in your own words",
+      "Implement the week-34-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone action layer",
     "content_status": "Draft",
@@ -5395,11 +6565,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 33"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain policy decisions",
       "Implement approval binding and adapter receipts",
       "Diagnose failures involving denial behavior",
       "Build the capstone action layer"
+    ],
+    "daily_objectives": [
+      "Explain day 04: adapter receipts in your own words",
+      "Implement the week-34-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone action layer",
     "content_status": "Draft",
@@ -5418,11 +6593,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 33"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain policy decisions",
       "Implement approval binding and adapter receipts",
       "Diagnose failures involving denial behavior",
       "Build the capstone action layer"
+    ],
+    "daily_objectives": [
+      "Explain day 05: denial behavior in your own words",
+      "Implement the week-34-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone action layer",
     "content_status": "Draft",
@@ -5441,11 +6621,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 33"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain policy decisions",
       "Implement approval binding and adapter receipts",
       "Diagnose failures involving denial behavior",
       "Build the capstone action layer"
+    ],
+    "daily_objectives": [
+      "Explain day 06: the capstone action layer in your own words",
+      "Implement the week-34-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone action layer",
     "content_status": "Draft",
@@ -5464,11 +6649,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 33"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain policy decisions",
       "Implement approval binding and adapter receipts",
       "Diagnose failures involving denial behavior",
       "Build the capstone action layer"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: integrate policy, approval, and execution in your own words",
+      "Implement the week-34-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the capstone action layer",
     "content_status": "Draft",
@@ -5487,11 +6677,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 34"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain outcome windows",
       "Implement before/after evidence and scheduler state",
       "Diagnose failures involving iteration budgets",
       "Build the measured optimization loop"
+    ],
+    "daily_objectives": [
+      "Explain day 01: measure outcomes and replan in your own words",
+      "Implement the week-35-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the measured optimization loop",
     "content_status": "Draft",
@@ -5510,11 +6705,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 34"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain outcome windows",
       "Implement before/after evidence and scheduler state",
       "Diagnose failures involving iteration budgets",
       "Build the measured optimization loop"
+    ],
+    "daily_objectives": [
+      "Explain day 02: outcome windows in your own words",
+      "Implement the week-35-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the measured optimization loop",
     "content_status": "Draft",
@@ -5533,11 +6733,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 34"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain outcome windows",
       "Implement before/after evidence and scheduler state",
       "Diagnose failures involving iteration budgets",
       "Build the measured optimization loop"
+    ],
+    "daily_objectives": [
+      "Explain day 03: before/after evidence in your own words",
+      "Implement the week-35-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the measured optimization loop",
     "content_status": "Draft",
@@ -5556,11 +6761,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 34"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain outcome windows",
       "Implement before/after evidence and scheduler state",
       "Diagnose failures involving iteration budgets",
       "Build the measured optimization loop"
+    ],
+    "daily_objectives": [
+      "Explain day 04: scheduler state in your own words",
+      "Implement the week-35-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the measured optimization loop",
     "content_status": "Draft",
@@ -5579,11 +6789,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 34"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain outcome windows",
       "Implement before/after evidence and scheduler state",
       "Diagnose failures involving iteration budgets",
       "Build the measured optimization loop"
+    ],
+    "daily_objectives": [
+      "Explain day 05: iteration budgets in your own words",
+      "Implement the week-35-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the measured optimization loop",
     "content_status": "Draft",
@@ -5602,11 +6817,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 34"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain outcome windows",
       "Implement before/after evidence and scheduler state",
       "Diagnose failures involving iteration budgets",
       "Build the measured optimization loop"
+    ],
+    "daily_objectives": [
+      "Explain day 06: the measured optimization loop in your own words",
+      "Implement the week-35-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the measured optimization loop",
     "content_status": "Draft",
@@ -5625,11 +6845,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 34"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain outcome windows",
       "Implement before/after evidence and scheduler state",
       "Diagnose failures involving iteration budgets",
       "Build the measured optimization loop"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: measure outcomes and replan in your own words",
+      "Implement the week-35-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "the measured optimization loop",
     "content_status": "Draft",
@@ -5648,11 +6873,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 35"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain failure recovery",
       "Implement security and privacy review and observability",
       "Diagnose failures involving release engineering",
       "Build Autonomous MarketingOps Capstone"
+    ],
+    "daily_objectives": [
+      "Explain day 01: harden and release marketingops ai in your own words",
+      "Implement the week-36-day-01 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Autonomous MarketingOps Capstone",
     "content_status": "Draft",
@@ -5671,11 +6901,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 35"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain failure recovery",
       "Implement security and privacy review and observability",
       "Diagnose failures involving release engineering",
       "Build Autonomous MarketingOps Capstone"
+    ],
+    "daily_objectives": [
+      "Explain day 02: failure recovery in your own words",
+      "Implement the week-36-day-02 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Autonomous MarketingOps Capstone",
     "content_status": "Draft",
@@ -5694,11 +6929,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 35"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain failure recovery",
       "Implement security and privacy review and observability",
       "Diagnose failures involving release engineering",
       "Build Autonomous MarketingOps Capstone"
+    ],
+    "daily_objectives": [
+      "Explain day 03: security and privacy review in your own words",
+      "Implement the week-36-day-03 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Autonomous MarketingOps Capstone",
     "content_status": "Draft",
@@ -5717,11 +6957,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 35"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain failure recovery",
       "Implement security and privacy review and observability",
       "Diagnose failures involving release engineering",
       "Build Autonomous MarketingOps Capstone"
+    ],
+    "daily_objectives": [
+      "Explain day 04: observability in your own words",
+      "Implement the week-36-day-04 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Autonomous MarketingOps Capstone",
     "content_status": "Draft",
@@ -5740,11 +6985,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 35"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain failure recovery",
       "Implement security and privacy review and observability",
       "Diagnose failures involving release engineering",
       "Build Autonomous MarketingOps Capstone"
+    ],
+    "daily_objectives": [
+      "Explain day 05: release engineering in your own words",
+      "Implement the week-36-day-05 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Autonomous MarketingOps Capstone",
     "content_status": "Draft",
@@ -5763,11 +7013,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 35"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain failure recovery",
       "Implement security and privacy review and observability",
       "Diagnose failures involving release engineering",
       "Build Autonomous MarketingOps Capstone"
+    ],
+    "daily_objectives": [
+      "Explain day 06: autonomous marketingops capstone in your own words",
+      "Implement the week-36-day-06 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Autonomous MarketingOps Capstone",
     "content_status": "Draft",
@@ -5786,11 +7041,16 @@ export const canonicalLessonManifest = {
     "prerequisites": [
       "Complete module 35"
     ],
-    "objectives": [
+    "weekly_objectives": [
       "Explain failure recovery",
       "Implement security and privacy review and observability",
       "Diagnose failures involving release engineering",
       "Build Autonomous MarketingOps Capstone"
+    ],
+    "daily_objectives": [
+      "Explain day 07: review: harden and release marketingops ai in your own words",
+      "Implement the week-36-day-07 exercise contract without copying the reference solution",
+      "Predict and test normal, boundary, and failure behavior"
     ],
     "project": "Autonomous MarketingOps Capstone",
     "content_status": "Draft",

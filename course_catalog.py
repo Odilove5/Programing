@@ -78,6 +78,21 @@ FOUNDATION_LESSONS = {
     (3, 7): ("Week 3 Review and Retrieval", "review"),
 }
 
+# Course readiness is explicit per lesson and is never derived from learner
+# progress. Weeks 1-3 have substantive teaching material but remain Authored
+# until technical, link, accessibility, and beginner-readability review is
+# recorded. Future lessons remain Draft specifications.
+AUTHORED_LESSON_IDS = {
+    f"week-{week:02d}-day-{day:02d}"
+    for week in range(1, 4)
+    for day in range(1, 8)
+}
+
+
+def lesson_content_status(week: int, day: int) -> str:
+    lesson_id = f"week-{week:02d}-day-{day:02d}"
+    return "Authored" if lesson_id in AUTHORED_LESSON_IDS else "Draft"
+
 
 def lesson_presentation(week: int, day: int) -> dict[str, str]:
     unit = unit_for_day(week, day)
@@ -94,15 +109,22 @@ def canonical_lessons() -> list[dict[str, object]]:
         module = module_for_week(week)
         for day in range(1, 8):
             presentation = lesson_presentation(week, day)
+            lesson_id = f"week-{week:02d}-day-{day:02d}"
+            daily_objectives = [
+                f"Explain {presentation['title'].lower()} in your own words",
+                f"Implement the {lesson_id} exercise contract without copying the reference solution",
+                "Predict and test normal, boundary, and failure behavior",
+            ]
             records.append({
-                "id": f"week-{week:02d}-day-{day:02d}", "week": week, "day": day,
+                "id": lesson_id, "week": week, "day": day,
                 "weekly_theme": module["title"], "title": presentation["title"],
                 "folder_slug": presentation["slug"], "required": day <= 6,
                 "track": module["track"], "phase": module["path"],
                 "prerequisites": module["prerequisites"],
-                "objectives": module["objectives"],
+                "weekly_objectives": module["objectives"],
+                "daily_objectives": daily_objectives,
                 "project": module["capabilities"][-1],
-                "content_status": "Authored" if week <= 3 else "Draft",
+                "content_status": lesson_content_status(week, day),
                 "folder": f"course-lessons/week-{week:02d}/day-{day:02d}-{presentation['slug']}",
             })
     return records

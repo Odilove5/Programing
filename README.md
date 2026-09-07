@@ -109,15 +109,15 @@ directories are documented for a future private archive decision.
 ## Verification
 
 ```bash
-python -m unittest -v
-cd dashboard
-npm run typecheck
-npm run lint
-npm test
-npm run build
+python3 tools/verify_course.py --install
 ```
 
-Student exercise tests live beside their projects under `workspace/`. Do not run or rewrite reference solutions as a substitute for the student's attempt.
+The first run can use `--install` to install locked dashboard dependencies.
+Later runs can use `python3 tools/verify_course.py`. CI preinstalls dependencies
+and runs the same verifier with `--ci`.
+
+Student exercise tests live beside their projects under `workspace/`. Do not
+run or rewrite reference solutions as a substitute for the student's attempt.
 
 ## Contributing
 
